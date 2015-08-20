@@ -1,0 +1,9 @@
+name: zDatabase
+author: ZP4RKER
+version: 1.0
+main: com.zp4rker.zdatabase.zDatabase
+database: true
+description: Test Database Plugin
+commands:
+   db:
+      description: DB Command
