@@ -1,0 +1,14 @@
+name: zRanks
+version: 1.0
+author: ZP4RKER
+main: com.zp4rker.zranks.zRanks
+commands:
+    setrank:
+       usage: §2/setrank <PLAYER> <RANK>
+       description: Sets the rank of a player.
+    who:
+       usage: §2/who
+       description: Displays all online players.
+    staff:
+       usage: §2/staff
+       description: Displays all online staff members.
