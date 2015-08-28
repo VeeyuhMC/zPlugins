@@ -1,0 +1,19 @@
+name: zConomy
+version: 1.0
+author: ZP4RKER
+main: com.zp4rker.zconomy.zConomy
+database: true
+description: A currency plugin
+commands:
+    balance:
+        description: Displays a players balance
+        usage: §2/balance <PLAYER>
+    setmoney:
+        description: Sets a players balance
+        usage: §2/setmoney <PLAYER> <AMOUNT>
+    givemoney:
+        description: Gives a player a certian amount of money
+        usage: §2/givemoney <PLAYER> <AMOUNT>
+    pay:
+        description: Pays a player
+        usage: §2/pay <PLAYER> <AMOUNT>
