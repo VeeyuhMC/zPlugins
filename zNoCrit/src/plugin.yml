@@ -1,0 +1,8 @@
+name: zNoCrit
+version: 0.9
+main: zplugin.znocrit.zNoCrit
+
+commands:
+   znocrit:
+      usage: §2/znocrit <SERVER|WORLD>
+      description: §6Toggles critical hits
