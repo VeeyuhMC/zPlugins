@@ -1,0 +1,4 @@
+name: zGuns
+version: 0.5
+main: zplugin.zguns.zGuns
+database: true
