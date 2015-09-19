@@ -18,8 +18,12 @@ public class PlayerChatListener implements Listener {
     @EventHandler
     public void onPlayerChat(AsyncPlayerChatEvent event) {
         Player player = event.getPlayer();
-        String displayName = plugin.m.getFullDisplayName(player);
-        event.setFormat(displayName + " §7> §r" + event.getMessage());
+        String prefix = plugin.m.getFullPrefix(player);
+        String format = plugin.getConfig().getString("chatFormat")
+                .replace("%prefix%", prefix)
+                .replace("%displayName%", player.getDisplayName())
+                .replace("%message%", event.getMessage());
+        event.setFormat(format);
     }
 
 }

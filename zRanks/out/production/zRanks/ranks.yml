@@ -1,0 +1,30 @@
+ranks:
+    ## Rank's name
+    Member:
+        ## Is default rank
+        default: true
+        ## Prefix
+        prefix: §8Member
+        ## Is a staff rank
+        staff: false
+        ## Permissions
+        perms:
+        - permission.node
+        ## Promotes to
+        promotion: Mod
+    Mod:
+        prefix: §5Moderator
+        staff: true
+        perms:
+        - permission.node
+        demotion: Default
+
+players:
+    ## Player UUID
+    UUID:
+        ## Player's rank
+        rank: Mod
+    UUID:
+        rank: Default
+        ## Player's specific prefix
+        prefix: §8ValuedMember

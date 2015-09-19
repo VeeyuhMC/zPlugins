@@ -42,44 +42,9 @@ public class Methods {
     }
 
     public String getFullPrefix(Player player) {
-        Config ranks = manager.getNewConfig("ranks.yml");
-        String rank = ranks.getString("players." + player.getUniqueId() + ".rank");
-        String prefix;
-        String fullPrefix = "§7[";
-        if (rank != null) {
-            prefix = ranks.getString("ranks." + rank + ".prefix");
-            fullPrefix += prefix + "§7]";
-        } else {
-            if (ranks.getString("players." + player.getUniqueId() + ".prefix") != null) {
-                prefix = ranks.getString("players." + player.getUniqueId() + ".prefix");
-                fullPrefix += prefix + "§7]";
-            } else {
-                prefix = "";
-                fullPrefix = prefix;
-            }
-        }
+        String prefix = getPrefix(player);
+        String fullPrefix = plugin.getConfig().getString("prefixFormat").replace("%prefix%", prefix);
         return fullPrefix;
-    }
-
-    public String getFullDisplayName(Player player) {
-        String playerName = player.getDisplayName();
-        Config ranks = manager.getNewConfig("ranks.yml");
-        String rank = ranks.getString("players." + player.getUniqueId() + ".rank");
-        String prefix;
-        String fullPrefix;
-        if (rank != null) {
-            prefix = ranks.getString("ranks." + rank + ".prefix");
-            fullPrefix = "§7[" + prefix + "§7]";
-        } else {
-            if (ranks.getString("players." + player.getUniqueId() + ".prefix") != null) {
-                prefix = ranks.getString("players." + player.getUniqueId() + ".prefix");
-                fullPrefix = "§7[" + prefix + "§7]";
-            } else {
-                prefix = "";
-                fullPrefix = prefix;
-            }
-        }
-        return fullPrefix + " §r" + playerName;
     }
 
     public String getPrefix(Player player) {
@@ -108,6 +73,12 @@ public class Methods {
             }
         }
         return rank;
+    }
+
+    public String getFullDisplayName(Player player) {
+        String prefix = getFullPrefix(player);
+        String displayName = player.getDisplayName();
+        return prefix + displayName;
     }
 
 }

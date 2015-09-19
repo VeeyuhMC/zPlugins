@@ -11,14 +11,17 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.URL;
+import java.net.URLConnection;
 import java.nio.charset.Charset;
 
+import com.zp4rker.zranks.zRanks;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class ConfigManager {
-    private JavaPlugin plugin;
+    private zRanks plugin;
 
-    public ConfigManager(JavaPlugin plugin) {
+    public ConfigManager(zRanks plugin) {
         this.plugin = plugin;
     }
 
@@ -39,7 +42,7 @@ public class ConfigManager {
         return this.getNewConfig(fileName, null);
     }
 
-    private File getConfigFile(String file) {
+    public File getConfigFile(String file) {
         if (file.isEmpty() || file == null)
             return null;
 
@@ -255,5 +258,10 @@ public class ConfigManager {
             e.printStackTrace();
         }
     }
+
+    public zRanks getPlugin() {
+        return plugin;
+    }
+
 }
 

@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.util.List;
 import java.util.Set;
 
+import com.zp4rker.zranks.zRanks;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -17,7 +18,7 @@ public class Config {
     private File file;
     private FileConfiguration config;
 
-    public Config(InputStream configStream, File configFile, int comments, JavaPlugin plugin) {
+    public Config(InputStream configStream, File configFile, int comments, zRanks plugin) {
         this.comments = comments;
         this.manager = new ConfigManager(plugin);
         this.file = configFile;
@@ -123,6 +124,18 @@ public class Config {
     public void saveConfig() {
         String config = this.config.saveToString();
         manager.saveConfig(config, this.file);
+    }
+    
+    public void load(boolean bool) {
+        this.config.options().copyDefaults();
+    }
+
+    public void saveDefaultConfig() {
+        manager.getPlugin().saveResource("ranks.yml", this.file.getPath().replace("plugins/" + manager.getPluginName() + "/", ""), true);
+    }
+
+    public File getFile() {
+        return file;
     }
 
     public Set<String> getKeys() {
