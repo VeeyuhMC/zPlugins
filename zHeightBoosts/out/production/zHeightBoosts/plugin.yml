@@ -1,0 +1,7 @@
+name: zHeightBoosts
+version: 0.9
+main: zplugin.zheightboosts.zHeightBoosts
+commands:
+  zhb:
+    usage: §2/zhb reload
+    description: §6Reloads the zHeightBoosts plugin

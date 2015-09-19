@@ -1,0 +1,20 @@
+default:
+  10-30: #Area based on Y where the player will gain effects, minHeight-maxHeight: Effects
+    - Strength: 2 #Effect: Intensity, the duration is infinite
+  31-50:
+    - Regeneration: 4
+    - Fire_Resistance: 2
+  51-256:
+    - Regeneration: 4
+    - Fire_Resistance: 1
+    - Strength: 1
+    - Health_Boost: 6
+
+vip:
+  10-30:
+    - Strength: 3
+    - Regeneration: 1
+  31-50:
+    - Regeneration: 5
+    - Fire_Resistance: 3
+    - Health_Boost: 2
