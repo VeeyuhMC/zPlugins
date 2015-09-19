@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04cbecb0-3ef9-4607-9896-e092d01776ee" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/Config (1).java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/Config.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/ConfigManager.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/ConfigManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/util/Methods.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/zranks/util/Methods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerChatListener.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerChatListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerJoinListener.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerJoinListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/zRanks.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/zranks/zRanks.java" />
-    </list>
+    <list default="true" id="04cbecb0-3ef9-4607-9896-e092d01776ee" name="Default" comment="" />
     <ignored path="zRanks.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -595,12 +586,12 @@
       <workItem from="1440562089469" duration="1728000" />
       <workItem from="1440570568269" duration="229000" />
       <workItem from="1440572669010" duration="680000" />
-      <workItem from="1442627781935" duration="6120000" />
+      <workItem from="1442627781935" duration="6164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26010000" />
+    <option name="totallyTimeSpent" value="26054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
