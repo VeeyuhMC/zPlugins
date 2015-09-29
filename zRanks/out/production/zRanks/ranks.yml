@@ -18,13 +18,3 @@ ranks:
         perms:
         - permission.node
         demotion: Default
-
-players:
-    ## Player UUID
-    UUID:
-        ## Player's rank
-        rank: Mod
-    UUID:
-        rank: Default
-        ## Player's specific prefix
-        prefix: §8ValuedMember

@@ -26,6 +26,10 @@ public class Methods {
 
         String rank = getRank(player);
 
+        if (rank == null) {
+            return null;
+        }
+
         for (Object Height : plugin.getConfig().getConfigurationSection(rank).getKeys(false)) {
 
             String[] rangeList = Height.toString().split("-");

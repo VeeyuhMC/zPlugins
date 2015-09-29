@@ -4,6 +4,7 @@ import com.zp4rker.zconomy.commands.BalanceCommand;
 import com.zp4rker.zconomy.commands.GiveMoneyCommand;
 import com.zp4rker.zconomy.commands.PayCommand;
 import com.zp4rker.zconomy.commands.SetMoneyCommand;
+import com.zp4rker.zconomy.listeners.PlayerJoinListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
@@ -15,6 +16,8 @@ public class zConomy extends JavaPlugin {
     public void onEnable() {
 
         setupDatabase();
+
+        getServer().getPluginManager().registerEvents(new PlayerJoinListener(this), this);
 
         getCommand("pay").setExecutor(new PayCommand(this));
         getCommand("balance").setExecutor(new BalanceCommand(this));

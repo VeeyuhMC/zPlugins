@@ -1,0 +1,10 @@
+name: zNexusFactions
+version: 0.1
+author: ZP4RKER
+main: zplugin.znexusfactions.zNexusFactions
+database: true
+commands:
+    zfactions:
+        usage: §2/zfactions <FUNCTION> [ARGUMENTS]
+        aliases: [zf, znf, nf]
+        description: Base command

@@ -1,5 +1,5 @@
 name: zHeightBoosts
-version: 0.9
+version: 1.0
 main: zplugin.zheightboosts.zHeightBoosts
 commands:
   zhb:

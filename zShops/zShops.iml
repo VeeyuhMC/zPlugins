@@ -10,11 +10,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Public/Bukkit/server.jar!/" />
+          <root url="jar://$USER_HOME$/Public/Bukkit/1.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$USER_HOME$/Public/Bukkit/server.jar!/" />
+          <root url="jar://$USER_HOME$/Public/Bukkit/1.8.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

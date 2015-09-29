@@ -5,8 +5,40 @@
       <artifact name="zRanks" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java" line="370" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="04cbecb0-3ef9-4607-9896-e092d01776ee" name="Default" comment="" />
+    <list default="true" id="20706a2b-24e4-4637-8c35-c639d82b00a7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/DemoteCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/events/PlayerJoinListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/PromoteCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/SetRankCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/zRanks.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/DemoteCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/PromoteCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/SetRankCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerJoinListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/util/Methods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/zRanks.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/StaffCommand.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/StaffCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/WhoCommand.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/WhoCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/Config.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/config/Config.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/ConfigManager.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/config/ConfigManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerChatListener.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/events/PlayerChatListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/util/Perm.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/api/Perm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/BalanceCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/BalanceCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/GiveMoneyCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/GiveMoneyCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zHeightBoosts/src/zplugin/zheightboosts/util/Methods.java" afterPath="$PROJECT_DIR$/../zHeightBoosts/src/zplugin/zheightboosts/util/Methods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/PayCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/PayCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/SetMoneyCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/SetMoneyCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.yml" afterPath="$PROJECT_DIR$/src/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/plugin.yml" afterPath="$PROJECT_DIR$/../zConomy/src/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ranks.yml" afterPath="$PROJECT_DIR$/src/ranks.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/zConomy.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/zConomy.java" />
+    </list>
     <ignored path="zRanks.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,13 +61,6 @@
   <component name="FileEditorManager">
     <leaf />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -52,35 +77,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/StaffCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/util/zPlayer.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/util/Perm.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/WhoCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/PromoteCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/DemoteCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/SetRankCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/config/ConfigManager.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/config/Config.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerJoinListener.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/zRanks.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/util/Methods.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerChatListener.java" />
-        <option value="$PROJECT_DIR$/src/config.yml" />
-        <option value="$PROJECT_DIR$/src/ranks.yml" />
+        <option value="$PROJECT_DIR$/src/zplugin/zranks/commands/AdminCommands.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/zranks/zRanks.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/zplugin/zranks/commands/StaffCommand.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/zranks/commands/WhoCommand.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -100,55 +108,7 @@
             <id>Android Lint</id>
           </State>
           <State>
-            <id>Assignment issuesGroovy</id>
-          </State>
-          <State>
-            <id>Assignment issuesJava</id>
-          </State>
-          <State>
-            <id>Bitwise operation issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Control flow issuesJava</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Probable bugsJavaScript</id>
-          </State>
-          <State>
             <id>Spelling</id>
-          </State>
-          <State>
-            <id>Threading issuesGroovy</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-          <State>
-            <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -166,7 +126,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -183,7 +143,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -243,52 +202,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zRanks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zRanks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zranks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
+              <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Public/Bukkit/plugins" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Public/Bukkit/1.8.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/com/zp4rker/zranks" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -572,35 +504,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="04cbecb0-3ef9-4607-9896-e092d01776ee" name="Default" comment="" />
-      <created>1440048367871</created>
+      <changelist id="20706a2b-24e4-4637-8c35-c639d82b00a7" name="Default" comment="" />
+      <created>1443243477765</created>
       <option name="number" value="Default" />
-      <updated>1440048367871</updated>
-      <workItem from="1440048371193" duration="2624000" />
-      <workItem from="1440130839857" duration="8550000" />
-      <workItem from="1440396236688" duration="4324000" />
-      <workItem from="1440460734175" duration="69000" />
-      <workItem from="1440475554354" duration="183000" />
-      <workItem from="1440490716313" duration="225000" />
-      <workItem from="1440507306266" duration="1278000" />
-      <workItem from="1440562089469" duration="1728000" />
-      <workItem from="1440570568269" duration="229000" />
-      <workItem from="1440572669010" duration="680000" />
-      <workItem from="1442627781935" duration="6164000" />
+      <updated>1443243477765</updated>
+      <workItem from="1443243479313" duration="145000" />
+      <workItem from="1443246690074" duration="359000" />
+      <workItem from="1443257586170" duration="3967000" />
+      <workItem from="1443355174187" duration="1048000" />
+      <workItem from="1443429708859" duration="172000" />
+      <workItem from="1443484347395" duration="8000" />
+      <workItem from="1443499132207" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26054000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="6056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -609,27 +528,27 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -645,9 +564,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -655,149 +572,74 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/commands/SetRankCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/util/Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/commands/WhoCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25541127">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.74025977">
+          <caret line="160" column="132" selection-start-line="160" selection-start-column="132" selection-end-line="160" selection-end-column="132" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/commands/StaffCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.38528138">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/commands/DemoteCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41558442">
-          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/commands/SetRankCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1255411">
-          <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/util/Perm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65367967">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/commands/PromoteCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021645023">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/config/ConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7619048">
-          <caret line="260" column="0" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-          <folding>
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8181819">
-          <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerJoinListener.java">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/commands/AdminCommands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19480519">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/zRanks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6060606">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/util/Methods.java">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/zRanks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0216451">
-          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerChatListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41125542">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.15440115">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.yml">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/config/ConfigManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021645023">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.26406926">
+          <caret line="232" column="20" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ranks.yml">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6060606">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.28138527">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/commands/SetRankCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4978355">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/commands/WhoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10822511">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/commands/StaffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38961038">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021645023">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.23809524">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>

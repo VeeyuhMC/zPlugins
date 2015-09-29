@@ -4,3 +4,4 @@
 ##  Colors allowed using §(identifier) i.e §7Gray
 chatFormat: '%prefix% §r%displayName% §r: %message%'
 prefixFormat: '§7[%prefix%§7]'
+timedRanks-enabled: false

@@ -7,13 +7,18 @@ description: A currency plugin
 commands:
     balance:
         description: Displays a players balance
+        aliases: b
         usage: §2/balance <PLAYER>
+        permission: zconomy.balance
     setmoney:
         description: Sets a players balance
         usage: §2/setmoney <PLAYER> <AMOUNT>
+        permission: zconomy.setmoney
     givemoney:
         description: Gives a player a certian amount of money
         usage: §2/givemoney <PLAYER> <AMOUNT>
+        permission: zconomy.givemoney
     pay:
         description: Pays a player
         usage: §2/pay <PLAYER> <AMOUNT>
+        permission: zconomy.pay

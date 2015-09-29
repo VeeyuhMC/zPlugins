@@ -19,13 +19,13 @@ public class SetMoneyCommand implements CommandExecutor {
         this.plugin = plugin;
     }
 
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if(label.equalsIgnoreCase("setmoney")) {
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+        if (cmd.getName().equalsIgnoreCase("setmoney")) {
             if (args.length == 2) {
-                if(sender instanceof ConsoleCommandSender) {
-                    if(Bukkit.getOfflinePlayer(args[0]) == null) {
+                if (sender instanceof ConsoleCommandSender) {
+                    if (Bukkit.getOfflinePlayer(args[0]) == null) {
                         Player target = Bukkit.getPlayer(args[0]);
-                        if(target == null) {
+                        if (target == null) {
                             sender.sendMessage("§4That player has never joined the server!");
                         } else {
                             PlayerData playerData = plugin.getDatabase().find(PlayerData.class)
@@ -59,28 +59,11 @@ public class SetMoneyCommand implements CommandExecutor {
                     }
                 } else if (sender instanceof Player) {
                     Player player = (Player) sender;
-                    if(player.hasPermission("zconomy.set")) {
-                        if(Bukkit.getOfflinePlayer(args[0]) == null) {
-                            Player target = Bukkit.getPlayer(args[0]);
-                            if(target == null) {
-                                sender.sendMessage("§4That player has never joined the server!");
-                            } else {
-                                PlayerData playerData = plugin.getDatabase().find(PlayerData.class)
-                                        .where().ieq("playerUUID", target.getUniqueId().toString()).findUnique();
-                                long amount = 0;
-                                try {
-                                    amount = Long.parseLong(args[1]);
-                                } catch (Exception e) {
-                                    sender.sendMessage("§4Invalid Arguments!");
-                                }
-                                playerData.setMoney(amount + playerData.getMoney());
-                                plugin.getDatabase().save(playerData);
-                                sender.sendMessage("§6Set §2" + target.getName() + "§6's money to §2$" + args[1]);
-                                target.sendMessage("§6Your money was set to §2$" + amount);
-                                return true;
-                            }
+                    if (Bukkit.getOfflinePlayer(args[0]) == null) {
+                        Player target = Bukkit.getPlayer(args[0]);
+                        if (target == null) {
+                            sender.sendMessage("§4That player has never joined the server!");
                         } else {
-                            OfflinePlayer target = Bukkit.getOfflinePlayer(args[0]);
                             PlayerData playerData = plugin.getDatabase().find(PlayerData.class)
                                     .where().ieq("playerUUID", target.getUniqueId().toString()).findUnique();
                             long amount = 0;
@@ -92,11 +75,23 @@ public class SetMoneyCommand implements CommandExecutor {
                             playerData.setMoney(amount + playerData.getMoney());
                             plugin.getDatabase().save(playerData);
                             sender.sendMessage("§6Set §2" + target.getName() + "§6's money to §2$" + args[1]);
+                            target.sendMessage("§6Your money was set to §2$" + amount);
                             return true;
                         }
                     } else {
-                        player.sendMessage("§4You do not have permission to do that!");
-                        return false;
+                        OfflinePlayer target = Bukkit.getOfflinePlayer(args[0]);
+                        PlayerData playerData = plugin.getDatabase().find(PlayerData.class)
+                                .where().ieq("playerUUID", target.getUniqueId().toString()).findUnique();
+                        long amount = 0;
+                        try {
+                            amount = Long.parseLong(args[1]);
+                        } catch (Exception e) {
+                            sender.sendMessage("§4Invalid Arguments!");
+                        }
+                        playerData.setMoney(amount + playerData.getMoney());
+                        plugin.getDatabase().save(playerData);
+                        sender.sendMessage("§6Set §2" + target.getName() + "§6's money to §2$" + args[1]);
+                        return true;
                     }
                 }
             } else {

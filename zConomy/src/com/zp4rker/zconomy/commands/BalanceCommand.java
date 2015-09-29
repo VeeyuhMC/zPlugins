@@ -20,8 +20,8 @@ public class BalanceCommand implements CommandExecutor {
     }
 
 
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (label.equalsIgnoreCase("balance")) {
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+        if (cmd.getName().equalsIgnoreCase("balance")) {
             if (args.length == 1) {
                 if (sender instanceof ConsoleCommandSender) {
                     OfflinePlayer target = Bukkit.getOfflinePlayer(args[0]);
