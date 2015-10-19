@@ -1,0 +1,7 @@
+To Do
+-----
+- Add Disband function to Faction.Java
+- Finish Disband Command
+- Add Destroy Command
+- Add getStaff() method to Faction.Java (ZP) ...
+- Modify FactionData.java to save a list of players called staff (ZP) ...

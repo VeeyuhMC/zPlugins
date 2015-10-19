@@ -108,6 +108,15 @@ public class Methods {
 
     }
 
+    public boolean isOwner(Player player) {
+        Faction faction = getFaction(player).getFaction();
+        if (faction.getOwner().getUniqueId() == player.getUniqueId()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public static zNexusFactions getPlugin() {
         return sPlugin;
     }
