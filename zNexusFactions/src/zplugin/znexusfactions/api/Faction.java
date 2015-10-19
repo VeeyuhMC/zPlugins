@@ -128,7 +128,7 @@ public class Faction {
             // Save to database
             FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
                     .where().ieq("name", this.name).findUnique();
-            factionData.removePlayer(player);
+            factionData.removePlayer(player);w
 
         }
     }
