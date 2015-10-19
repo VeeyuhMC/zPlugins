@@ -1,6 +1,12 @@
 package zplugin.znexusfactions.api;
 
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
+import zplugin.znexusfactions.events.JoinFactionEvent;
+import zplugin.znexusfactions.events.LeaveFactionEvent;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,19 +15,17 @@ public class Faction {
 
     private String name;
     private String tag;
-    private List<Player> players = new ArrayList<>();
+    private List<OfflinePlayer> players = new ArrayList<>();
     private Base base;
+    private boolean open;
 
-    public Faction(String name, String tag, List<Player> players, Base base) {
+    public Faction(String name, String tag, List<OfflinePlayer> players, Base base) {
 
         this.name = name;
         this.tag = tag;
         this.players = players;
         this.base = base;
-
-        for (Player player : players) {
-            player.sendMessage("§6Faction §2" + name + " §6created!");
-        }
+        this.open = true;
 
     }
 
@@ -41,7 +45,7 @@ public class Faction {
         this.tag = tag;
     }
 
-    public List<Player> getPlayers() {
+    public List<OfflinePlayer> getPlayers() {
         return players;
     }
 
@@ -50,11 +54,83 @@ public class Faction {
     }
 
     public void addPlayer(Player player) {
-        players.add(player);
+        // Make Event
+        JoinFactionEvent event = new JoinFactionEvent(player, this);
+        // Call Event
+        Bukkit.getPluginManager().callEvent(event);
+        // Run Default Code
+        if (!event.isCancelled()) {
+
+            // Add Player
+            players.add(player);
+
+            // Send Message to Player
+            player.sendMessage(event.getPlayerMessage());
+
+            // Send Message to Faction
+            for (OfflinePlayer op : this.players) {
+                Player p = Bukkit.getPlayer(op.getUniqueId());
+                if (p != null) {
+                    p.sendMessage(event.getFactionMessage());
+                }
+            }
+
+            // Add New Outline
+            for (int i = 0; i < this.base.getOutline(players.size()).size(); i++) {
+                final int I = i;
+                Bukkit.getScheduler().scheduleSyncDelayedTask(Methods.getPlugin(), new Runnable() {
+                    public void run() {
+                        base.getOutline(players.size()).get(I).getBlock().setType(Material.STONE);
+                    }
+                }, i * 1);
+            }
+
+            // Save to database
+            FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
+                    .where().ieq("name", this.name).findUnique();
+            factionData.addPlayer(player);
+
+        }
     }
 
     public void removePlayer(Player player) {
-        players.remove(player);
+        // Create Event
+        LeaveFactionEvent event = new LeaveFactionEvent(player, this);
+        // Call Event
+        Bukkit.getPluginManager().callEvent(event);
+        // Run Default Code
+        if (!event.isCancelled()) {
+
+            // Remove player
+            players.remove(player);
+
+            // Send Message to Player
+            player.sendMessage(event.getPlayerMessage());
+
+            // Send Message to Faction
+            for (OfflinePlayer op : this.players) {
+                Player p = Bukkit.getPlayer(op.getUniqueId());
+                if (p != null) {
+                    p.sendMessage(event.getFactionMessage());
+                }
+            }
+
+            // Add New Outline
+            for (int i = 0; i < this.base.getOutline(this.players.size()).size(); i++) {
+                final int I = i;
+                Bukkit.getScheduler().scheduleSyncDelayedTask(Methods.getPlugin(), new Runnable() {
+                    public void run() {
+                        base.getOutline(players.size()).get(I).getBlock().setType(Material.STONE);
+                    }
+                }, i * 1);
+            }
+
+            // Save to database
+            FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
+                    .where().ieq("name", this.name).findUnique();
+            factionData.removePlayer(player);
+
+        }
     }
 
     public Base getBase() {
@@ -67,6 +143,14 @@ public class Faction {
 
     public Nexus getNexus() {
         return base.getVault().getNexus();
+    }
+
+    public boolean isOpen() {
+        return open;
+    }
+
+    public void setOpen(boolean open) {
+        this.open = open;
     }
 
 }

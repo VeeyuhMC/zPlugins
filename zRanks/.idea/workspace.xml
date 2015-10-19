@@ -10,34 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20706a2b-24e4-4637-8c35-c639d82b00a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/DemoteCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/events/PlayerJoinListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/PromoteCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/SetRankCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zplugin/zranks/zRanks.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/DemoteCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/PromoteCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/SetRankCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerJoinListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/util/Methods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/zRanks.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/StaffCommand.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/StaffCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/commands/WhoCommand.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/commands/WhoCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/Config.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/config/Config.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/config/ConfigManager.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/config/ConfigManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/events/PlayerChatListener.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/events/PlayerChatListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zp4rker/zranks/util/Perm.java" afterPath="$PROJECT_DIR$/src/zplugin/zranks/api/Perm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/BalanceCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/BalanceCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/GiveMoneyCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/GiveMoneyCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zHeightBoosts/src/zplugin/zheightboosts/util/Methods.java" afterPath="$PROJECT_DIR$/../zHeightBoosts/src/zplugin/zheightboosts/util/Methods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/PayCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/PayCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/SetMoneyCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/SetMoneyCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.yml" afterPath="$PROJECT_DIR$/src/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/plugin.yml" afterPath="$PROJECT_DIR$/../zConomy/src/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ranks.yml" afterPath="$PROJECT_DIR$/src/ranks.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/zConomy.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/zConomy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Base.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Base.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/listeners/BlockPlaceListener.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/listeners/BlockPlaceListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/commands/Create.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/commands/Create.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Faction.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Faction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/FactionData.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/FactionData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Methods.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Methods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Nexus.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Nexus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/listeners/PlayerMoveListener.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/listeners/PlayerMoveListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Variables.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Variables.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Vault.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/api/Vault.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/commands/zExecutor.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/commands/zExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/zNexusFactions.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/zplugin/znexusfactions/zNexusFactions.java" />
     </list>
     <ignored path="zRanks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -142,8 +126,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,7 +199,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Public/Bukkit/1.8.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -515,11 +499,12 @@
       <workItem from="1443429708859" duration="172000" />
       <workItem from="1443484347395" duration="8000" />
       <workItem from="1443499132207" duration="357000" />
+      <workItem from="1445149496034" duration="124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6056000" />
+    <option name="totallyTimeSpent" value="6180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -533,6 +518,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -547,7 +533,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -584,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19480519">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15440115">
           <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26406926">
           <caret line="232" column="20" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28138527">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4978355">
           <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10822511">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38961038">
           <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23809524">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>

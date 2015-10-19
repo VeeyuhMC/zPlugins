@@ -7,37 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9c59622-bd78-4d99-922f-54cee53185b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/commands/DemoteCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/api/Methods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/events/PlayerJoinListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/commands/PromoteCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/commands/SetRankCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/zRanks.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/commands/DemoteCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/commands/PromoteCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/commands/SetRankCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/events/PlayerJoinListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/util/Methods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/zRanks.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zShops/src/com/zp4rker/zshops/events/SignChangeListener.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/commands/StaffCommand.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/commands/StaffCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/commands/WhoCommand.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/commands/WhoCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/config/Config.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/config/Config.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/config/ConfigManager.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/config/ConfigManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/events/PlayerChatListener.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/events/PlayerChatListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zRanks/src/com/zp4rker/zranks/util/Perm.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/api/Perm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/BalanceCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/BalanceCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/GiveMoneyCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/GiveMoneyCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zHeightBoosts/src/zplugin/zheightboosts/util/Methods.java" afterPath="$PROJECT_DIR$/../zHeightBoosts/src/zplugin/zheightboosts/util/Methods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/PayCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/PayCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zShops/src/com/zp4rker/zshops/events/PlayerInteractListener.java" afterPath="$PROJECT_DIR$/../zShops/src/com/zp4rker/zshops/events/PlayerInteractListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/SetMoneyCommand.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/commands/SetMoneyCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zRanks/src/config.yml" afterPath="$PROJECT_DIR$/../zRanks/src/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/plugin.yml" afterPath="$PROJECT_DIR$/../zConomy/src/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zRanks/src/plugin.yml" afterPath="$PROJECT_DIR$/../zRanks/src/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zRanks/src/ranks.yml" afterPath="$PROJECT_DIR$/../zRanks/src/ranks.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/zConomy.java" afterPath="$PROJECT_DIR$/../zConomy/src/com/zp4rker/zconomy/zConomy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zShops/src/com/zp4rker/zshops/zShops.java" afterPath="$PROJECT_DIR$/../zShops/src/com/zp4rker/zshops/zShops.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Nexus.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Nexus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Methods.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Methods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Create.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Create.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Variables.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Variables.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Base.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Base.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Faction.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Faction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/BlockPlaceListener.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/BlockPlaceListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Vault.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Vault.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/zExecutor.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/zExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/FactionData.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/api/FactionData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/zNexusFactions.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/zNexusFactions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/PlayerMoveListener.java" afterPath="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/PlayerMoveListener.java" />
     </list>
     <ignored path="zNexusFactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,6 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
@@ -89,21 +71,28 @@
         <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/PlayerInteractListener.java" />
         <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/DamageByEntityListener.java" />
         <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/VaultRunnable.java" />
-        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Variables.java" />
-        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Faction.java" />
-        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/zExecutor.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
-        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Nexus.java" />
         <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Factions.java" />
-        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Create.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/PlayerMoveEvent.java" />
-        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/PlayerMoveListener.java" />
-        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Methods.java" />
         <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Vault.java" />
-        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Base.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Variables.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Create.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Nexus.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/PlayerMoveListener.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/events/CreateFactionEvent.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/events/PlayerEnterFactionEvent.java" />
         <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/BlockPlaceListener.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Base.java" />
         <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/zNexusFactions.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/events/JoinFactionEvent.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/events/LeaveFactionEvent.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/FactionData.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Join.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Faction.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/api/Methods.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Leave.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/znexusfactions/commands/zExecutor.java" />
       </list>
     </option>
   </component>
@@ -172,7 +161,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,18 +225,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Public/Bukkit/1.8.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zplugin.znexusfactions.commands" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -557,11 +553,25 @@
       <workItem from="1443514115048" duration="53000" />
       <workItem from="1443529765857" duration="97000" />
       <workItem from="1443529964926" duration="7000" />
+      <workItem from="1443530352998" duration="8000" />
+      <workItem from="1443530364547" duration="49000" />
+      <workItem from="1443530417684" duration="39000" />
+      <workItem from="1443530461698" duration="34000" />
+      <workItem from="1443530514306" duration="104000" />
+      <workItem from="1443576742413" duration="70000" />
+      <workItem from="1443577004584" duration="70000" />
+      <workItem from="1443577092387" duration="12768000" />
+      <workItem from="1443680165696" duration="2434000" />
+      <workItem from="1444353106435" duration="6000" />
+      <workItem from="1445133427233" duration="392000" />
+      <workItem from="1445144678678" duration="937000" />
+      <workItem from="1445149453174" duration="8000" />
+      <workItem from="1445235773763" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29036000" />
+    <option name="totallyTimeSpent" value="45956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -583,8 +593,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.49514562" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -614,11 +624,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Faction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/zNexusFactions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,17 +736,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/commands/zExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54112554">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19480519">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Vault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5263158">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Variables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15151516">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Nexus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6926407">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/events/CreateFactionEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17316018">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/events/EnterFactionEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23809524">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/BlockPlaceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0822511">
+          <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/PlayerMoveListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77922076">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7619048">
+          <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/events/JoinFactionEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8484849">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/events/LeaveFactionEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8484849">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/FactionData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6969697">
+          <caret line="197" column="35" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -716,98 +827,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Variables.java">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Join.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12987013">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/FactionData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7835498">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Nexus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32467532">
-          <caret line="15" column="125" selection-start-line="15" selection-start-column="125" selection-end-line="15" selection-end-column="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Vault.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6060606">
-          <caret line="84" column="72" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
-          <folding>
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#2735#2736#0" expanded="true" />
-            <element signature="e#2830#2831#0" expanded="true" />
-            <element signature="e#2972#2973#0" expanded="true" />
-            <element signature="e#3017#3018#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.65367967">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Faction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56277055">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/PlayerMoveListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38961038">
-          <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5021645">
-          <caret line="51" column="96" selection-start-line="51" selection-start-column="96" selection-end-line="51" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37229437">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.34920636">
+          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/zNexusFactions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43722942">
-          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="1.060606">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/listeners/BlockPlaceListener.java">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/api/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73593074">
-          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.95671">
+          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/commands/Leave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4978355">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/znexusfactions/commands/zExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2554113">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -888,6 +946,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

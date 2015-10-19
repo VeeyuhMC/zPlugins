@@ -22,6 +22,11 @@ public class Base {
         create(player);
     }
 
+    public Base(Vault vault, int players) {
+        this.vault = vault;
+        setArea(players);
+    }
+
     public List<Location> getArea() {
         return area;
     }
@@ -120,6 +125,44 @@ public class Base {
 
         // Set Base's area to local variable area
         this.area = area;
+
+    }
+
+    public void setArea(int players) {
+
+        Location pointOne = getNexus().getLocation().clone().subtract((2 * players) + 4, (2 * players) + 4, (2 * players) + 4);
+        Location pointTwo = getNexus().getLocation().clone().add((2 * players) + 4, (2 * players) + 4, (2 * players) + 4);
+
+        World world = pointOne.getWorld();
+
+        for (int x = pointOne.getBlockX(); x <= pointTwo.getBlockX(); x++) {
+            for (int y = pointOne.getBlockY(); y <= pointTwo.getBlockY(); y++) {
+                for (int z = pointOne.getBlockZ(); z <= pointTwo.getBlockZ(); z++) {
+                    this.area.add(new Location(world, x, y, z));
+                }
+            }
+        }
+
+    }
+
+    public List<Location> getOutline(int players) {
+
+        List<Location> list = new ArrayList<>();
+
+        Location pointOne = this.vault.getNexus().getLocation().clone()
+                .subtract((2 * players) + 4, 1, (2 * players) + 4);
+        Location pointTwo = this.vault.getNexus().getLocation().clone()
+                .add((2 * players) + 4, -1, (2 * players) + 4);
+
+        for (int x = pointOne.getBlockX(); x <= pointTwo.getBlockX(); x++) {
+            for (int y = pointOne.getBlockY(); y <= pointTwo.getBlockY(); y++) {
+                for (int z = pointOne.getBlockZ(); z <= pointTwo.getBlockZ(); z++) {
+                    list.add(new Location(pointOne.getWorld(), x, y, z));
+                }
+            }
+        }
+
+        return list;
 
     }
 

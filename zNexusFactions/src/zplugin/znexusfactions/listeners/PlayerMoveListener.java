@@ -1,9 +1,11 @@
 package zplugin.znexusfactions.listeners;
 
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
-import zplugin.znexusfactions.api.Faction;
+import zplugin.znexusfactions.api.FactionData;
+import zplugin.znexusfactions.events.EnterFactionEvent;
 import zplugin.znexusfactions.zNexusFactions;
 
 public class PlayerMoveListener implements Listener {
@@ -14,13 +16,33 @@ public class PlayerMoveListener implements Listener {
         this.plugin = plugin;
     }
 
-    public void onPlayerMove(PlayerMoveEvent event) {
+    @EventHandler
+    public void onPlayerMove(PlayerMoveEvent e) {
 
-        Player player = event.getPlayer();
+        Player player = e.getPlayer();
 
         if (plugin.m.inFactionBase(player.getLocation().getBlock().getLocation())) {
-            Faction faction = plugin.m.getFactionAtLocation(player.getLocation().getBlock().getLocation());
-            player.sendMessage("§9" + faction.getName() + " ~ " + faction.getTag());
+            FactionData factionData = plugin.m.getFactionAtLocation(player.getLocation().getBlock().getLocation());
+            if (!plugin.v.inBase.contains(player)) {
+
+                // Create Event
+                EnterFactionEvent event = new EnterFactionEvent(player, factionData.getFaction());
+                // Call Event
+                plugin.getServer().getPluginManager().callEvent(event);
+                // Run Default Code
+                if (!event.isCancelled()) {
+
+                    event.getPlayer().sendMessage(event.getMessage());
+
+                }
+
+                plugin.v.inBase.add(player);
+
+            }
+        } else {
+            if (plugin.v.inBase.contains(player)) {
+                plugin.v.inBase.remove(player);
+            }
         }
 
     }

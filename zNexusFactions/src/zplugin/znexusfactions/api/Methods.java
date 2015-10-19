@@ -9,10 +9,12 @@ import zplugin.znexusfactions.zNexusFactions;
 
 public class Methods {
 
-    zNexusFactions plugin;
+    private zNexusFactions plugin;
+    private static zNexusFactions sPlugin;
 
     public Methods(zNexusFactions plugin) {
         this.plugin = plugin;
+        sPlugin = plugin;
     }
 
     public void giveNexus(Player player) {
@@ -50,20 +52,64 @@ public class Methods {
 
     public boolean inFactionBase(Location location) {
         for (FactionData factionData : plugin.getDatabase().find(FactionData.class).findSet()) {
-            if (factionData.getFaction().getBase().getArea().contains(location)) {
-                return true;
+            if (location.getBlockX() > factionData.getXOne() &&
+                    location.getBlockX() < factionData.getXTwo()) {
+                if (location.getBlockY() > factionData.getYOne() &&
+                        location.getBlockY() < factionData.getYTwo()) {
+                    if (location.getBlockZ() > factionData.getZOne() &&
+                            location.getBlockZ() < factionData.getZTwo()) {
+                        return true;
+                    }
+                }
             }
         }
         return false;
     }
 
-    public Faction getFactionAtLocation(Location location) {
-        for (FactionData factionData : plugin.getDatabase().find(FactionData.class).findList()) {
-            if (factionData.getFaction().getBase().getArea().contains(location)) {
-                return factionData.getFaction();
+    public FactionData getFactionAtLocation(Location location) {
+        for (FactionData factionData : plugin.getDatabase().find(FactionData.class).findSet()) {
+            if (location.getBlockX() > factionData.getXOne() &&
+                    location.getBlockX() < factionData.getXTwo()) {
+                if (location.getBlockY() > factionData.getYOne() &&
+                        location.getBlockY() < factionData.getYTwo()) {
+                    if (location.getBlockZ() > factionData.getZOne() &&
+                            location.getBlockZ() < factionData.getZTwo()) {
+                        return factionData;
+                    }
+                }
             }
         }
         return null;
+    }
+
+    public boolean isInFaction(Player player) {
+
+        for (FactionData factionData : plugin.getDatabase().find(FactionData.class).findSet()) {
+            if (factionData.getBukkitPlayers().contains(player)) {
+                return true;
+            }
+        }
+
+        return false;
+
+    }
+
+    public FactionData getFaction(Player player) {
+
+        for (FactionData factionData : plugin.getDatabase().find(FactionData.class).findSet()) {
+
+            if (factionData.getBukkitPlayers().contains(player)) {
+                return factionData;
+            }
+
+        }
+
+        return null;
+
+    }
+
+    public static zNexusFactions getPlugin() {
+        return sPlugin;
     }
 
 }

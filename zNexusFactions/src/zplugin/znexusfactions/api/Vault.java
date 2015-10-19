@@ -22,6 +22,11 @@ public class Vault {
         create(player);
     }
 
+    public Vault(Nexus nexus) {
+        this.nexus = nexus;
+        setArea();
+    }
+
     public List<Location> getVault() {
         return vault;
     }
@@ -97,4 +102,26 @@ public class Vault {
         return new Base(this, player);
     }
 
+    public void setArea() {
+
+        Location nexus = this.nexus.getLocation();
+
+        List<Location> wholeVault = new ArrayList<>();
+
+        int maxX, maxZ, maxY, minX, minY, minZ;
+        maxX = nexus.getBlockX() + 3;
+        maxZ = nexus.getBlockZ() + 3;
+        maxY = nexus.getBlockY() + 3;
+
+        for (minX = nexus.getBlockX() - 3; minX <= maxX; minX++) {
+            for (minY = nexus.getBlockY() - 1; minY <= maxY; minY++) {
+                for (minZ = nexus.getBlockZ() - 3; minZ <= maxZ; minZ++) {
+                    wholeVault.add(new Location(nexus.getWorld(), minX, minY, minZ));
+                }
+            }
+        }
+
+        this.vault = wholeVault;
+
+    }
 }

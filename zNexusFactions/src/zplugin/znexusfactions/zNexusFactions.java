@@ -1,8 +1,10 @@
 package zplugin.znexusfactions;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import zplugin.znexusfactions.api.Faction;
 import zplugin.znexusfactions.api.FactionData;
 import zplugin.znexusfactions.api.Methods;
+import zplugin.znexusfactions.api.Variables;
 import zplugin.znexusfactions.commands.zExecutor;
 import zplugin.znexusfactions.listeners.BlockPlaceListener;
 import zplugin.znexusfactions.listeners.DamageByEntityListener;
@@ -14,6 +16,7 @@ import java.util.List;
 public class zNexusFactions extends JavaPlugin {
 
     public Methods m = new Methods(this);
+    public Variables v = new Variables();
 
     public void onEnable() {
 
@@ -27,14 +30,18 @@ public class zNexusFactions extends JavaPlugin {
 
         setupDatabase();
 
-        for (FactionData factionData : getDatabase().find(FactionData.class).findSet()) {
-
-            getLogger().info("Base size: " + factionData.getName());
-
-        }
+        loadFactions();
 
         getLogger().info("zNexusFactions v" + getDescription().getVersion() + " enabled!");
 
+    }
+
+    private void loadFactions() {
+        int i = 0;
+        for (FactionData factionData : getDatabase().find(FactionData.class).findSet()) {
+            i++;
+        }
+        getLogger().info("Loaded " + i + (i != 1 ? " factions!" : " faction!"));
     }
 
     public void setupDatabase() {

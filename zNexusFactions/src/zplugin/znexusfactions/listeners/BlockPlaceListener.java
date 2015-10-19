@@ -2,6 +2,7 @@ package zplugin.znexusfactions.listeners;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -10,6 +11,7 @@ import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import zplugin.znexusfactions.api.*;
+import zplugin.znexusfactions.events.CreateFactionEvent;
 import zplugin.znexusfactions.zNexusFactions;
 
 import java.util.ArrayList;
@@ -24,38 +26,49 @@ public class BlockPlaceListener implements Listener {
     }
 
     @EventHandler
-    public void onBlockPlace(BlockPlaceEvent event) {
+    public void onBlockPlace(BlockPlaceEvent e) {
 
-        if (isNexus(event.getBlock(), event.getPlayer())) {
+        if (isNexus(e.getBlock(), e.getPlayer())) {
 
-            Location block = event.getBlock().getLocation();
+            Location block = e.getBlock().getLocation();
 
-            // Nexus Generation
-            block.getBlock().setType(Material.AIR);
+            Player player = (Player) plugin.v.makingFaction.keySet().toArray()[0];
+            String name = plugin.v.makingFaction.get(player).keySet().toArray()[0].toString();
+            String tag = plugin.v.makingFaction.get(player).get(name);
 
-            Nexus nexus = new Nexus(block);
-            Vault vault = nexus.createVault(event.getPlayer());
-            Base base = vault.createBase(event.getPlayer());
-            Player player = (Player) Variables.makingFaction.keySet().toArray()[0];
-            List<Player> players = new ArrayList<>();
-            players.add(player);
-            Faction faction = new Faction(Variables.makingFaction.get(player).keySet().toArray()[0].toString(),
-                    Variables.makingFaction.get(player).get(Variables.makingFaction.get(player).keySet().toArray()[0].toString()),
-                    players, base);
+            // Make Event
+            CreateFactionEvent event = new CreateFactionEvent(name, tag, player, block);
+            // Call Event
+            plugin.getServer().getPluginManager().callEvent(event);
 
-            FactionData factionData = new FactionData();
-            factionData.setFaction(faction);
-            factionData.setLocation(faction.getNexus().getLocation());
-            plugin.getDatabase().save(factionData);
-            plugin.getLogger().info("Added Faction " + faction.getName() + " to database!");
-            Variables.makingFaction.remove(player);
+            // Run Default Code
+            if (!event.isCancelled()) {
 
-        } else {
-            ItemStack stack = new ItemStack(Material.EMERALD_BLOCK);
-            ItemMeta meta = stack.getItemMeta();
-            meta.setDisplayName("§5Nexus");
-            stack.setItemMeta(meta);
-            event.getPlayer().getInventory().addItem(stack);
+                // Remove Block
+                block.getBlock().setType(Material.AIR);
+                // Make Nexus
+                Nexus nexus = new Nexus(block, false);
+                // Make Vault
+                Vault vault = nexus.createVault(e.getPlayer());
+                // Make Base
+                Base base = vault.createBase(e.getPlayer());
+                List<OfflinePlayer> players = new ArrayList<>();
+                players.add(player);
+                // Make Faction
+                Faction faction = new Faction(event.getName(), event.getTag(), players, base);
+                // Make new Database Record
+                FactionData factionData = new FactionData();
+                // Set the Faction
+                factionData.setFaction(faction);
+                // Save the record to the Database
+                plugin.getDatabase().save(factionData);
+                plugin.getLogger().info("Added Faction " + faction.getName() + " to database!");
+                player.sendMessage(event.getMessage());
+
+                plugin.v.makingFaction.remove(player);
+
+            }
+
         }
 
     }

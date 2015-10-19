@@ -37,7 +37,7 @@ public class Create {
                 } else {
                     Map<String, String> factionData = new HashMap<>();
                     factionData.put(args[0], args[1]);
-                    Variables.makingFaction.put(player, factionData);
+                    plugin.v.makingFaction.put(player, factionData);
                     plugin.m.giveNexus(player);
                     return true;
                 }

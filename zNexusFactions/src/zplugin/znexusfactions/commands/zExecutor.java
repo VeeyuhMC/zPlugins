@@ -33,6 +33,32 @@ public class zExecutor implements CommandExecutor {
 
                     }
 
+                } else if (args[0].equalsIgnoreCase("join")) {
+
+                    if (sender instanceof Player) {
+
+                        return Join.command((Player) sender, args, plugin);
+
+                    } else {
+
+                        sender.sendMessage("§4 You must be a player!");
+                        return true;
+
+                    }
+
+                } else if (args[0].equalsIgnoreCase("leave")) {
+
+                    if (sender instanceof Player) {
+
+                        return Leave.command((Player) sender, args, plugin);
+
+                    } else {
+
+                        sender.sendMessage("§4 You must be a player!");
+                        return true;
+
+                    }
+
                 }
 
             }

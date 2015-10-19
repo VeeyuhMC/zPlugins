@@ -1,12 +1,16 @@
 package zplugin.znexusfactions.api;
 
+import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Variables {
 
-    public static HashMap<Player, Map<String, String>> makingFaction = new HashMap<>();
+    public HashMap<OfflinePlayer, Map<String, String>> makingFaction = new HashMap<>();
+    public List<Player> inBase = new ArrayList<>();
 
 }
