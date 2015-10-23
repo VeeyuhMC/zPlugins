@@ -12,5 +12,6 @@ public class Variables {
 
     public HashMap<OfflinePlayer, Map<String, String>> makingFaction = new HashMap<>();
     public List<Player> inBase = new ArrayList<>();
+    public List<Player> factionChat = new ArrayList<>();
 
 }

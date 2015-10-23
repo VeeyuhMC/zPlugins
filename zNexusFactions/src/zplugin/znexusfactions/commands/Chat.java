@@ -1,11 +1,9 @@
 package zplugin.znexusfactions.commands;
 
 import org.bukkit.entity.Player;
-import zplugin.znexusfactions.api.Faction;
-import zplugin.znexusfactions.api.FactionData;
 import zplugin.znexusfactions.zNexusFactions;
 
-public class Disband {
+public class Chat {
 
     public static boolean command(Player player, String[] arguments, zNexusFactions plugin) {
 
@@ -19,29 +17,41 @@ public class Disband {
             return invalidArgs(player);
         }
 
-        if (!player.hasPermission("znexusfactions.disband")) {
-            player.sendMessage("§4You do not have permission to do that!");
-            return true;
+        if (!(player.hasPermission("znexusfactions.chat"))) {
+            return plugin.m.invalidPerms(player);
         }
 
-        if (plugin.m.isInFaction(player)) {
-            if (plugin.m.isOwner(player)) {
-                FactionData factionData = plugin.m.getFaction(player);
-                Faction faction = factionData.getFaction();
-                faction.disband(player);
-                plugin.getDatabase().delete(factionData);
-            }
-            return true;
-        } else {
+        if (!plugin.m.isInFaction(player)) {
+
             player.sendMessage("§4You are not in a faction!");
+
             return true;
+
+        }
+
+        if (plugin.v.factionChat.contains(player)) {
+
+            plugin.v.factionChat.remove(player);
+
+            player.sendMessage("§2Toggled faction chat off");
+
+            return true;
+
+        } else {
+
+            plugin.v.factionChat.add(player);
+
+            player.sendMessage("§2Toggled faction chat on");
+
+            return true;
+
         }
 
     }
 
     private static boolean invalidArgs(Player player) {
         player.sendMessage("§4Invalid Arguments!");
-        player.sendMessage("§2/zfactions disband");
+        player.sendMessage("§2/zfactions chat");
         return true;
     }
 

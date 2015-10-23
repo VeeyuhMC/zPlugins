@@ -8,6 +8,7 @@ import zplugin.znexusfactions.api.Variables;
 import zplugin.znexusfactions.commands.zExecutor;
 import zplugin.znexusfactions.listeners.BlockPlaceListener;
 import zplugin.znexusfactions.listeners.DamageByEntityListener;
+import zplugin.znexusfactions.listeners.PlayerChatListener;
 import zplugin.znexusfactions.listeners.PlayerMoveListener;
 
 import java.util.ArrayList;
@@ -23,6 +24,7 @@ public class zNexusFactions extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new BlockPlaceListener(this), this);
         getServer().getPluginManager().registerEvents(new DamageByEntityListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerMoveListener(this), this);
+        getServer().getPluginManager().registerEvents(new PlayerChatListener(this), this);
 
         getCommand("zfactions").setExecutor(new zExecutor(this));
 

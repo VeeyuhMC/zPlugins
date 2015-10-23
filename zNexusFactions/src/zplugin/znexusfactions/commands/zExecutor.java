@@ -59,10 +59,70 @@ public class zExecutor implements CommandExecutor {
 
                     }
 
+                } else if (args[0].equalsIgnoreCase("near")) {
+
+                    if (sender instanceof Player) {
+
+                        return Near.command((Player) sender, args, plugin);
+
+                    } else {
+
+                        sender.sendMessage("§4 You must be a player!");
+                        return true;
+
+                    }
+
+                } else if (args[0].equalsIgnoreCase("disband")) {
+
+                    if (sender instanceof Player) {
+
+                        return Disband.command((Player) sender, args, plugin);
+
+                    } else {
+
+                        sender.sendMessage("§4 You must be a player!");
+                        return true;
+
+                    }
+
+                } else if (args[0].equalsIgnoreCase("chat")) {
+
+                    if (sender instanceof Player) {
+
+                        return Chat.command((Player) sender, args, plugin);
+
+                    } else {
+
+                        sender.sendMessage("§4 You must be a player!");
+                        return true;
+
+                    }
+
+                } else if (args[0].equalsIgnoreCase("broadcast")) {
+
+                    if (sender instanceof Player) {
+
+                        return Broadcast.command((Player) sender, args, plugin);
+
+                    } else {
+
+                        sender.sendMessage("§4 You must be a player!");
+                        return true;
+
+                    }
+
+                } else if (args[0].equalsIgnoreCase("info")) {
+
+                    return Info.command(sender, args, plugin);
+
+                } else if (args[0].equalsIgnoreCase("reload")) {
+
+                    return Reload.command(sender, args, plugin);
+
                 }
 
             }
-            
+
         }
 
         return false;

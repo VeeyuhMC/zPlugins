@@ -1,2 +1,4 @@
 maximum-faction-name-length: 16
 maximum-faction-tag-length: 30
+enable-near-command: true
+near-range: 500

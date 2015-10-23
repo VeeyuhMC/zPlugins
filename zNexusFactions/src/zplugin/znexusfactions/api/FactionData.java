@@ -25,10 +25,10 @@ public class FactionData {
     private String name, tag;
 
     @NotNull
-    private boolean open;
+    private boolean open = false;
 
     @NotNull
-    private List<UUID> players = new ArrayList<>();
+    private List<UUID> players, staff = new ArrayList<>();
 
     @NotEmpty
     private String world;
@@ -122,6 +122,14 @@ public class FactionData {
         this.players = players;
     }
 
+    public List<UUID> getStaff() {
+        return staff;
+    }
+
+    public void setStaff(List<UUID> staff) {
+        this.staff = staff;
+    }
+
     public void setWorld(String world) {
         this.world = world;
     }
@@ -169,7 +177,12 @@ public class FactionData {
         for (OfflinePlayer player : faction.getPlayers()) {
             players.add(player.getUniqueId());
         }
+        List<UUID> staff = new ArrayList<>();
+        for (OfflinePlayer player : faction.getStaff()) {
+            staff.add(player.getUniqueId());
+        }
         this.players = players;
+        this.staff = staff;
         this.world = faction.getNexus().getLocation().getWorld().getName();
         this.nexusX = faction.getNexus().getLocation().getBlockX();
         this.nexusY = faction.getNexus().getLocation().getBlockY();
@@ -190,11 +203,19 @@ public class FactionData {
         return list;
     }
 
+    public List<OfflinePlayer> getBukkitStaff() {
+        List<OfflinePlayer> list = new ArrayList<>();
+        for (UUID uuid : staff) {
+            list.add(Bukkit.getOfflinePlayer(uuid));
+        }
+        return list;
+    }
+
     public Faction getFaction() {
         Nexus nexus = new Nexus(new Location(Bukkit.getWorld(world), nexusX, nexusY, nexusZ), false);
         Vault vault = new Vault(nexus);
         Base base = new Base(vault, players.size());
-        Faction faction = new Faction(name, tag, getBukkitPlayers(), base);
+        Faction faction = new Faction(name, tag, getBukkitPlayers(), base, getBukkitStaff(), open);
         faction.setOpen(this.open);
         return faction;
     }

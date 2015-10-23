@@ -55,7 +55,7 @@ public class BlockPlaceListener implements Listener {
                 List<OfflinePlayer> players = new ArrayList<>();
                 players.add(player);
                 // Make Faction
-                Faction faction = new Faction(event.getName(), event.getTag(), players, base);
+                Faction faction = new Faction(event.getName(), event.getTag(), players, base, players, true);
                 // Make new Database Record
                 FactionData factionData = new FactionData();
                 // Set the Faction

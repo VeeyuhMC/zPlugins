@@ -1,10 +1,10 @@
 package zplugin.znexusfactions.api;
 
 import org.bukkit.Bukkit;
-import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
+import zplugin.znexusfactions.events.DisbandFactionEvent;
 import zplugin.znexusfactions.events.JoinFactionEvent;
 import zplugin.znexusfactions.events.LeaveFactionEvent;
 
@@ -16,16 +16,18 @@ public class Faction {
     private String name;
     private String tag;
     private List<OfflinePlayer> players = new ArrayList<>();
+    private List<OfflinePlayer> staff = new ArrayList<>();
     private Base base;
     private boolean open;
 
-    public Faction(String name, String tag, List<OfflinePlayer> players, Base base) {
+    public Faction(String name, String tag, List<OfflinePlayer> players, Base base, List<OfflinePlayer> staff, boolean open) {
 
         this.name = name;
         this.tag = tag;
         this.players = players;
         this.base = base;
-        this.open = true;
+        this.open = open;
+        this.staff = staff;
 
     }
 
@@ -155,6 +157,42 @@ public class Faction {
 
     public OfflinePlayer getOwner() {
         return players.get(0);
+    }
+
+    public List<OfflinePlayer> getStaff() {
+        return staff;
+    }
+
+    public void addStaff(Player player) {
+        staff.add(player);
+    }
+
+    public void removeStaff(Player player) {
+        staff.remove(player);
+    }
+
+    public void disband(Player player) {
+        // Make Event
+        DisbandFactionEvent event = new DisbandFactionEvent(player, this);
+        // Call Event
+        Bukkit.getPluginManager().callEvent(event);
+        // Run Default Code
+        if (!event.isCancelled()) {
+            // Get Database Entry
+            FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
+                    .where().ieq("name", this.name).findUnique();
+            // Send the player a message
+            player.sendMessage(event.getPlayerMessage());
+            for (OfflinePlayer offlinePlayer : factionData.getBukkitPlayers()) {
+                // Send all other online faction members a message
+                Player factionPlayer = Bukkit.getPlayer(offlinePlayer.getUniqueId());
+                if (factionPlayer != null) {
+                    factionPlayer.sendMessage(event.getFactionMessage());
+                }
+            }
+            // Send the server a message
+            Bukkit.broadcastMessage(event.getServerMessage());
+        }
     }
 
 }
