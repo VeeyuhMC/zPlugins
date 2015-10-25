@@ -18,7 +18,7 @@ public class Create {
             args[i - 1] = arguments[i];
         }
 
-        if (!(args.length > 2)) {
+        if (!(args.length >= 2)) {
             return invalidArgs(player);
         }
 
@@ -28,7 +28,7 @@ public class Create {
         StringBuilder sb = new StringBuilder();
 
         for (int i = 1; i < args.length; i++) {
-            sb.append(args[i]);
+            sb.append(args[i] + " ");
         }
 
         String tag = sb.toString();

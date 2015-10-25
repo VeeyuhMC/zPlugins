@@ -28,7 +28,7 @@ public class FactionData {
     private boolean open = false;
 
     @NotNull
-    private List<UUID> players, staff = new ArrayList<>();
+    private List<UUID> players = new ArrayList<>(), staff = new ArrayList<>();
 
     @NotEmpty
     private String world;
@@ -212,7 +212,7 @@ public class FactionData {
     }
 
     public Faction getFaction() {
-        Nexus nexus = new Nexus(new Location(Bukkit.getWorld(world), nexusX, nexusY, nexusZ), false);
+        Nexus nexus = new Nexus(new Location(Bukkit.getWorld(world), nexusX, nexusY, nexusZ), true);
         Vault vault = new Vault(nexus);
         Base base = new Base(vault, players.size());
         Faction faction = new Faction(name, tag, getBukkitPlayers(), base, getBukkitStaff(), open);

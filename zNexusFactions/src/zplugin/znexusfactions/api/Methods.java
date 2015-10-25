@@ -508,6 +508,8 @@ public class Methods {
 
         }
 
+        plugin.getLogger().info("Size: " + list.size());
+
         Faction nearest = null;
 
         if (list.size() == 1) {

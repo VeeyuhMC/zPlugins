@@ -44,6 +44,13 @@ public class BlockPlaceListener implements Listener {
             // Run Default Code
             if (!event.isCancelled()) {
 
+                /*try {
+                    plugin.m.getNearestFactionData(player, 9).getName();
+                } catch (NullPointerException ex) {
+                    player.sendMessage("§4You cannot create a faction here!");
+                    return;
+                }*/
+
                 // Remove Block
                 block.getBlock().setType(Material.AIR);
                 // Make Nexus
@@ -62,9 +69,11 @@ public class BlockPlaceListener implements Listener {
                 factionData.setFaction(faction);
                 // Save the record to the Database
                 plugin.getDatabase().save(factionData);
+                // Send Message to console
                 plugin.getLogger().info("Added Faction " + faction.getName() + " to database!");
+                // Send Message to player
                 player.sendMessage(event.getMessage());
-
+                // Remove player from ArrayList
                 plugin.v.makingFaction.remove(player);
 
             }
@@ -79,3 +88,30 @@ public class BlockPlaceListener implements Listener {
     }
 
 }
+
+/*
+
+// Remove Block
+block.getBlock().setType(Material.AIR);
+// Make Nexus
+Nexus nexus = new Nexus(block, false);
+// Make Vault
+Vault vault = nexus.createVault(e.getPlayer());
+// Make Base
+Base base = vault.createBase(e.getPlayer());
+List<OfflinePlayer> players = new ArrayList<>();
+players.add(player);
+// Make Faction
+Faction faction = new Faction(event.getName(), event.getTag(), players, base, players, true);
+// Make new Database Record
+FactionData factionData = new FactionData();
+// Set the Faction
+factionData.setFaction(faction);
+// Save the record to the Database
+plugin.getDatabase().save(factionData);
+plugin.getLogger().info("Added Faction " + faction.getName() + " to database!");
+player.sendMessage(event.getMessage());
+// Remove player from ArrayList
+plugin.v.makingFaction.remove(player);
+
+ */

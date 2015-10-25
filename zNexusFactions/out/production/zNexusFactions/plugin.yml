@@ -1,5 +1,5 @@
 name: zNexusFactions
-version: 0.1
+version: 0.5
 author: ZP4RKER
 main: zplugin.znexusfactions.zNexusFactions
 database: true
