@@ -119,6 +119,10 @@ public class zExecutor implements CommandExecutor {
 
                     return Reload.command(sender, args, plugin);
 
+                } else if (args[0].equalsIgnoreCase("list")) {
+                	
+                	return List.command(sender, args, plugin);
+                	
                 }
 
             }

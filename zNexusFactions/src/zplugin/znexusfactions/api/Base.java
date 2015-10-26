@@ -15,7 +15,6 @@ public class Base {
     private Vault vault;
     private List<Location> area = new ArrayList<>();
     private Plugin plugin = Bukkit.getPluginManager().getPlugin("zNexusFactions");
-    private int createBase;
 
     public Base(Vault vault, Player player) {
         this.vault = vault;
@@ -99,7 +98,7 @@ public class Base {
         // Loop through each block in outline
         for (int i = 0; i < outline.size(); i++) {
             final int I = i;
-            createBase = Bukkit.getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+            Bukkit.getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
                 public void run() {
                     // Set each block to stone
                     outline.get(I).getBlock().setType(Material.STONE);

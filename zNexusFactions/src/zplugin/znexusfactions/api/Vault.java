@@ -3,7 +3,6 @@ package zplugin.znexusfactions.api;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
@@ -14,7 +13,6 @@ public class Vault {
 
     private Nexus nexus;
     private List<Location> vault = new ArrayList<>();
-    private int createVault;
     private Plugin plugin = Bukkit.getPluginManager().getPlugin("zNexusFactions");
 
     public Vault(Nexus nexus, Player player) {
@@ -85,7 +83,7 @@ public class Vault {
 
             for (int i = 0; i < vault.size(); i++) {
                 final int I = i;
-                createVault = Bukkit.getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+                Bukkit.getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
                     public void run() {
                         vault.get(I).getBlock().setType(Material.STONE);
                     }

@@ -1,7 +1,6 @@
 package zplugin.znexusfactions;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import zplugin.znexusfactions.api.Faction;
 import zplugin.znexusfactions.api.FactionData;
 import zplugin.znexusfactions.api.Methods;
 import zplugin.znexusfactions.api.Variables;
@@ -41,6 +40,7 @@ public class zNexusFactions extends JavaPlugin {
     private void loadFactions() {
         int i = 0;
         for (FactionData factionData : getDatabase().find(FactionData.class).findSet()) {
+        	factionData.getName();
             i++;
         }
         getLogger().info("Loaded " + i + (i != 1 ? " factions!" : " faction!"));

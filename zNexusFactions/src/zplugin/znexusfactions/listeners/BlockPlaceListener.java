@@ -8,8 +8,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 import zplugin.znexusfactions.api.*;
 import zplugin.znexusfactions.events.CreateFactionEvent;
 import zplugin.znexusfactions.zNexusFactions;

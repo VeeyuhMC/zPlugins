@@ -35,7 +35,11 @@ public class JoinFactionEvent extends Event implements Cancellable {
         return handlers;
     }
 
-    public String getPlayerMessage() {
+    public Player getPlayer() {
+		return player;
+	}
+
+	public String getPlayerMessage() {
         return playerMessage;
     }
 
@@ -50,5 +54,9 @@ public class JoinFactionEvent extends Event implements Cancellable {
     public void setFactionMessage(String factionMessage) {
         this.factionMessage = factionMessage;
     }
+
+	public Faction getFaction() {
+		return faction;
+	}
 
 }

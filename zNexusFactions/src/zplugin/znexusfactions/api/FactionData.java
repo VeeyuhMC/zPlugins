@@ -173,6 +173,7 @@ public class FactionData {
     public void setFaction(Faction faction) {
         this.name = faction.getName();
         this.tag = faction.getTag();
+        this.open = faction.isOpen();
         List<UUID> players = new ArrayList<>();
         for (OfflinePlayer player : faction.getPlayers()) {
             players.add(player.getUniqueId());

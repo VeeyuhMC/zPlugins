@@ -38,18 +38,10 @@ public class EnterFactionEvent extends Event implements Cancellable {
         return player;
     }
 
-    public void setPlayer(Player player) {
-        this.player = player;
-    }
-
     public Faction getFaction() {
         return faction;
     }
-
-    public void setFaction(Faction faction) {
-        this.faction = faction;
-    }
-
+    
     public String getMessage() {
         return message;
     }

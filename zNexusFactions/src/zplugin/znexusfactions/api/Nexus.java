@@ -32,5 +32,9 @@ public class Nexus {
     public Vault createVault(Player player) {
         return new Vault(this, player);
     }
+    
+    public EnderCrystal getNexus() {
+    	return nexus;
+    }
 
 }

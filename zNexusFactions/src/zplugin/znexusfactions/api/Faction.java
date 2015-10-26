@@ -1,15 +1,17 @@
 package zplugin.znexusfactions.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
+import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+
 import zplugin.znexusfactions.events.DisbandFactionEvent;
 import zplugin.znexusfactions.events.JoinFactionEvent;
 import zplugin.znexusfactions.events.LeaveFactionEvent;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Faction {
 
@@ -171,9 +173,9 @@ public class Faction {
         staff.remove(player);
     }
 
-    public void disband(Player player) {
+    public void disband(CommandSender sender) {
         // Make Event
-        DisbandFactionEvent event = new DisbandFactionEvent(player, this);
+        DisbandFactionEvent event = new DisbandFactionEvent(sender, this);
         // Call Event
         Bukkit.getPluginManager().callEvent(event);
         // Run Default Code
@@ -182,7 +184,7 @@ public class Faction {
             FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
                     .where().ieq("name", this.name).findUnique();
             // Send the player a message
-            player.sendMessage(event.getPlayerMessage());
+            sender.sendMessage(event.getSenderMessage());
             for (OfflinePlayer offlinePlayer : factionData.getBukkitPlayers()) {
                 // Send all other online faction members a message
                 Player factionPlayer = Bukkit.getPlayer(offlinePlayer.getUniqueId());

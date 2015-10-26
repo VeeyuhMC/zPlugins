@@ -39,7 +39,8 @@ public class Info {
 
         } else {
 
-            OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(args[0]);
+            @SuppressWarnings("deprecation")
+			OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(args[0]);
 
             if (offlinePlayer != null) {
 

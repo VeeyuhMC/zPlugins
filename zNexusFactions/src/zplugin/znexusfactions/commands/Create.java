@@ -2,7 +2,6 @@ package zplugin.znexusfactions.commands;
 
 
 import org.bukkit.entity.Player;
-import zplugin.znexusfactions.api.Variables;
 import zplugin.znexusfactions.zNexusFactions;
 
 import java.util.HashMap;

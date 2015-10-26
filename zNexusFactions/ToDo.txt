@@ -1,14 +1,12 @@
 To Do √ = Done, ... = Working on
 --------------------------------
-- Add Destroy Command
-    - Implement
-- Add List Command ...
+- Add Destroy Command √
     - Implement
 - Add Invite Command
     - Implement
 - Add Accept Command
     - Implement
-- Add Open Command
+- Add Open Command √
     - Implement
 - Add Kick Command
     - Implement

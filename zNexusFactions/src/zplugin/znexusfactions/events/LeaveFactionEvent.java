@@ -35,6 +35,14 @@ public class LeaveFactionEvent extends Event implements Cancellable {
         return handlers;
     }
 
+    public Player getPlayer() {
+		return player;
+	}
+
+	public Faction getFaction() {
+		return faction;
+	}
+
     public String getPlayerMessage() {
         return playerMessage;
     }
