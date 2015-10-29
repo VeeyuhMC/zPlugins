@@ -42,7 +42,7 @@ public class Near {
 
     }
 
-    public static boolean invalidArgs(Player player) {
+    private static boolean invalidArgs(Player player) {
         player.sendMessage("§4Invalid Arguments!");
         player.sendMessage("§2/zfactions near");
         return true;

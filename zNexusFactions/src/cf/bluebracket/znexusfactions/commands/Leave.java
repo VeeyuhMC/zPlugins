@@ -27,7 +27,7 @@ public class Leave {
         if (plugin.m.isInFaction(player)) {
             FactionData factionData = plugin.m.getFaction(player);
             Faction faction = factionData.getFaction();
-            faction.removePlayer(player);
+            faction.removePlayer(player, false);
             factionData.setFaction(faction);
             plugin.getDatabase().save(factionData);
             return true;

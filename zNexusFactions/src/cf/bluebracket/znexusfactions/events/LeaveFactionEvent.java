@@ -1,5 +1,7 @@
 package cf.bluebracket.znexusfactions.events;
 
+import org.bukkit.Bukkit;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
@@ -12,16 +14,21 @@ public class LeaveFactionEvent extends Event implements Cancellable {
     private HandlerList handlers = new HandlerList();
     private boolean cancelled = false;
 
-    private Player player;
+    private OfflinePlayer player;
     private Faction faction;
     private String playerMessage;
     private String factionMessage;
 
-    public LeaveFactionEvent(Player player, Faction faction) {
+    public LeaveFactionEvent(OfflinePlayer player, Faction faction, boolean kicked) {
         this.player = player;
         this.faction = faction;
-        this.playerMessage = "§6You left the faction §5" + faction.getName();
-        this.factionMessage = "§9" + player.getName() + " §left the faction!";
+        if (!kicked) {
+        	this.playerMessage = "§6You left the faction §5" + faction.getName();
+            this.factionMessage = "§9" + player.getName() + " §6left the faction!";
+        } else {
+        	this.playerMessage = "§6You were kicked from the faction §5" + faction.getName();
+        	this.factionMessage = "§9" + player.getName() + " §6was kicked from the faction!";
+        }
     }
 
     public boolean isCancelled() {
@@ -36,15 +43,24 @@ public class LeaveFactionEvent extends Event implements Cancellable {
         return handlers;
     }
 
-    public Player getPlayer() {
+    public OfflinePlayer getPlayer() {
 		return player;
 	}
+    
+    public boolean playerIsOnline() {
+    	Player player = Bukkit.getPlayer(this.player.getUniqueId());
+    	if (player != null) {
+    		return true;
+    	} else {
+    		return false;
+    	}
+    }
 
 	public Faction getFaction() {
 		return faction;
 	}
 
-    public String getPlayerMessage() {
+	public String getPlayerMessage() {
         return playerMessage;
     }
 

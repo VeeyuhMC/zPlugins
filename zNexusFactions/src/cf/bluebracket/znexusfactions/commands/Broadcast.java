@@ -1,7 +1,8 @@
 package cf.bluebracket.znexusfactions.commands;
 
+import java.util.UUID;
+
 import org.bukkit.Bukkit;
-import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 
 import cf.bluebracket.znexusfactions.zNexusFactions;
@@ -34,9 +35,9 @@ public class Broadcast {
         FactionData factionData = plugin.m.getFaction(player);
         Faction faction = factionData.getFaction();
 
-        for (OfflinePlayer offlinePlayer : faction.getPlayers()) {
+        for (UUID uuid : faction.getPlayers()) {
 
-            Player target = Bukkit.getPlayer(offlinePlayer.getUniqueId());
+            Player target = Bukkit.getPlayer(uuid);
 
             if (target != null) {
 

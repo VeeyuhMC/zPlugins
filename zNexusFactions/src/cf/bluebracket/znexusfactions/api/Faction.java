@@ -2,6 +2,7 @@ package cf.bluebracket.znexusfactions.api;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -17,12 +18,12 @@ public class Faction {
 
     private String name;
     private String tag;
-    private List<OfflinePlayer> players = new ArrayList<>();
-    private List<OfflinePlayer> staff = new ArrayList<>();
+    private List<UUID> players = new ArrayList<>();
+    private List<UUID> staff = new ArrayList<>();
     private Base base;
     private boolean open;
 
-    public Faction(String name, String tag, List<OfflinePlayer> players, Base base, List<OfflinePlayer> staff, boolean open) {
+    public Faction(String name, String tag, List<UUID> players, Base base, List<UUID> staff, boolean open) {
 
         this.name = name;
         this.tag = tag;
@@ -49,7 +50,7 @@ public class Faction {
         this.tag = tag;
     }
 
-    public List<OfflinePlayer> getPlayers() {
+    public List<UUID> getPlayers() {
         return players;
     }
 
@@ -66,14 +67,14 @@ public class Faction {
         if (!event.isCancelled()) {
 
             // Add Player
-            players.add(player);
+            players.add(player.getUniqueId());
 
             // Send Message to Player
             player.sendMessage(event.getPlayerMessage());
 
             // Send Message to Faction
-            for (OfflinePlayer op : this.players) {
-                Player p = Bukkit.getPlayer(op.getUniqueId());
+            for (UUID uuid : this.players) {
+                Player p = Bukkit.getPlayer(uuid);
                 if (p != null) {
                     p.sendMessage(event.getFactionMessage());
                 }
@@ -97,23 +98,26 @@ public class Faction {
         }
     }
 
-    public void removePlayer(Player player) {
+    public void removePlayer(OfflinePlayer offlinePlayer, boolean kicked) {
         // Create Event
-        LeaveFactionEvent event = new LeaveFactionEvent(player, this);
+        LeaveFactionEvent event = new LeaveFactionEvent(offlinePlayer, this, kicked);
         // Call Event
         Bukkit.getPluginManager().callEvent(event);
         // Run Default Code
         if (!event.isCancelled()) {
 
             // Remove player
-            players.remove(player);
+            players.remove(offlinePlayer);
 
-            // Send Message to Player
-            player.sendMessage(event.getPlayerMessage());
+            if (event.playerIsOnline()) {
+            	// Send Message to Player
+            	Player player = Bukkit.getPlayer(event.getPlayer().getUniqueId());
+                player.sendMessage(event.getPlayerMessage());
+            }
 
             // Send Message to Faction
-            for (OfflinePlayer op : this.players) {
-                Player p = Bukkit.getPlayer(op.getUniqueId());
+            for (UUID uuid : this.players) {
+                Player p = Bukkit.getPlayer(uuid);
                 if (p != null) {
                     p.sendMessage(event.getFactionMessage());
                 }
@@ -132,7 +136,7 @@ public class Faction {
             // Save to database
             FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
                     .where().ieq("name", this.name).findUnique();
-            factionData.removePlayer(player);
+            factionData.removePlayer(offlinePlayer);
 
         }
     }
@@ -158,19 +162,19 @@ public class Faction {
     }
 
     public OfflinePlayer getOwner() {
-        return players.get(0);
+        return Bukkit.getPlayer(players.get(0));
     }
 
-    public List<OfflinePlayer> getStaff() {
+    public List<UUID> getStaff() {
         return staff;
     }
 
-    public void addStaff(Player player) {
-        staff.add(player);
+    public void addStaff(OfflinePlayer player) {
+        staff.add(player.getUniqueId());
     }
 
-    public void removeStaff(Player player) {
-        staff.remove(player);
+    public void removeStaff(OfflinePlayer player) {
+        staff.remove(player.getUniqueId());
     }
 
     public void disband(CommandSender sender) {

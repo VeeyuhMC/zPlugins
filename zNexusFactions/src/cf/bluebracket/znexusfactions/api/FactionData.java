@@ -1,18 +1,19 @@
 package cf.bluebracket.znexusfactions.api;
 
-import com.avaje.ebean.validation.NotEmpty;
-import com.avaje.ebean.validation.NotNull;
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-import org.bukkit.OfflinePlayer;
-import org.bukkit.entity.Player;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.OfflinePlayer;
+
+import com.avaje.ebean.validation.NotEmpty;
+import com.avaje.ebean.validation.NotNull;
 
 @Entity()
 @Table(name = "FactionsDB")
@@ -28,7 +29,7 @@ public class FactionData {
     private boolean open = false;
 
     @NotNull
-    private List<UUID> players = new ArrayList<>(), staff = new ArrayList<>();
+    private List<UUID> players = new ArrayList<>(), staff = new ArrayList<>(), invited = new ArrayList<>();
 
     @NotEmpty
     private String world;
@@ -174,16 +175,8 @@ public class FactionData {
         this.name = faction.getName();
         this.tag = faction.getTag();
         this.open = faction.isOpen();
-        List<UUID> players = new ArrayList<>();
-        for (OfflinePlayer player : faction.getPlayers()) {
-            players.add(player.getUniqueId());
-        }
-        List<UUID> staff = new ArrayList<>();
-        for (OfflinePlayer player : faction.getStaff()) {
-            staff.add(player.getUniqueId());
-        }
-        this.players = players;
-        this.staff = staff;
+        this.players = faction.getPlayers();
+        this.staff = faction.getPlayers();
         this.world = faction.getNexus().getLocation().getWorld().getName();
         this.nexusX = faction.getNexus().getLocation().getBlockX();
         this.nexusY = faction.getNexus().getLocation().getBlockY();
@@ -195,6 +188,8 @@ public class FactionData {
         this.yTwo = faction.getBase().getArea().get(faction.getBase().getArea().size() - 1).getBlockY();
         this.zTwo = faction.getBase().getArea().get(faction.getBase().getArea().size() - 1).getBlockZ();
     }
+    
+    
 
     public List<OfflinePlayer> getBukkitPlayers() {
         List<OfflinePlayer> list = new ArrayList<>();
@@ -216,17 +211,37 @@ public class FactionData {
         Nexus nexus = new Nexus(new Location(Bukkit.getWorld(world), nexusX, nexusY, nexusZ), true);
         Vault vault = new Vault(nexus);
         Base base = new Base(vault, players.size());
-        Faction faction = new Faction(name, tag, getBukkitPlayers(), base, getBukkitStaff(), open);
+        Faction faction = new Faction(name, tag, getPlayers(), base, getStaff(), open);
         faction.setOpen(this.open);
         return faction;
     }
 
-    public void addPlayer(Player player) {
+    public void addPlayer(OfflinePlayer player) {
         players.add(player.getUniqueId());
     }
 
-    public void removePlayer(Player player) {
-        players.remove(player);
+    public void removePlayer(OfflinePlayer player) {
+        players.remove(player.getUniqueId());
     }
+
+	public List<UUID> getInvited() {
+		return invited;
+	}
+
+	public void setInvited(List<UUID> invited) {
+		this.invited = invited;
+	}
+	
+	public void resetInvited() {
+		this.invited = new ArrayList<>();
+	}
+	
+	public void addInvited(OfflinePlayer player) {
+		this.invited.add(player.getUniqueId());
+	}
+	
+	public void removeInvited(OfflinePlayer player) {
+		this.invited.remove(player.getUniqueId());
+	}
 
 }

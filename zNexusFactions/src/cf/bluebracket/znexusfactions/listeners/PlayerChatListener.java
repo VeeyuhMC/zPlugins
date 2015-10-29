@@ -1,7 +1,8 @@
 package cf.bluebracket.znexusfactions.listeners;
 
+import java.util.UUID;
+
 import org.bukkit.Bukkit;
-import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -33,9 +34,9 @@ public class PlayerChatListener implements Listener {
 
             Faction faction = plugin.m.getFaction(player).getFaction();
 
-            for (OfflinePlayer offlineTarget : faction.getPlayers()) {
+            for (UUID uuid : faction.getPlayers()) {
 
-                Player target = Bukkit.getPlayer(offlineTarget.getUniqueId());
+                Player target = Bukkit.getPlayer(uuid);
 
                 if (target != null) {
 
