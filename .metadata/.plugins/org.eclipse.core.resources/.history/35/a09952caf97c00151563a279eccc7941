@@ -1,0 +1,5 @@
+package cf.bluebracket.znexusfactions.commands;
+
+public class Promote {
+
+}

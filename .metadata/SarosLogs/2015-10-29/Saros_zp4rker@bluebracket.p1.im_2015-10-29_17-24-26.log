@@ -1,0 +1,23 @@
+INFO  2015-10-29 17:23:51,860 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_60
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.11.1.v20150903-1804
+  Operating System: Mac OS X (10.11.1)
+  Hardware Architecture: x86_64
+INFO  2015-10-29 17:23:51,932 (SarosContext.java:153) creating Saros runtime context...
+DEBUG 2015-10-29 17:23:51,993 (XMPPAccountStore.java:117) loading accounts from file: /Users/ZP4RKER/.saros/config.dat
+DEBUG 2015-10-29 17:24:00,309 (XMPPAccountStore.java:176) loaded 1 account(s)
+INFO  2015-10-29 17:24:00,738 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2015-10-29 17:24:00,771 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2015-10-29 17:24:00,799 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2015-10-29 17:24:00,877 (SarosAnnotation.java:117) resetting annotation colors
+DEBUG 2015-10-29 17:24:01,008 (Saros.java:430) skipping conversion of old XMPP accounts, because there are already new ones
+DEBUG 2015-10-29 17:24:16,191 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2015-10-29 17:24:16,224 (DocumentRecord.java:93) Added Node: attr(144609985621874007) name=svg
+DEBUG 2015-10-29 17:24:21,481 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2015-10-29 17:24:21,484 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.0.40, fe80:0:0:0:9875:d3ff:fe64:3a32%awdl0, fe80:0:0:0:8638:35ff:fe48:ea84%en0]
+DEBUG 2015-10-29 17:24:21,503 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2015-10-29 17:24:26,559 (XMPPConnectionService.java:398) zp4rker@bluebracket.p1.im/Saros new connection state == CONNECTED
+DEBUG 2015-10-29 17:24:26,560 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2015-10-29 17:24:26,563 (SkypeManager.java:289) Refreshing Skype username cache...
+WARN  2015-10-29 17:24:31,858 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.0.40:0

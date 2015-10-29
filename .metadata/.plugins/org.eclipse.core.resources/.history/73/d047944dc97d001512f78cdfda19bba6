@@ -1,0 +1,13 @@
+package cf.bluebracket.znexusfactions.commands;
+
+import org.bukkit.entity.Player;
+
+public class Invite {
+	
+	private static boolean invalidArgs(Player player) {
+        player.sendMessage("§4Invalid Arguments!");
+        player.sendMessage("§2/zfactions invite <NAME>");
+        return true;
+    }
+
+}

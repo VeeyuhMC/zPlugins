@@ -1,0 +1,15 @@
+1445812474931	Delete element
+1445812479743	Delete element
+1445812901179	Encapsulate field 'player'
+1445812935244	Encapsulate field 'faction'
+1445829846762	Rename local variable 'sender'
+1445830930825	Rename local variable 'player'
+1445831257606	Rename local variable 'player'
+1445843340869	Rename package 'zplugin.znexusfactions'
+1445843366979	Rename package 'zplugin.znexusfactions.api'
+1445843378896	Rename package 'zplugin.znexusfactions.commands'
+1445843395912	Rename package 'zplugin.znexusfactions.events'
+1445843402793	Rename package 'zplugin.znexusfactions.listeners'
+1445916341523	Rename local variable 'player'
+1445988955322	Encapsulate field 'kicked'
+1446001864726	Copy compilation unit

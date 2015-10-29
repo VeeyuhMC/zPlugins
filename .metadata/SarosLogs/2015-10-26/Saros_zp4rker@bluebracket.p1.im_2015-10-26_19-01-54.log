@@ -1,0 +1,766 @@
+INFO  2015-10-26 19:01:15,265 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_60
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.11.1.v20150903-1804
+  Operating System: Mac OS X (10.11)
+  Hardware Architecture: x86_64
+INFO  2015-10-26 19:01:15,315 (SarosContext.java:153) creating Saros runtime context...
+DEBUG 2015-10-26 19:01:15,382 (XMPPAccountStore.java:117) loading accounts from file: /Users/ZP4RKER/.saros/config.dat
+DEBUG 2015-10-26 19:01:23,796 (XMPPAccountStore.java:176) loaded 1 account(s)
+INFO  2015-10-26 19:01:24,240 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2015-10-26 19:01:24,277 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2015-10-26 19:01:24,308 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2015-10-26 19:01:24,371 (SarosAnnotation.java:117) resetting annotation colors
+DEBUG 2015-10-26 19:01:24,469 (Saros.java:430) skipping conversion of old XMPP accounts, because there are already new ones
+DEBUG 2015-10-26 19:01:38,732 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2015-10-26 19:01:38,777 (DocumentRecord.java:93) Added Node: attr(144584649876973397) name=svg
+DEBUG 2015-10-26 19:01:48,814 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2015-10-26 19:01:48,820 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.0.15, fe80:0:0:0:f863:72ff:fef2:c1a5%awdl0, fe80:0:0:0:8638:35ff:fe48:ea84%en0]
+DEBUG 2015-10-26 19:01:48,838 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2015-10-26 19:01:54,217 (XMPPConnectionService.java:398) zp4rker@bluebracket.p1.im/Saros new connection state == CONNECTED
+DEBUG 2015-10-26 19:01:54,218 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2015-10-26 19:01:54,223 (SkypeManager.java:289) Refreshing Skype username cache...
+WARN  2015-10-26 19:01:59,246 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.0.15:0
+WARN  2015-10-26 19:03:09,312 (XMPPUtils.java:300) could not query identity: aim.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:03:10,121 (XMPPUtils.java:300) could not query identity: icq.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:03:10,531 (XMPPUtils.java:300) could not query identity: irc.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:03:10,941 (XMPPUtils.java:300) could not query identity: msn.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:03:11,349 (XMPPUtils.java:300) could not query identity: proxy.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:03:11,760 (XMPPUtils.java:300) could not query identity: twitter.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:03:16,599 (AddContactWizard.java:146) Unknown error: recipient-unavailable(404)
+Unknown error: recipient-unavailable(404): 
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:234)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:04:53,828 (XMPPUtils.java:300) could not query identity: aim.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:04:54,570 (XMPPUtils.java:300) could not query identity: icq.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:04:54,860 (XMPPUtils.java:300) could not query identity: irc.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:04:55,152 (XMPPUtils.java:300) could not query identity: msn.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:04:55,594 (XMPPUtils.java:300) could not query identity: proxy.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+WARN  2015-10-26 19:04:56,003 (XMPPUtils.java:300) could not query identity: twitter.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getUserDirectoryService(XMPPUtils.java:285)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isListedInUserDirectory(XMPPUtils.java:387)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.isJIDonServer(XMPPUtils.java:192)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.addToRoster(AddContactWizard.java:184)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard.access$0(AddContactWizard.java:174)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddContactWizard$1.run(AddContactWizard.java:132)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+DEBUG 2015-10-26 19:05:02,558 (SubscriptionHandler.java:152) contact subscribed to us: evilcoffeebean@bluebracket.p1.im
+DEBUG 2015-10-26 19:05:05,878 (SubscriptionHandler.java:160) contact requests to subscribe to us: evilcoffeebean@bluebracket.p1.im
+DEBUG 2015-10-26 19:05:06,449 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:05:10,600 (DiscoveryManager.java:98) clearing cache entry of contact evilcoffeebean@bluebracket.p1.im/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/ibb"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/si"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="urn:xmpp:ping"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2015-10-26 19:05:16,075 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:05:24,134 (BaseResourceSelectionComposite.java:174) I got the names from the list: 0
+DEBUG 2015-10-26 19:05:24,301 (BaseResourceSelectionComposite.java:150) Remembered checked/grayed items: 0/0 Saved 1 snapshots
+DEBUG 2015-10-26 19:05:25,900 (BaseResourceSelectionComposite.java:150) Remembered checked/grayed items: 8/0 Saved 2 snapshots
+DEBUG 2015-10-26 19:05:27,493 (BaseResourceSelectionComposite.java:272) Storing checked elements (not grayed): /TestSarosProject**#**/TestSarosProject/.settings**#**/TestSarosProject/.settings/org.eclipse.jdt.core.prefs**#**/TestSarosProject/bin**#**/TestSarosProject/src**#**/TestSarosProject/.classpath**#**/TestSarosProject/.gitignore**#**/TestSarosProject/.project**#**
+DEBUG 2015-10-26 19:05:27,504 (BaseResourceSelectionComposite.java:184) Remembering new selection name: -Last selection-
+DEBUG 2015-10-26 19:05:27,505 (BaseResourceSelectionComposite.java:174) I got the names from the list: 0
+DEBUG 2015-10-26 19:05:27,506 (BaseResourceSelectionComposite.java:200) Storing namesString: -Last selection-**#**
+INFO  2015-10-26 19:05:27,576 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2015-10-26 19:05:27,598 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2015-10-26 19:05:27,933 (StatisticManager.java:163) Session count: 1
+INFO  2015-10-26 19:05:27,934 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2015-10-26 19:05:27,937 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2015-10-26 19:05:27,938 (XStreamExtensionProvider.java:149) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2015-10-26 19:05:27,938 (XStreamExtensionProvider.java:194) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2015-10-26 19:05:28,049 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2015-10-26 19:05:28,050 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2015-10-26 19:05:28,053 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@7ff25781 - P/TestSarosProject with ID 1914511717 [completely shared:true]
+WARN  2015-10-26 19:05:28,871 (XMPPUtils.java:364) could not query identity: aim.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getMultiUserChatService(XMPPUtils.java:353)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.negotiation.MUCNegotiationManager.getMUCService(MUCNegotiationManager.java:168)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.negotiation.MUCNegotiationManager.getOwnPreferences(MUCNegotiationManager.java:125)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatRoomsComposite.createChat(ChatRoomsComposite.java:667)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatRoomsComposite.access$4(ChatRoomsComposite.java:665)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatRoomsComposite$5$2.run(ChatRoomsComposite.java:255)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2015-10-26 19:05:28,889 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+INFO  2015-10-26 19:05:28,890 (SarosSessionManager.java:262) session started
+DEBUG 2015-10-26 19:05:29,184 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2015-10-26 19:05:29,189 (MultiUserChat.java:264) Trying to create room on server conference.bluebracket.p1.im
+DEBUG 2015-10-26 19:05:29,601 (MultiUserChat.java:310) Configuring room
+DEBUG 2015-10-26 19:05:31,229 (MultiUserChat.java:297) MUC created and joined. Server: conference.bluebracket.p1.im Room: SAROS_1587463759 Password 1617494670
+DEBUG 2015-10-26 19:05:31,640 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/zp4rker@bluebracket.p1.im/Saros with state: active
+DEBUG 2015-10-26 19:05:31,641 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2015-10-26 19:05:31,644 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:05:36,350 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/zp4rker@bluebracket.p1.im/Saros with state: composing
+DEBUG 2015-10-26 19:05:36,350 (MultiUserChat.java:79) stateChanged fired with state: composing
+DEBUG 2015-10-26 19:05:36,352 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:05:37,169 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:05:37,578 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/zp4rker@bluebracket.p1.im/Saros with state: inactive
+DEBUG 2015-10-26 19:05:37,579 (MultiUserChat.java:79) stateChanged fired with state: inactive
+DEBUG 2015-10-26 19:05:37,579 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:05:43,777 (OutgoingSessionNegotiation.java:122) OSN [remote side: evilcoffeebean@bluebracket.p1.im] : starting invitation
+DEBUG 2015-10-26 19:05:43,780 (OutgoingSessionNegotiation.java:223) OSN [remote side: evilcoffeebean@bluebracket.p1.im] : checking Saros support
+DEBUG 2015-10-26 19:05:43,782 (OutgoingSessionNegotiation.java:235) OSN [remote side: evilcoffeebean@bluebracket.p1.im] :  remote contact offers Saros support
+DEBUG 2015-10-26 19:05:43,782 (OutgoingSessionNegotiation.java:253) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : checking version compatibility
+DEBUG 2015-10-26 19:05:44,218 (OutgoingSessionNegotiation.java:284) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : Saros versions are compatible
+DEBUG 2015-10-26 19:05:44,219 (OutgoingSessionNegotiation.java:298) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sending invitation
+DEBUG 2015-10-26 19:05:44,220 (OutgoingSessionNegotiation.java:314) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for invitation acknowledgement
+DEBUG 2015-10-26 19:05:44,651 (OutgoingSessionNegotiation.java:325) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : invitation acknowledged
+DEBUG 2015-10-26 19:05:44,652 (OutgoingSessionNegotiation.java:334) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for peer to accept the invitation
+DEBUG 2015-10-26 19:05:48,026 (OutgoingSessionNegotiation.java:345) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : invitation accepted
+DEBUG 2015-10-26 19:05:48,026 (OutgoingSessionNegotiation.java:355) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for client's session parameters
+DEBUG 2015-10-26 19:05:48,030 (OutgoingSessionNegotiation.java:375) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : received client's session parameters
+WARN  2015-10-26 19:05:49,252 (XMPPUtils.java:364) could not query identity: aim.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getMultiUserChatService(XMPPUtils.java:353)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.negotiation.MUCNegotiationManager.getMUCService(MUCNegotiationManager.java:168)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.negotiation.MUCNegotiationManager.getOwnPreferences(MUCNegotiationManager.java:125)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.negotiation.MUCNegotiationManager$1.considerClientPreferences(MUCNegotiationManager.java:72)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.determineSessionParameters(OutgoingSessionNegotiation.java:397)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:191)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+DEBUG 2015-10-26 19:05:49,662 (WhiteboardManager.java:163) Detected  Whiteboard at evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:05:49,663 (OutgoingSessionNegotiation.java:427) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sending updated session negotiation data
+DEBUG 2015-10-26 19:05:49,664 (OutgoingSessionNegotiation.java:434) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sent updated session negotiation data
+DEBUG 2015-10-26 19:05:49,664 (OutgoingSessionNegotiation.java:444) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for remote side to start its Saros session
+DEBUG 2015-10-26 19:05:52,738 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@3c3c079c]
+DEBUG 2015-10-26 19:05:52,739 (Socks5Transport.java:368) [SOCKS5Transport] receiving request from evilcoffeebean@bluebracket.p1.im/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.0.15, fe80:0:0:0:f863:72ff:fef2:c1a5%awdl0, fe80:0:0:0:8638:35ff:fe48:ea84%en0]]
+DEBUG 2015-10-26 19:05:52,740 (Socks5Transport.java:624) [SOCKS5Transport] Start to establish new response connection
+WARN  2015-10-26 19:06:00,752 (Socks5Transport.java:411) [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host
+ERROR 2015-10-26 19:06:04,643 (Socks5Transport.java:440) An error occurred while establishing a response connection 
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 2015-10-26 19:06:04,646 (ByteStreamTransport.java:105) could not establish bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2015-10-26 19:06:31,443 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@11938b32]
+DEBUG 2015-10-26 19:06:31,463 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] evilcoffeebean@bluebracket.p1.im/Saros, inc=true, pool id=saros-main-session:in:evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:06:31,464 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] evilcoffeebean@bluebracket.p1.im/Saros ReceiverThread started.
+DEBUG 2015-10-26 19:06:32,898 (OutgoingSessionNegotiation.java:455) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : remote side started its Saros session
+DEBUG 2015-10-26 19:06:32,899 (OutgoingSessionNegotiation.java:472) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : synchronizing user list
+DEBUG 2015-10-26 19:06:32,901 (UserInformationHandler.java:152) synchronizing user list (A)[zp4rker@bluebracket.p1.im/Saros, evilcoffeebean@bluebracket.p1.im/Saros], (R) [] with user(s) [evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:06:35,543 (UserInformationHandler.java:204) received user list confirmation from: evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:06:35,544 (UserInformationHandler.java:211) synchronized user list with user(s) [evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:06:35,547 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2015-10-26 19:06:35,552 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2015-10-26 19:06:35,553 (ChangeColorManager.java:383) new color assignment: {zp4rker@bluebracket.p1.im/Saros=2, evilcoffeebean@bluebracket.p1.im/Saros=0}
+DEBUG 2015-10-26 19:06:35,553 (ChangeColorManager.java:634) updating color id set: [zp4rker@bluebracket.p1.im, evilcoffeebean@bluebracket.p1.im]
+INFO  2015-10-26 19:06:35,557 (ParticipantCollector.java:67) evilcoffeebean@bluebracket.p1.im/Saros joined - session now contains 2 users
+DEBUG 2015-10-26 19:06:35,558 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+INFO  2015-10-26 19:06:35,558 (SarosSession.java:456) user evilcoffeebean@bluebracket.p1.im/Saros joined session
+DEBUG 2015-10-26 19:06:35,559 (OutgoingSessionNegotiation.java:482) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : added evilcoffeebean@bluebracket.p1.im/Saros to the current session, colorID: 0
+DEBUG 2015-10-26 19:06:37,380 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/evilcoffeebean@bluebracket.p1.im/Saros with state: active
+DEBUG 2015-10-26 19:06:37,380 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2015-10-26 19:06:37,381 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:06:38,613 (OutgoingSessionNegotiation.java:501) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : session negotiation finished
+DEBUG 2015-10-26 19:06:38,616 (WhiteboardManager.java:89) Preparing Whiteboard for sending an invitation
+DEBUG 2015-10-26 19:06:38,629 (ColorUtils.java:21) set foregroundcolor RGB {186, 220, 81}
+DEBUG 2015-10-26 19:06:38,636 (SXEController.java:120) SXE (105): initialize session at inviter side
+DEBUG 2015-10-26 19:06:38,642 (SXEOutgoingSynchronizationProcess.java:51) SXE(105)  send state-offer to evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:06:38,643 (SarosSXETransmitter.java:151) SXE send state-offer to evilcoffeebean@bluebracket.p1.im/Saros waiting for [accept-state, refuse-state]
+INFO  2015-10-26 19:06:38,652 (DataTransferManager.java:409) establishing connection to evilcoffeebean@bluebracket.p1.im/Saros from zp4rker@bluebracket.p1.im/Saros using transport XMPP-Socks5-Transport
+DEBUG 2015-10-26 19:06:38,653 (ByteStreamTransport.java:45) establishing bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:06:38,653 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to evilcoffeebean@bluebracket.p1.im/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.0.15, fe80:0:0:0:f863:72ff:fef2:c1a5%awdl0, fe80:0:0:0:8638:35ff:fe48:ea84%en0]]...
+DEBUG 2015-10-26 19:06:40,661 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:06:42,296 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@3c3c079c]
+DEBUG 2015-10-26 19:06:42,296 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from evilcoffeebean@bluebracket.p1.im/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.0.15, fe80:0:0:0:f863:72ff:fef2:c1a5%awdl0, fe80:0:0:0:8638:35ff:fe48:ea84%en0]]
+WARN  2015-10-26 19:06:48,235 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to evilcoffeebean@bluebracket.p1.im/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2015-10-26 19:06:48,244 (Socks5Transport.java:567) [SOCKS5Transport] waiting for evilcoffeebean@bluebracket.p1.im/Saros to establish a connection...
+ERROR 2015-10-26 19:06:50,305 (ByteStreamTransport.java:105) could not establish bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2015-10-26 19:06:55,198 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/zp4rker@bluebracket.p1.im/Saros with state: composing
+DEBUG 2015-10-26 19:06:55,199 (MultiUserChat.java:79) stateChanged fired with state: composing
+DEBUG 2015-10-26 19:06:55,199 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:06:55,608 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:06:56,017 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/zp4rker@bluebracket.p1.im/Saros with state: inactive
+DEBUG 2015-10-26 19:06:56,017 (MultiUserChat.java:79) stateChanged fired with state: inactive
+DEBUG 2015-10-26 19:06:56,018 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:07:18,135 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/evilcoffeebean@bluebracket.p1.im/Saros with state: composing
+DEBUG 2015-10-26 19:07:18,135 (MultiUserChat.java:79) stateChanged fired with state: composing
+DEBUG 2015-10-26 19:07:18,136 (MultiUserChat.java:133) processPacket called
+WARN  2015-10-26 19:07:18,247 (DataTransferManager.java:415) failed to connect to evilcoffeebean@bluebracket.p1.im/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 13 more
+INFO  2015-10-26 19:07:18,248 (DataTransferManager.java:409) establishing connection to evilcoffeebean@bluebracket.p1.im/Saros from zp4rker@bluebracket.p1.im/Saros using transport XMPP-IBB-Transport
+DEBUG 2015-10-26 19:07:18,249 (ByteStreamTransport.java:45) establishing bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:07:18,747 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=default] evilcoffeebean@bluebracket.p1.im/Saros, inc=false, pool id=default:out:evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:07:18,747 (BinaryChannelConnection.java:103) [mode=IBB, id=default] evilcoffeebean@bluebracket.p1.im/Saros ReceiverThread started.
+DEBUG 2015-10-26 19:07:19,797 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:07:20,198 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/evilcoffeebean@bluebracket.p1.im/Saros with state: inactive
+DEBUG 2015-10-26 19:07:20,198 (MultiUserChat.java:79) stateChanged fired with state: inactive
+DEBUG 2015-10-26 19:07:20,199 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:07:21,040 (SXEOutgoingSynchronizationProcess.java:70) SXE(105) evilcoffeebean@bluebracket.p1.im/Saros accepted state-offer
+DEBUG 2015-10-26 19:07:21,053 (SXEOutgoingSynchronizationProcess.java:89) SXE(105) Sending state to evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:07:21,054 (SXEOutgoingSynchronizationProcess.java:91) Send message: de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEMessage@53245cef: from: null, to: evilcoffeebean@bluebracket.p1.im/Saros, msgId: 1messageTyp: statemessage: [new type=element ns=http://www.w3.org/2000/svg rid=144584649876973397 name=svg visible=true version=0, ]
+DEBUG 2015-10-26 19:07:21,056 (CancelableProcess.java:353) process OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] exit status: OK
+INFO  2015-10-26 19:07:21,063 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 1 in this session. There are 0 process(es) in this session
+DEBUG 2015-10-26 19:07:21,411 (OutgoingProjectNegotiation.java:181) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sending file list
+DEBUG 2015-10-26 19:07:23,473 (OutgoingProjectNegotiation.java:214) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for remote file list
+DEBUG 2015-10-26 19:07:24,815 (SharedDocumentProvider.java:77) SharedDocumentProvider created by Eclipse
+DEBUG 2015-10-26 19:07:25,385 (EditorListener.java:236) Viewport changed: 0+1
+DEBUG 2015-10-26 19:07:32,668 (DirtyStateListener.java:75) Dirty state reset for: L/TestSarosProject/Test.txt
+DEBUG 2015-10-26 19:07:55,832 (OutgoingProjectNegotiation.java:232) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : remote file list has been received
+DEBUG 2015-10-26 19:07:55,832 (OutgoingProjectNegotiation.java:270) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : stopping users [zp4rker@bluebracket.p1.im/Saros, evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:07:55,963 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:07:55,994 (EditorManager.java:1697) locking all editors
+DEBUG 2015-10-26 19:07:56,007 (StopManager.java:239) added StartHandle (zp4rker@bluebracket.p1.im/Saros, 190755833-3811259901768678801, startable) to resulting handles.
+DEBUG 2015-10-26 19:08:00,045 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:00,047 (StopManager.java:390) Acknowledgment arrived evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:00,048 (StopManager.java:239) added StartHandle (evilcoffeebean@bluebracket.p1.im/Saros, 1907558334300780802413240190, startable) to resulting handles.
+DEBUG 2015-10-26 19:08:01,558 (CancelableProcess.java:156) process OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] was cancelled by the local side, error: none
+DEBUG 2015-10-26 19:08:01,559 (OutgoingProjectNegotiation.java:288) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : restarting user zp4rker@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:01,560 (StartHandle.java:58) Called start on zp4rker@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:01,560 (StopManager.java:430) StartHandle (zp4rker@bluebracket.p1.im/Saros, 190755833-3811259901768678801, not startable) couldn't be removed because it doesn't exist any more.
+DEBUG 2015-10-26 19:08:01,560 (EditorManager.java:1697) unlocking all editors
+DEBUG 2015-10-26 19:08:01,562 (OutgoingProjectNegotiation.java:288) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : restarting user evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:01,562 (StartHandle.java:58) Called start on evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:01,563 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:01,563 (CancelableProcess.java:401) process OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] was cancelled manually by the local user
+DEBUG 2015-10-26 19:08:01,564 (ProjectNegotiation.java:137) notifying remote contact evilcoffeebean@bluebracket.p1.im/Saros of the local project negotiation cancellation
+DEBUG 2015-10-26 19:08:04,195 (CancelableProcess.java:349) executing cancellation for process OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:08:04,196 (CancelableProcess.java:353) process OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] exit status: CANCEL
+DEBUG 2015-10-26 19:08:05,606 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2015-10-26 19:08:05,607 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2015-10-26 19:08:05,608 (ChangeColorManager.java:383) new color assignment: {zp4rker@bluebracket.p1.im/Saros=2}
+DEBUG 2015-10-26 19:08:05,609 (ChangeColorManager.java:634) updating color id set: [zp4rker@bluebracket.p1.im]
+INFO  2015-10-26 19:08:05,610 (ParticipantCollector.java:77) evilcoffeebean@bluebracket.p1.im/Saros left - session now contains 1 users
+DEBUG 2015-10-26 19:08:06,589 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] evilcoffeebean@bluebracket.p1.im/Saros connection closed remotely:null
+DEBUG 2015-10-26 19:08:07,003 (DataTransferManager.java:336) closed connection [pool id=saros-main-session:in:evilcoffeebean@bluebracket.p1.im/Saros]: [mode=IBB, id=saros-main-session] evilcoffeebean@bluebracket.p1.im/Saros
+INFO  2015-10-26 19:08:10,313 (SarosSession.java:555) user evilcoffeebean@bluebracket.p1.im/Saros left session
+DEBUG 2015-10-26 19:08:13,688 (OutgoingSessionNegotiation.java:122) OSN [remote side: evilcoffeebean@bluebracket.p1.im] : starting invitation
+DEBUG 2015-10-26 19:08:13,689 (OutgoingSessionNegotiation.java:223) OSN [remote side: evilcoffeebean@bluebracket.p1.im] : checking Saros support
+DEBUG 2015-10-26 19:08:13,689 (OutgoingSessionNegotiation.java:235) OSN [remote side: evilcoffeebean@bluebracket.p1.im] :  remote contact offers Saros support
+DEBUG 2015-10-26 19:08:13,689 (OutgoingSessionNegotiation.java:253) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : checking version compatibility
+DEBUG 2015-10-26 19:08:14,112 (OutgoingSessionNegotiation.java:284) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : Saros versions are compatible
+DEBUG 2015-10-26 19:08:14,112 (OutgoingSessionNegotiation.java:298) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sending invitation
+DEBUG 2015-10-26 19:08:14,113 (OutgoingSessionNegotiation.java:314) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for invitation acknowledgement
+DEBUG 2015-10-26 19:08:14,530 (OutgoingSessionNegotiation.java:325) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : invitation acknowledged
+DEBUG 2015-10-26 19:08:14,530 (OutgoingSessionNegotiation.java:334) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for peer to accept the invitation
+DEBUG 2015-10-26 19:08:17,530 (OutgoingSessionNegotiation.java:345) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : invitation accepted
+DEBUG 2015-10-26 19:08:17,530 (OutgoingSessionNegotiation.java:355) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for client's session parameters
+DEBUG 2015-10-26 19:08:17,535 (OutgoingSessionNegotiation.java:375) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : received client's session parameters
+WARN  2015-10-26 19:08:18,627 (XMPPUtils.java:364) could not query identity: aim.hosted.im
+service-unavailable(503)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:537)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:489)
+	at de.fu_berlin.inf.dpp.net.util.XMPPUtils.getMultiUserChatService(XMPPUtils.java:353)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.negotiation.MUCNegotiationManager.getMUCService(MUCNegotiationManager.java:168)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.negotiation.MUCNegotiationManager.getOwnPreferences(MUCNegotiationManager.java:125)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.negotiation.MUCNegotiationManager$1.considerClientPreferences(MUCNegotiationManager.java:72)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.determineSessionParameters(OutgoingSessionNegotiation.java:397)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:191)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+DEBUG 2015-10-26 19:08:18,962 (WhiteboardManager.java:163) Detected  Whiteboard at evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:18,963 (OutgoingSessionNegotiation.java:427) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sending updated session negotiation data
+DEBUG 2015-10-26 19:08:18,963 (OutgoingSessionNegotiation.java:434) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sent updated session negotiation data
+DEBUG 2015-10-26 19:08:18,963 (OutgoingSessionNegotiation.java:444) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for remote side to start its Saros session
+DEBUG 2015-10-26 19:08:20,396 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@3c3c079c]
+DEBUG 2015-10-26 19:08:20,397 (Socks5Transport.java:368) [SOCKS5Transport] receiving request from evilcoffeebean@bluebracket.p1.im/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.0.15, fe80:0:0:0:f863:72ff:fef2:c1a5%awdl0, fe80:0:0:0:8638:35ff:fe48:ea84%en0]]
+DEBUG 2015-10-26 19:08:20,398 (Socks5Transport.java:624) [SOCKS5Transport] Start to establish new response connection
+WARN  2015-10-26 19:08:20,398 (Socks5Transport.java:411) [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host
+ERROR 2015-10-26 19:08:22,649 (Socks5Transport.java:440) An error occurred while establishing a response connection 
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 2015-10-26 19:08:22,651 (ByteStreamTransport.java:105) could not establish bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2015-10-26 19:08:50,911 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to evilcoffeebean@bluebracket.p1.im/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@11938b32]
+DEBUG 2015-10-26 19:08:50,920 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] evilcoffeebean@bluebracket.p1.im/Saros, inc=true, pool id=saros-main-session:in:evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:08:50,921 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] evilcoffeebean@bluebracket.p1.im/Saros ReceiverThread started.
+DEBUG 2015-10-26 19:08:52,348 (OutgoingSessionNegotiation.java:455) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : remote side started its Saros session
+DEBUG 2015-10-26 19:08:52,349 (OutgoingSessionNegotiation.java:472) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : synchronizing user list
+DEBUG 2015-10-26 19:08:52,349 (UserInformationHandler.java:152) synchronizing user list (A)[zp4rker@bluebracket.p1.im/Saros, evilcoffeebean@bluebracket.p1.im/Saros], (R) [] with user(s) [evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:08:55,011 (UserInformationHandler.java:204) received user list confirmation from: evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:55,011 (UserInformationHandler.java:211) synchronized user list with user(s) [evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:08:55,012 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2015-10-26 19:08:55,013 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2015-10-26 19:08:55,014 (ChangeColorManager.java:383) new color assignment: {zp4rker@bluebracket.p1.im/Saros=2, evilcoffeebean@bluebracket.p1.im/Saros=0}
+DEBUG 2015-10-26 19:08:55,014 (ChangeColorManager.java:634) updating color id set: [zp4rker@bluebracket.p1.im, evilcoffeebean@bluebracket.p1.im]
+INFO  2015-10-26 19:08:55,017 (ParticipantCollector.java:67) evilcoffeebean@bluebracket.p1.im/Saros joined - session now contains 2 users
+DEBUG 2015-10-26 19:08:55,017 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+INFO  2015-10-26 19:08:55,017 (SarosSession.java:456) user evilcoffeebean@bluebracket.p1.im/Saros joined session
+DEBUG 2015-10-26 19:08:55,018 (OutgoingSessionNegotiation.java:482) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : added evilcoffeebean@bluebracket.p1.im/Saros to the current session, colorID: 0
+DEBUG 2015-10-26 19:08:55,471 (MultiUserChatStateManager.java:101) Incoming Message from saros_1587463759@conference.bluebracket.p1.im/evilcoffeebean@bluebracket.p1.im/Saros with state: active
+DEBUG 2015-10-26 19:08:55,471 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2015-10-26 19:08:55,472 (MultiUserChat.java:133) processPacket called
+DEBUG 2015-10-26 19:08:57,466 (OutgoingSessionNegotiation.java:501) OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : session negotiation finished
+DEBUG 2015-10-26 19:08:57,468 (SXEOutgoingSynchronizationProcess.java:51) SXE(105)  send state-offer to evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:57,468 (SarosSXETransmitter.java:151) SXE send state-offer to evilcoffeebean@bluebracket.p1.im/Saros waiting for [accept-state, refuse-state]
+DEBUG 2015-10-26 19:08:59,514 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:59,792 (SXEOutgoingSynchronizationProcess.java:70) SXE(105) evilcoffeebean@bluebracket.p1.im/Saros accepted state-offer
+DEBUG 2015-10-26 19:08:59,793 (SXEOutgoingSynchronizationProcess.java:89) SXE(105) Sending state to evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:08:59,793 (SXEOutgoingSynchronizationProcess.java:91) Send message: de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEMessage@5679101a: from: null, to: evilcoffeebean@bluebracket.p1.im/Saros, msgId: 3messageTyp: statemessage: [new type=element ns=http://www.w3.org/2000/svg rid=144584649876973397 name=svg visible=true version=0, ]
+DEBUG 2015-10-26 19:08:59,794 (CancelableProcess.java:353) process OSN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] exit status: OK
+INFO  2015-10-26 19:08:59,795 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 2 in this session. There are 0 process(es) in this session
+DEBUG 2015-10-26 19:09:00,087 (OutgoingProjectNegotiation.java:181) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sending file list
+DEBUG 2015-10-26 19:09:02,006 (OutgoingProjectNegotiation.java:214) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : waiting for remote file list
+DEBUG 2015-10-26 19:09:20,380 (OutgoingProjectNegotiation.java:232) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : remote file list has been received
+DEBUG 2015-10-26 19:09:20,380 (OutgoingProjectNegotiation.java:270) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : stopping users [zp4rker@bluebracket.p1.im/Saros, evilcoffeebean@bluebracket.p1.im/Saros]
+DEBUG 2015-10-26 19:09:20,399 (EditorManager.java:1697) locking all editors
+DEBUG 2015-10-26 19:09:20,399 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:20,400 (StopManager.java:239) added StartHandle (zp4rker@bluebracket.p1.im/Saros, 1909203813683157435855799884, startable) to resulting handles.
+DEBUG 2015-10-26 19:09:22,491 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:22,492 (StopManager.java:390) Acknowledgment arrived evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:22,493 (StopManager.java:239) added StartHandle (evilcoffeebean@bluebracket.p1.im/Saros, 190920382-7637194042788291180, startable) to resulting handles.
+INFO  2015-10-26 19:09:25,115 (SarosSession.java:462) user evilcoffeebean@bluebracket.p1.im/Saros started queuing projects and can receive IResourceActivities
+DEBUG 2015-10-26 19:09:25,127 (OutgoingProjectNegotiation.java:353) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : creating archive
+DEBUG 2015-10-26 19:09:25,147 (CreateArchiveTask.java:140) created archive /var/folders/tw/__hcf28x681f4t4nvg4btc0w0000gn/T/saros_6851001301890634764385902748219200893.zip I/O: [1.3 kB in < 1 s at 220.0 kB/s]
+DEBUG 2015-10-26 19:09:25,147 (OutgoingProjectNegotiation.java:288) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : restarting user zp4rker@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:25,147 (StartHandle.java:58) Called start on zp4rker@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:25,148 (StopManager.java:430) StartHandle (zp4rker@bluebracket.p1.im/Saros, 1909203813683157435855799884, not startable) couldn't be removed because it doesn't exist any more.
+DEBUG 2015-10-26 19:09:25,292 (EditorManager.java:1697) unlocking all editors
+DEBUG 2015-10-26 19:09:25,293 (OutgoingProjectNegotiation.java:288) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : restarting user evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:25,293 (StartHandle.java:58) Called start on evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:25,299 (OutgoingProjectNegotiation.java:390) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : sending archive
+DEBUG 2015-10-26 19:09:25,299 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:27,162 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:28,401 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:30,184 (OutgoingProjectNegotiation.java:407) OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] : archive send
+INFO  2015-10-26 19:09:30,185 (SarosSession.java:482) user evilcoffeebean@bluebracket.p1.im/Saros now has Projects and can process IResourceActivities
+DEBUG 2015-10-26 19:09:30,194 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:31,564 (CancelableProcess.java:353) process OPN [remote side: evilcoffeebean@bluebracket.p1.im/Saros] exit status: OK
+DEBUG 2015-10-26 19:09:32,078 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:33,510 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:34,197 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:36,194 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:37,244 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:43,756 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:44,581 (ActivitySequencer.java:546) rcvd (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:47,238 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:48,408 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:48,467 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:49,744 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:49,766 (ActivitySequencer.java:546) rcvd (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:49,877 (EditorListener.java:236) Viewport changed: 0+1
+DEBUG 2015-10-26 19:09:49,950 (EditorListener.java:236) Viewport changed: 0+2
+DEBUG 2015-10-26 19:09:50,900 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:51,183 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:51,455 (EditorManager.java:1444) Saved document: SPath [path=Test.txt, project=TestSarosProject]
+DEBUG 2015-10-26 19:09:52,396 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:53,221 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:53,418 (EditorListener.java:236) Viewport changed: 0+3
+DEBUG 2015-10-26 19:09:54,057 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:54,962 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:55,655 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:57,618 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:57,619 (EditorListener.java:236) Viewport changed: 0+4
+DEBUG 2015-10-26 19:09:58,446 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:09:59,138 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:00,521 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:01,350 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:02,179 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:03,010 (ActivitySequencer.java:496) send (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:03,837 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:04,667 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:06,730 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:08,503 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:08,582 (DirtyStateListener.java:75) Dirty state reset for: L/TestSarosProject/Test.txt
+DEBUG 2015-10-26 19:10:09,341 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:09,619 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:10,458 (ActivitySequencer.java:546) rcvd (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:10,469 (EditorListener.java:236) Viewport changed: 0+5
+DEBUG 2015-10-26 19:10:10,804 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:11,574 (ActivitySequencer.java:546) rcvd (009) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:12,548 (ActivitySequencer.java:546) rcvd (008) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:13,385 (ActivitySequencer.java:546) rcvd (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:14,758 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:16,206 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:16,209 (EditorListener.java:236) Viewport changed: 0+6
+DEBUG 2015-10-26 19:10:17,036 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:17,240 (EditorListener.java:236) Viewport changed: 0+5
+DEBUG 2015-10-26 19:10:17,730 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:18,436 (EditorListener.java:236) Viewport changed: 0+6
+DEBUG 2015-10-26 19:10:18,771 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:19,748 (ActivitySequencer.java:546) rcvd (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:19,832 (EditorManager.java:1444) Saved document: SPath [path=Test.txt, project=TestSarosProject]
+DEBUG 2015-10-26 19:10:20,027 (ActivitySequencer.java:496) send (008) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:20,228 (EditorListener.java:236) Viewport changed: 0+7
+DEBUG 2015-10-26 19:10:20,861 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:21,141 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:22,350 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:22,649 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:23,527 (ActivitySequencer.java:496) send (009) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:24,352 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:25,186 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:26,012 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:26,838 (ActivitySequencer.java:496) send (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:27,664 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:28,488 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:30,751 (ActivitySequencer.java:496) send (009) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:32,402 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:33,228 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:34,200 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:35,023 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:35,849 (ActivitySequencer.java:496) send (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:36,675 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:37,500 (ActivitySequencer.java:496) send (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:38,324 (ActivitySequencer.java:496) send (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:40,121 (ActivitySequencer.java:496) send (010) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:41,085 (ActivitySequencer.java:496) send (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:41,962 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:42,787 (ActivitySequencer.java:496) send (008) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:43,614 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:44,440 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:45,267 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:48,496 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:50,713 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:51,539 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:52,365 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:10:58,498 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:08,504 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:15,736 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:15,737 (EditorListener.java:236) Viewport changed: 0+8
+DEBUG 2015-10-26 19:11:16,561 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:17,255 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:17,532 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:18,504 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:19,331 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:21,087 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:21,913 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:22,738 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:23,567 (ActivitySequencer.java:496) send (008) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:24,394 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:25,222 (ActivitySequencer.java:496) send (008) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:26,049 (ActivitySequencer.java:496) send (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:26,879 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:28,218 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:29,043 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:29,870 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:30,697 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:31,525 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:32,349 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:33,176 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:34,240 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:35,065 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:35,891 (ActivitySequencer.java:496) send (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:36,718 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:37,545 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:38,370 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:39,337 (ActivitySequencer.java:496) send (006) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:40,162 (ActivitySequencer.java:496) send (008) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:40,989 (ActivitySequencer.java:496) send (004) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:42,783 (ActivitySequencer.java:496) send (011) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:43,450 (DirtyStateListener.java:75) Dirty state reset for: L/TestSarosProject/Test.txt
+DEBUG 2015-10-26 19:11:43,752 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:48,518 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:57,804 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:57,808 (EditorListener.java:236) Viewport changed: 0+9
+DEBUG 2015-10-26 19:11:58,631 (ActivitySequencer.java:496) send (005) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:59,327 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:59,605 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:11:59,610 (EditorListener.java:236) Viewport changed: 0+10
+DEBUG 2015-10-26 19:12:00,577 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:01,685 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:02,517 (ActivitySequencer.java:546) rcvd (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:02,522 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:04,760 (ActivitySequencer.java:546) rcvd (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:04,764 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:05,755 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:06,730 (ActivitySequencer.java:546) rcvd (007) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:06,736 (EditorListener.java:236) Viewport changed: 0+11
+DEBUG 2015-10-26 19:12:06,737 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:07,802 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:07,830 (EditorListener.java:236) Viewport changed: 0+10
+DEBUG 2015-10-26 19:12:08,082 (ActivitySequencer.java:496) send (003) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:08,440 (EditorManager.java:1444) Saved document: SPath [path=Test.txt, project=TestSarosProject]
+DEBUG 2015-10-26 19:12:09,052 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:09,745 (ActivitySequencer.java:546) rcvd (001) evilcoffeebean@bluebracket.p1.im/Saros
+ERROR 2015-10-26 19:12:09,746 (EditorManager.java:1935) Invalid line selection: offset: 282, length: 0
+DEBUG 2015-10-26 19:12:18,727 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:28,733 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:38,737 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:48,744 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:12:58,748 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:13:08,753 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:13:18,758 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:13:28,759 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:13:38,765 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:13:48,771 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:13:58,777 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:14:02,701 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:14:04,483 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:14:05,310 (ActivitySequencer.java:496) send (002) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:14:08,783 (ActivitySequencer.java:496) send (001) evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:14:08,908 (XMPPConnectionService.java:398) zp4rker@bluebracket.p1.im/Saros new connection state == DISCONNECTING
+DEBUG 2015-10-26 19:14:09,316 (BinaryChannelConnection.java:112) [mode=IBB, id=default] evilcoffeebean@bluebracket.p1.im/Saros connection closed remotely:null
+DEBUG 2015-10-26 19:14:09,584 (ConnectionPool.java:52) closed connection [id=default:out:evilcoffeebean@bluebracket.p1.im/Saros]: [mode=IBB, id=default] evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:14:11,779 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] evilcoffeebean@bluebracket.p1.im/Saros connection closed remotely:null
+DEBUG 2015-10-26 19:14:11,779 (ConnectionPool.java:52) closed connection [id=saros-main-session:in:evilcoffeebean@bluebracket.p1.im/Saros]: [mode=IBB, id=saros-main-session] evilcoffeebean@bluebracket.p1.im/Saros
+DEBUG 2015-10-26 19:14:11,780 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2015-10-26 19:14:11,781 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2015-10-26 19:14:11,783 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2015-10-26 19:14:11,784 (FeedbackManager.java:104) Session lasted 8 min 43 s
+DEBUG 2015-10-26 19:14:11,786 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+DEBUG 2015-10-26 19:14:11,788 (TextEditCollector.java:381) Processing text edits took 0.0 s
+INFO  2015-10-26 19:14:11,790 (ParticipantCollector.java:145) Session ended: Current number of participants: 2
+DEBUG 2015-10-26 19:14:11,793 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.4
+  data_transfer.IBB.number_of_events=206
+  data_transfer.IBB.total_size_kb=48
+  data_transfer.IBB.total_time_ms=124134
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=49
+  followmode.time.total=4.25
+  followmode.toggles=2
+  gesture.count=0
+  java.version=1.8.0_60
+  jumped.count=1
+  jumped.driver.count=1
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Mac OS X
+  platform.version=3.11.1.v20150903-1804
+  random.user.id=2015-10-26_19-14-11_361979153
+  role.1.duration=8.73
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=8.73
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=1
+  session.id=1587463759
+  session.local.start=2015-10-26T08:14:11Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=22
+  session.time.users.1=1.95
+  session.time.users.2.percent=78
+  session.time.users.2=6.78
+  session.time=8.73
+  session.users.total=2
+  textedits.chars=217
+  textedits.count=217
+  textedits.nonparallel.chars=159
+  textedits.nonparallel.percent=73
+  textedits.parallel.interval.10.chars=33
+  textedits.parallel.interval.10.count=33
+  textedits.parallel.interval.10.percent=15
+  textedits.parallel.interval.15.chars=12
+  textedits.parallel.interval.15.count=12
+  textedits.parallel.interval.15.percent=6
+  textedits.parallel.interval.5.chars=13
+  textedits.parallel.interval.5.count=13
+  textedits.parallel.interval.5.percent=6
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  textedits.remote.user.1.chars=24
+  textedits.remote.user.1.pastes.chars=0
+  textedits.remote.user.1.pastes=0
+  user.is.host=true
+INFO  2015-10-26 19:14:11,794 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2015-10-26 19:14:11,880 (EditorManager.java:1697) unlocking all editors
+WARN  2015-10-26 19:14:11,882 (SarosSession.java:655) failed to notify user evilcoffeebean@bluebracket.p1.im/Saros about local session stop
+java.io.IOException: not connected to a XMPP server
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:200)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:651)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:340)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager$2.connectionStateChanged(SarosSessionManager.java:152)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$7.run(ChangeXMPPAccountAction.java:218)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2015-10-26 19:14:11,884 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2015-10-26 19:14:11,885 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2015-10-26 19:14:11,921 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@3180aa6e
+DEBUG 2015-10-26 19:14:12,395 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2015-10-26 19:14:12,396 (DocumentRecord.java:93) Added Node: attr(144584725239698055) name=svg
+INFO  2015-10-26 19:14:12,396 (SarosSessionManager.java:351) session stopped
+DEBUG 2015-10-26 19:14:12,555 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+INFO  2015-10-26 19:14:14,525 (FeedbackManager.java:139) Asking for feedback survey: User declined
+DEBUG 2015-10-26 19:14:19,745 (UPnPServiceImpl.java:295) deleting existing port mappings

@@ -1,0 +1,31 @@
+package cf.bluebracket.znexusfactions.commands;
+
+import org.bukkit.entity.Player;
+
+import cf.bluebracket.znexusfactions.zNexusFactions;
+
+public class Accept {
+	
+	public static boolean command(Player player, String[] arguments, zNexusFactions plugin) {
+		
+		String[] args = new String[arguments.length - 1];
+
+        for (int i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+        
+        if (args.length != 1) {
+        	return invalidArgs(player);
+        }
+		
+		return true;
+		
+	}
+	
+	private static boolean invalidArgs(Player player) {
+        player.sendMessage("§4Invalid Arguments!");
+        player.sendMessage("§2/zfactions accept <FACTION>");
+        return true;
+    }
+
+}
