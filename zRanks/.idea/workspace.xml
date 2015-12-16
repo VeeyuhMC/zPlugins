@@ -9,44 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java" line="370" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20706a2b-24e4-4637-8c35-c639d82b00a7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/15/b0256ef4697b00151a83c545a5c46910" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1b/a007a96eb07b001514a2ae48529a42eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1d/e0fc4f7eb07b001514a2ae48529a42eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/25/10d6a34c947b001512e9be193f9c75a2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/3/a091a9ce8e7b001512e9be193f9c75a2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/41/5026ad6eb07b001514a2ae48529a42eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/6f/309cb66eb07b001514a2ae48529a42eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/73/e075f650697b00151a83c545a5c46910" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/96/10bfb86eb07b001514a2ae48529a42eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/99/506d5b1e707b00151a83c545a5c46910" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/a1/307ebb6eb07b001514a2ae48529a42eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/cb/b0d59a99b07b001514a2ae48529a42eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d5/7091a87c8f7b001512e9be193f9c75a2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f4/10a8a76eb07b001514a2ae48529a42eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/4e/b9/64/history.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/history.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/11.tree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/write.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/63/f2/9c/1a/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/63/f2/9c/1a/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/63/f2/9c/78/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/63/f2/9c/78/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/63/f2/9c/c1/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/63/f2/9c/c1/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/63/f2/9c/e7/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/63/f2/9c/e7/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/d3/9c/1a/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/d3/9c/1a/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/d3/9c/78/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/d3/9c/78/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/d3/9c/c1/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/d3/9c/c1/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/d3/9c/e7/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/e4/d3/9c/e7/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/zNexusFactions/.indexes/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.log" afterPath="$PROJECT_DIR$/../.metadata/.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.ui.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.ui.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/SarosLogs/2015-10-29/Saros-Errors_2015-10-29_17-24-31.log" afterPath="$PROJECT_DIR$/../.metadata/SarosLogs/2015-10-29/Saros-Errors_2015-10-29_17-24-31.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/SarosLogs/2015-10-29/Saros_zp4rker@bluebracket.p1.im_2015-10-29_17-24-26.log" afterPath="$PROJECT_DIR$/../.metadata/SarosLogs/2015-10-29/Saros_zp4rker@bluebracket.p1.im_2015-10-29_17-24-26.log" />
-    </list>
+    <list default="true" id="20706a2b-24e4-4637-8c35-c639d82b00a7" name="Default" comment="" />
     <ignored path="zRanks.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,7 +30,7 @@
     <favorites_list name="zRanks" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -91,6 +54,7 @@
         <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/zplugin/zranks/commands/StaffCommand.java" />
         <option value="$PROJECT_DIR$/src/zplugin/zranks/commands/WhoCommand.java" />
+        <option value="$PROJECT_DIR$/src/zplugin/zranks/commands/DemoteCommand.java" />
       </list>
     </option>
   </component>
@@ -114,12 +78,111 @@
             <id>Android Lint</id>
           </State>
           <State>
-            <id>Spelling</id>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XSLT</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Spelling</id>
+            <id>Duplicates</id>
           </State>
         </selected-state>
       </profile-state>
@@ -150,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,30 +253,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zRanks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zRanks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zranks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -227,7 +268,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
@@ -674,11 +715,14 @@
       <workItem from="1443499132207" duration="357000" />
       <workItem from="1445149496034" duration="124000" />
       <workItem from="1449626382927" duration="224000" />
+      <workItem from="1449645980661" duration="94000" />
+      <workItem from="1449954079246" duration="13000" />
+      <workItem from="1450058562560" duration="443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6404000" />
+    <option name="totallyTimeSpent" value="6954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -710,6 +754,33 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -733,16 +804,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74025977">
-          <caret line="160" column="132" selection-start-line="160" selection-start-column="132" selection-end-line="160" selection-end-column="132" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/commands/AdminCommands.java">
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19480519">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -792,6 +864,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23809524">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/api/Perm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10822511">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/api/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.73593074">
+          <caret line="138" column="79" selection-start-line="138" selection-start-column="79" selection-end-line="138" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/commands/AdminCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19480519">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zplugin/zranks/commands/DemoteCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25974026">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#410#437#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
