@@ -11,6 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import com.theretronix.hubp.api.BungeeMessenger;
 import com.theretronix.hubp.api.JPData;
+import com.theretronix.hubp.commands.Server;
 import com.theretronix.hubp.listeners.InventoryClick;
 import com.theretronix.hubp.listeners.PlayerInteract;
 import com.theretronix.hubp.listeners.PlayerJoin;
@@ -29,6 +30,8 @@ public class HUB extends JavaPlugin {
 				new PlayerJoin());
 		
 		setupDatabase();
+		
+		getCommand("server").setExecutor(new Server());
 		
 		Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
 
