@@ -1,53 +1,63 @@
 package com.theretronix.hubp.api;
 
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 public class GUIPages {
-	
-	public ItemStack[] firstPage, staffSelect = new ItemStack[54];
-	public ItemStack[] hFactions, mFactions, aFactions = new ItemStack[54];
-	public ItemStack[] hPrison, mPrison, aPrison = new ItemStack[54];
-	public ItemStack[] hArcade, mArcade, aArcade = new ItemStack[54];
-	
+
+	public ItemStack[] firstPage = new ItemStack[54];
+	public ItemStack[] staffSelect = new ItemStack[54];
+	public ItemStack[] fStaff = new ItemStack[54];
+	public ItemStack[] pStaff = new ItemStack[54];
+	public ItemStack[] aStaff = new ItemStack[54];
+	public ItemStack[] gStaff = new ItemStack[54];
+
 	public GUIPages() {
-		// First Page Setup
+
+		initFirstPage();
+		initStaffSelect();
+
+	}
+
+	private void initFirstPage() {
+
 		for (int i = 0; i < 54; i++) {
-			
-			switch(i) {
-			case 5:
+
+			if (i == 4) {
 				firstPage[i] = GUIItems.getWebsite();
-				break;
-			case 21:
+			} else if (i == 20) {
 				firstPage[i] = GUIItems.getArcade();
-				break;
-			case 23:
+			} else if (i == 22) {
 				firstPage[i] = GUIItems.getPrison();
-				break;
-			case 25:
+			} else if (i == 24) {
 				firstPage[i] = GUIItems.getFactions();
-				break;
-			case 41:
-				firstPage[i] = GUIItems.getStaff();
-				break;
-			default:
-				firstPage[i] = new ItemStack(Material.STAINED_GLASS_PANE, 1, (byte) 15);
+			} else {
+				firstPage[i] = GUIItems.getPane();
 			}
-			
+
 		}
-		
-		// Staff Server Select
+
+	}
+
+	private void initStaffSelect() {
+
 		for (int i = 0; i < 54; i++) {
-			
-			switch(i) {
-			case 5:
+
+			if (i == 4) {
 				staffSelect[i] = GUIItems.getStaff();
-			default:
-				staffSelect[i] = new ItemStack(Material.STAINED_GLASS_PANE, 1, (byte) 15);
+			} else if (i == 20) {
+				staffSelect[i] = GUIItems.getArcade();
+			} else if (i == 22) {
+				staffSelect[i] = GUIItems.getPrison();
+			} else if (i == 24) {
+				staffSelect[i] = GUIItems.getFactions();
+			} else if (i == 40) {
+				staffSelect[i] = GUIItems.getGlobal();
+			} else {
+				staffSelect[i] = GUIItems.getPane();
 			}
-			
+
 		}
-		
+
 	}
 
 }

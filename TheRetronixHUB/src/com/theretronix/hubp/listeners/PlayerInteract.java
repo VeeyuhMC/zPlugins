@@ -16,7 +16,7 @@ public class PlayerInteract implements Listener {
 
 		if (event.getPlayer().getItemInHand().getType() == Material.COMPASS) {
 
-			Inventory gui = Bukkit.createInventory(null, 45, "Servers");
+			Inventory gui = Bukkit.createInventory(null, 54, "Servers");
 			
 			GUIPages page = new GUIPages();
 			
@@ -24,6 +24,16 @@ public class PlayerInteract implements Listener {
 
 			event.getPlayer().openInventory(gui);
 
+		} else if (event.getPlayer().getItemInHand().getType() == Material.SKULL_ITEM) {
+			
+			Inventory gui = Bukkit.createInventory(null, 54, "Staff");
+			
+			GUIPages page = new GUIPages();
+			
+			gui.setContents(page.staffSelect);
+			
+			event.getPlayer().openInventory(gui);
+			
 		}
 
 	}

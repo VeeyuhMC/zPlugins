@@ -13,7 +13,7 @@ public class InventoryClick implements Listener {
 	@EventHandler
 	public void onInventoryClick(InventoryClickEvent event) {
 		
-		if (event.getClickedInventory().getName() == "§2Servers") {
+		if (event.getClickedInventory().getName() == "Servers") {
 			
 			Material serverItem = event.getCurrentItem().getType();
 			
