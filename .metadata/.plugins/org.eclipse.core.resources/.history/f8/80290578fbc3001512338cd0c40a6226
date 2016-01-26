@@ -1,0 +1,34 @@
+package com.theretronix.hubp.api;
+
+import org.bukkit.inventory.ItemStack;
+
+public class GUIPages {
+	
+	public ItemStack[] firstPage = new ItemStack[45];
+	public ItemStack[] hFactions, mFactions, aFactions = new ItemStack[45];
+	public ItemStack[] hPrison, mPrison, aPrison = new ItemStack[45];
+	public ItemStack[] hArcade, mArcade, aArcade = new ItemStack[45];
+	
+	public GUIPages() {
+		// First Page Setup
+		for (int i = 0; i < 54; i++) {
+			
+			if (i == 5) {
+				firstPage[i] = GUIItems.getWebsite();
+			} else if (i == 21) {
+				firstPage[i] = GUIItems.getArcade();
+			} else if (i == 23) {
+				firstPage[i] = GUIItems.getPrison();
+			} else if (i == 25) {
+				firstPage[i] = GUIItems.getFactions();
+			} else if (i == 41) {
+				firstPage[i] = GUIItems.getStaff();
+			} else {
+				firstPage[i] = GUIItems.getPane();
+			}
+			
+		}
+		
+	}
+
+}
