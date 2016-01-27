@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="cf.bluebracket.znexusfactions.api.Faction"/>
-<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
 <fullyQualifiedTypeName name="cf.bluebracket.znexusfactions.api.FactionData"/>
 <fullyQualifiedTypeName name="com.theretronix.hubp.api.GUIItems"/>
+<fullyQualifiedTypeName name="com.theretronix.hubp.HUB"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="org.bukkit.inventory.ItemStack"/>
+<fullyQualifiedTypeName name="com.theretronix.hubp.api.Staff"/>
+<fullyQualifiedTypeName name="org.bukkit.event.block.Action"/>
+<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+<fullyQualifiedTypeName name="be.maximvdw.placeholderapi.PlaceholderAPI"/>
+<fullyQualifiedTypeName name="zplugin.zranks.api.Methods"/>
 </qualifiedTypeNameHistroy>

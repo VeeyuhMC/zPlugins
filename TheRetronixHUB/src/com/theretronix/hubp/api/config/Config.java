@@ -1,6 +1,7 @@
 package com.theretronix.hubp.api.config;
 import java.io.File;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -100,4 +101,14 @@ public class Config
     }
 
     public Set<String> getKeys() {return this.config.getKeys(false);}
+    
+    public List<String> getStringList(String path) {
+    	List<?> objects = this.config.getList(path);
+    	List<String> list = new ArrayList<>();
+    	for (Object object : objects) {
+    		list.add(object.toString());
+    	}
+    	return list;
+    }
+    
 }

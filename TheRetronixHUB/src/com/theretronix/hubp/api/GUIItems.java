@@ -2,6 +2,7 @@ package com.theretronix.hubp.api;
 
 import java.util.Arrays;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -58,11 +59,16 @@ public class GUIItems {
 		return item;
 	}
 	
-	public static ItemStack getPlayerHead(String name, String displayName) {
+	public static ItemStack getPlayerHead(String name, String prefix) {
 		ItemStack skull = new ItemStack(Material.SKULL_ITEM, 1, (byte) 3);
 		SkullMeta meta = (SkullMeta) skull.getItemMeta();
 		meta.setOwner(name);
-		meta.setDisplayName(displayName);
+		meta.setDisplayName(name);
+		String online = "§2Online";
+		String offline = "§4Offline";
+		String[] lore = {prefix,
+				(Bukkit.getPlayer(name) != null ? online : offline)};
+		meta.setLore(Arrays.asList(lore));
 		skull.setItemMeta(meta);
 		return skull;
 	}

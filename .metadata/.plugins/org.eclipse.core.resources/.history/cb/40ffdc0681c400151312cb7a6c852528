@@ -1,0 +1,13 @@
+package com.theretronix.hubp.api;
+
+import com.theretronix.hubp.HUB;
+import com.theretronix.hubp.api.config.Config;
+
+public class Staff {
+	
+	public static Config fStaff = HUB.manager.getNewConfig("staff/factions.yml");
+	public static Config pStaff = HUB.manager.getNewConfig("staff/prison.yml");
+	public static Config aStaff = HUB.manager.getNewConfig("staff/arcade.yml");
+	public static Config gStaff = HUB.manager.getNewConfig("staff/global.yml");
+
+}
