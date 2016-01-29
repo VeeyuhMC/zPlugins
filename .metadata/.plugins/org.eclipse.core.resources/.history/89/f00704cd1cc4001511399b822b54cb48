@@ -1,5 +1,0 @@
-package com.theretronix.sdm;
-
-public class SDM extends JavaPlugin implements PluginMessageListener {
-
-}

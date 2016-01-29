@@ -1,3 +1,0 @@
-INDEX VERSION 1.127+C:\Users\Zahid Hussain Parker\Desktop\Zaeem\Development\zPlugins\.metadata\.plugins\org.eclipse.jdt.core
-1314440628.index
-3321966021.index
