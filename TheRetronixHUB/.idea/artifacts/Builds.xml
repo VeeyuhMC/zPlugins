@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Builds">
+    <output-path>$PROJECT_DIR$/../Builds</output-path>
+    <root id="archive" name="TheRetronixHUB.jar">
+      <element id="module-output" name="TheRetronixHUB" />
+    </root>
+  </artifact>
+</component>

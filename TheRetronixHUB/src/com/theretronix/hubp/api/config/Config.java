@@ -19,7 +19,7 @@ public class Config
     private FileConfiguration config;
 
     @SuppressWarnings("deprecation")
-	public Config(InputStream configStream, File configFile, int comments, JavaPlugin plugin)
+    public Config(InputStream configStream, File configFile, int comments, JavaPlugin plugin)
     {
         this.comments = comments;
         this.manager = new ConfigManager(plugin);
@@ -92,7 +92,7 @@ public class Config
     }
 
     @SuppressWarnings("deprecation")
-	public void reloadConfig() {this.config = YamlConfiguration.loadConfiguration(manager.getConfigContent(file));}
+    public void reloadConfig() {this.config = YamlConfiguration.loadConfiguration(manager.getConfigContent(file));}
 
     public void saveConfig()
     {
@@ -101,14 +101,14 @@ public class Config
     }
 
     public Set<String> getKeys() {return this.config.getKeys(false);}
-    
+
     public List<String> getStringList(String path) {
-    	List<?> objects = this.config.getList(path);
-    	List<String> list = new ArrayList<>();
-    	for (Object object : objects) {
-    		list.add(object.toString());
-    	}
-    	return list;
+        List<?> objects = this.config.getList(path);
+        List<String> list = new ArrayList<>();
+        for (Object object : objects) {
+            list.add(object.toString());
+        }
+        return list;
     }
-    
+
 }

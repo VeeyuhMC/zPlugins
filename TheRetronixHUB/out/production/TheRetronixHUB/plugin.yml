@@ -1,0 +1,6 @@
+name: TheRetronixHUB
+version: 0.1
+main: com.theretronix.hubp.HUB
+database: true
+description: The Retronix Hub Plugin
+author: ZP4RKER
