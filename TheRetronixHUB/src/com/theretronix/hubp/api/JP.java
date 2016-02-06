@@ -131,12 +131,12 @@ public class JP {
         itemMeta.setLore(Arrays.asList(cancelLore));
         cancel.setItemMeta(itemMeta);
 
-        gui.setItem(0, count);
-        gui.setItem(2, add);
-        gui.setItem(3, minus);
-        gui.setItem(5, change);
-        gui.setItem(8, confirm);
-        gui.setItem(9, cancel);
+        gui.setItem(6, count);
+        gui.setItem(5, add);
+        gui.setItem(7, minus);
+        gui.setItem(9, change);
+        gui.setItem(0, confirm);
+        gui.setItem(10, cancel);
 
     }
 

@@ -31,7 +31,7 @@ public class InventoryClick implements Listener {
 			} else if (serverItem == Material.FIREWORK) {
 				BungeeMessenger.sendPlayerTo(player, "Arcade");
 			} else if (serverItem == Material.NETHER_STAR) {
-				player.sendMessage("§6§lWebsite: §7http://www.theretronix.com");
+				player.sendMessage("Â§6Â§lWebsite: Â§7http://www.theretronix.com");
 			}
 			
 			player.closeInventory();
