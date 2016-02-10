@@ -153,7 +153,7 @@ public class Methods {
             for (int i = 0; i < versions.size(); i++) {
                 if (version != null) {
                     if (((JSONArray) ((JSONObject) versions.get(i)).get("game_versions")).get(0).toString().contains(getMCVersion())) {
-                        if (Long.parseLong(version) < Long.parseLong(((JSONObject) versions.get(i)).get("version").toString())) {
+                        if (Double.parseDouble(version) < Double.parseDouble(((JSONObject) versions.get(i)).get("version").toString())) {
                             version = ((JSONObject) versions.get(i)).get("version").toString();
                         }
                     }

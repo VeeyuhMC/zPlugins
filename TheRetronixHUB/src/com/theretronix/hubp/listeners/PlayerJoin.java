@@ -42,8 +42,8 @@ public class PlayerJoin implements Listener {
         IChatBaseComponent chatSubTitle = IChatBaseComponent.ChatSerializer.a(
                 "{\"text\": \"§6§lWelcomes you, §b§l" + event.getPlayer().getName() + "§6§l!\"}");
         IChatBaseComponent chatTitle = IChatBaseComponent.ChatSerializer.a("{\"text\": \"§9§lThe §4§lRetronix\"}");
-        PacketPlayOutTitle packet = new PacketPlayOutTitle(PacketPlayOutTitle.EnumTitleAction.TITLE, chatTitle, 20, 20*15, 20);
-        PacketPlayOutTitle subTitle = new PacketPlayOutTitle(PacketPlayOutTitle.EnumTitleAction.SUBTITLE, chatSubTitle, 20, 20*15, 20);
+        PacketPlayOutTitle packet = new PacketPlayOutTitle(PacketPlayOutTitle.EnumTitleAction.TITLE, chatTitle, 20, 20 * 15, 20);
+        PacketPlayOutTitle subTitle = new PacketPlayOutTitle(PacketPlayOutTitle.EnumTitleAction.SUBTITLE, chatSubTitle, 20, 20 * 15, 20);
         ((CraftPlayer) event.getPlayer()).getHandle().playerConnection.sendPacket(packet);
         ((CraftPlayer) event.getPlayer()).getHandle().playerConnection.sendPacket(subTitle);
 
@@ -59,7 +59,7 @@ public class PlayerJoin implements Listener {
                 "{\"text\": \"§9§lThe§4§lRetronix\"}"
         );
         IChatBaseComponent footer = IChatBaseComponent.ChatSerializer.a(
-          "{\"text\": \"§6§lwww.theretronix.com\"}"
+                "{\"text\": \"§6§lwww.theretronix.com\"}"
         );
         PacketPlayOutPlayerListHeaderFooter packet = new PacketPlayOutPlayerListHeaderFooter(header);
         try {
@@ -70,7 +70,6 @@ public class PlayerJoin implements Listener {
             bField.set(packet, footer);
         } catch (NoSuchFieldException | IllegalAccessException e) {
             System.out.print("An error occurred!");
-            e.printStackTrace();
         }
         return packet;
     }

@@ -1,5 +1,7 @@
 package com.theretronix.hubp.listeners;
 
+import com.theretronix.hubp.api.BungeeMessenger;
+import com.theretronix.hubp.api.Staff;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -7,9 +9,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
-
-import com.theretronix.hubp.api.BungeeMessenger;
-import com.theretronix.hubp.api.Staff;
 
 public class InventoryClick implements Listener {
 	
@@ -30,6 +29,8 @@ public class InventoryClick implements Listener {
 				BungeeMessenger.sendPlayerTo(player, "Prison");
 			} else if (serverItem == Material.FIREWORK) {
 				BungeeMessenger.sendPlayerTo(player, "Arcade");
+			} else if(serverItem == Material.WORKBENCH) {
+				BungeeMessenger.sendPlayerTo(player, "Rust");
 			} else if (serverItem == Material.NETHER_STAR) {
 				player.sendMessage("§6§lWebsite: §7http://www.theretronix.com");
 			}
@@ -65,7 +66,12 @@ public class InventoryClick implements Listener {
 				inv.setContents(Staff.getGUIPage("global"));
 				player.closeInventory();
 				player.openInventory(inv);
-			}
+			} else if (item == Material.WORKBENCH) {
+                inv = Bukkit.createInventory(null, 54, "Rust");
+                inv.setContents(Staff.getGUIPage("rust"));
+                player.closeInventory();
+                player.openInventory(inv);
+            }
 			
 		} else if (event.getClickedInventory().getName() == "Factions" ||
 				event.getClickedInventory().getName() == "Prison" ||

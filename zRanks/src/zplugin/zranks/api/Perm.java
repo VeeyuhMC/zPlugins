@@ -38,15 +38,27 @@ public class Perm {
         resetPerms();
 
         for (Player player : Bukkit.getOnlinePlayers()) {
+
             ranks = manager.getNewConfig("ranks.yml");
+
             String rank = plugin.m.getRank(player);
+
             PermissionAttachment attachment = player.addAttachment(plugin);
+            attachments.put(player, attachment);
+
             if (ranks.getList("ranks." + rank + ".perms") != null) {
+
                 for (Object Perm : ranks.getList("ranks." + rank + ".perms")) {
+
                     String perm = Perm.toString();
                     attachment.setPermission(perm, true);
+
                 }
+
+                player.setPlayerListName(plugin.m.getFullPrefix(player) + " §r" + player.getDisplayName());
+
             }
+
         }
 
     }

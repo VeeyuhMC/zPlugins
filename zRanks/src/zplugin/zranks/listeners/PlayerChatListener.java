@@ -1,4 +1,4 @@
-package zplugin.zranks.events;
+package zplugin.zranks.listeners;
 
 import zplugin.zranks.zRanks;
 import org.bukkit.entity.Player;

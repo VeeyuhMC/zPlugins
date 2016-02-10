@@ -1,5 +1,6 @@
 package zplugin.zranks.commands;
 
+import zplugin.zranks.api.Perm;
 import zplugin.zranks.api.PlayerData;
 import zplugin.zranks.config.Config;
 import zplugin.zranks.config.ConfigManager;
@@ -40,6 +41,7 @@ public class SetRankCommand implements CommandExecutor {
                             plugin.getDatabase().save(playerData);
                             sender.sendMessage("§6Added §r" + player.getDisplayName() + " §6to the rank §2" + rank);
                             player.sendMessage("§6You were added to the rank §2" + rank);
+                            Perm.reloadPerms();
                             return true;
                         } else {
                             sender.sendMessage("§4That rank does not exist!");
@@ -54,6 +56,7 @@ public class SetRankCommand implements CommandExecutor {
                                 playerData.setRank(rank);
                                 plugin.getDatabase().save(playerData);
                                 sender.sendMessage("§6Added §r" + offlinePlayer.getName() + " §6to the rank §2" + rank);
+                                Perm.reloadPerms();
                                 return true;
                             } else {
                                 sender.sendMessage("§4That rank does not exist!");
@@ -83,6 +86,7 @@ public class SetRankCommand implements CommandExecutor {
                                 sender.sendMessage("§6Added §r" + target.getDisplayName() + " §6to the rank §2" + rank);
                                 target.sendMessage("§6You were added to the rank §2" + rank);
                             }
+                            Perm.reloadPerms();
                             return true;
                         } else {
                             sender.sendMessage("§4That rank does not exist!");
@@ -97,6 +101,7 @@ public class SetRankCommand implements CommandExecutor {
                                 playerData.setRank(rank);
                                 plugin.getDatabase().save(playerData);
                                 sender.sendMessage("§6Added §r" + offlinePlayer.getName() + " §6to the rank §2" + rank);
+                                Perm.reloadPerms();
                                 return true;
                             } else {
                                 sender.sendMessage("§4That rank does not exist!");

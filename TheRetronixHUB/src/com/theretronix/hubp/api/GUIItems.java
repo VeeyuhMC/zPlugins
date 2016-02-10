@@ -1,12 +1,12 @@
 package com.theretronix.hubp.api;
 
-import java.util.Arrays;
-
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
+
+import java.util.Arrays;
 
 public class GUIItems {
 
@@ -37,6 +37,17 @@ public class GUIItems {
         ItemMeta itemMeta = item.getItemMeta();
         itemMeta.setDisplayName("§bArcade");
         int playerCount = BungeeMessenger.arcadeCount;
+        String[] lore = {"§2" + playerCount + " players online."};
+        itemMeta.setLore(Arrays.asList(lore));
+        item.setItemMeta(itemMeta);
+        return item;
+    }
+
+    public static ItemStack getRust() {
+        ItemStack item = new ItemStack(Material.WORKBENCH);
+        ItemMeta itemMeta = item.getItemMeta();
+        itemMeta.setDisplayName("§aRust");
+        int playerCount = BungeeMessenger.rustCount;
         String[] lore = {"§2" + playerCount + " players online."};
         itemMeta.setLore(Arrays.asList(lore));
         item.setItemMeta(itemMeta);

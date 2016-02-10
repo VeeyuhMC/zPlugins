@@ -1,21 +1,14 @@
 package com.theretronix.hubp;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.persistence.PersistenceException;
-
-import org.bukkit.Bukkit;
-import org.bukkit.event.Listener;
-import org.bukkit.plugin.java.JavaPlugin;
-
 import com.theretronix.hubp.api.BungeeMessenger;
-import com.theretronix.hubp.api.JPData;
 import com.theretronix.hubp.api.config.ConfigManager;
 import com.theretronix.hubp.listeners.InventoryClick;
 import com.theretronix.hubp.listeners.PlayerInteract;
 import com.theretronix.hubp.listeners.PlayerJoin;
 import com.theretronix.hubp.listeners.PlayerLeave;
+import org.bukkit.Bukkit;
+import org.bukkit.event.Listener;
+import org.bukkit.plugin.java.JavaPlugin;
 
 public class HUB extends JavaPlugin {
 
@@ -33,8 +26,6 @@ public class HUB extends JavaPlugin {
                 new PlayerJoin(),
                 new PlayerLeave());
 
-        setupDatabase();
-
         manager = new ConfigManager(this);
 
         Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
@@ -45,6 +36,7 @@ public class HUB extends JavaPlugin {
                     BungeeMessenger.requestCount("Factions");
                     BungeeMessenger.requestCount("Prison");
                     BungeeMessenger.requestCount("Arcade");
+                    BungeeMessenger.requestCount("Rust");
                 }
             }
 
@@ -52,29 +44,14 @@ public class HUB extends JavaPlugin {
 
     }
 
-    public void onDisable() {}
+    public void onDisable() {
+        //Do Nothing
+    }
 
     public void registerEvents(Listener... listeners) {
         for (Listener listener : listeners) {
             getServer().getPluginManager().registerEvents(listener, this);
         }
-    }
-
-    private void setupDatabase() {
-        try {
-            getDatabase().find(JPData.class).findRowCount();
-        } catch(PersistenceException e) {
-            System.out.println("Setting up database for TheRetronixHUB due to"
-                    + " first time usage");
-            installDDL();
-        }
-    }
-
-    @Override
-    public List<Class<?>> getDatabaseClasses() {
-        List<Class<?>> list = new ArrayList<>();
-        list.add(JPData.class);
-        return list;
     }
 
 }

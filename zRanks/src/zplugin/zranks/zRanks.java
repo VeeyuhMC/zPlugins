@@ -1,12 +1,15 @@
 package zplugin.zranks;
 
+import be.maximvdw.placeholderapi.PlaceholderAPI;
+import be.maximvdw.placeholderapi.PlaceholderReplaceEvent;
+import be.maximvdw.placeholderapi.PlaceholderReplacer;
 import org.bukkit.Bukkit;
 import zplugin.zranks.api.PlayerData;
 import zplugin.zranks.api.TimedRanks;
 import zplugin.zranks.config.Config;
 import zplugin.zranks.config.ConfigManager;
-import zplugin.zranks.events.PlayerChatListener;
-import zplugin.zranks.events.PlayerJoinListener;
+import zplugin.zranks.listeners.PlayerChatListener;
+import zplugin.zranks.listeners.PlayerJoinListener;
 import zplugin.zranks.api.Methods;
 import zplugin.zranks.api.Perm;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -24,6 +27,26 @@ public class zRanks extends JavaPlugin {
     private TimedRanks timedRanksTask;
 
     public void onEnable() {
+
+        if (Bukkit.getPluginManager().isPluginEnabled("MVdWPlaceholderAPI")) {
+
+            PlaceholderAPI.registerPlaceholder(this, "staffcount",
+                    new PlaceholderReplacer() {
+                        @Override
+                        public String onPlaceholderReplace(PlaceholderReplaceEvent event) {
+                            return "" + m.getStaffList().size();
+                        }
+                    });
+
+            PlaceholderAPI.registerPlaceholder(this, "rank",
+                    new PlaceholderReplacer() {
+                        @Override
+                        public String onPlaceholderReplace(PlaceholderReplaceEvent event) {
+                            return m.getRank(event.getPlayer());
+                        }
+                    });
+
+        }
 
         // Configs
         ConfigManager manager = new ConfigManager(this);

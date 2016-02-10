@@ -30,6 +30,8 @@ public class GUIPages {
                 firstPage[i] = GUIItems.getPrison();
             } else if (i == 24) {
                 firstPage[i] = GUIItems.getFactions();
+            } else if (i == 40) {
+                firstPage[i] = GUIItems.getRust();
             } else {
                 firstPage[i] = GUIItems.getPane();
             }
@@ -44,11 +46,13 @@ public class GUIPages {
 
             if (i == 4) {
                 staffSelect[i] = GUIItems.getStaff();
-            } else if (i == 20) {
+            } else if (i == 19) {
                 staffSelect[i] = GUIItems.getArcade();
-            } else if (i == 22) {
+            } else if (i == 21) {
+                staffSelect[i] = GUIItems.getRust();
+            } else if (i == 23) {
                 staffSelect[i] = GUIItems.getPrison();
-            } else if (i == 24) {
+            } else if (i == 25) {
                 staffSelect[i] = GUIItems.getFactions();
             } else if (i == 40) {
                 staffSelect[i] = GUIItems.getGlobal();

@@ -1,14 +1,13 @@
 package com.theretronix.hubp.api;
 
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
-import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.plugin.messaging.PluginMessageListener;
-
 import com.google.common.collect.Iterables;
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.messaging.PluginMessageListener;
 
 public class BungeeMessenger implements PluginMessageListener {
 
@@ -16,6 +15,7 @@ public class BungeeMessenger implements PluginMessageListener {
     public static int factionCount = 0;
     public static int prisonCount = 0;
     public static int arcadeCount = 0;
+    public static int rustCount = 0;
 
     public BungeeMessenger(JavaPlugin plugin) {
         BungeeMessenger.plugin = plugin;
@@ -34,7 +34,7 @@ public class BungeeMessenger implements PluginMessageListener {
                 String server = in.readUTF();
                 int playerCount = in.readInt();
 
-                switch(server) {
+                switch (server) {
                     case "Factions":
                         factionCount = playerCount;
                         break;
@@ -43,6 +43,9 @@ public class BungeeMessenger implements PluginMessageListener {
                         break;
                     case "Arcade":
                         arcadeCount = playerCount;
+                        break;
+                    case "Rust":
+                        rustCount = playerCount;
                         break;
                 }
 

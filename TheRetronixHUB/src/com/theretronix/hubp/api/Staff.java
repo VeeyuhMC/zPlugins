@@ -1,13 +1,12 @@
 package com.theretronix.hubp.api;
 
-import java.util.List;
-
+import com.theretronix.hubp.HUB;
+import com.theretronix.hubp.api.config.Config;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import com.theretronix.hubp.HUB;
-import com.theretronix.hubp.api.config.Config;
+import java.util.List;
 
 public class Staff {
 
@@ -80,6 +79,12 @@ public class Staff {
                     page[i] = GUIItems.getPlayerHead("Jx8", "Owner");
                 } else {
                     page[i] = GUIItems.getPane();
+                }
+            } else if (server == "rust") {
+                if (i == 4) {
+                    page[i] = GUIItems.getRust();
+                } else if (i == 22) {
+                    page[i] = GUIItems.getPlayerHead("iNilex", "Manager");
                 }
             }
 
