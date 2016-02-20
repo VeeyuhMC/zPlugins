@@ -1,5 +1,0 @@
-name: MessagesGalore
-author: zPlugins
-version: 1.0
-main: cf.zplugins.mgalore.MesagesGalore
-description: A plugin that allows you to customize loads of server messages.
