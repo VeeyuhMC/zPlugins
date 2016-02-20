@@ -2,10 +2,7 @@ package com.theretronix.hubp;
 
 import com.theretronix.hubp.api.BungeeMessenger;
 import com.theretronix.hubp.api.config.ConfigManager;
-import com.theretronix.hubp.listeners.InventoryClick;
-import com.theretronix.hubp.listeners.PlayerInteract;
-import com.theretronix.hubp.listeners.PlayerJoin;
-import com.theretronix.hubp.listeners.PlayerLeave;
+import com.theretronix.hubp.listeners.*;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -13,8 +10,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class HUB extends JavaPlugin {
 
     public static ConfigManager manager;
+    public static boolean coreInstalled = false;
 
     public void onEnable() {
+
+        if (getServer().getPluginManager().getPlugin("zCore").isEnabled()) {
+            coreInstalled = true;
+        }
 
         getServer().getMessenger().registerIncomingPluginChannel(this, "BungeeCord",
                 new BungeeMessenger(this));
@@ -24,9 +26,12 @@ public class HUB extends JavaPlugin {
                 new PlayerInteract(),
                 new InventoryClick(),
                 new PlayerJoin(),
-                new PlayerLeave());
+                new PlayerLeave(),
+                new PlayerMove(),
+                new ToggleFlight(),
+                new PlayerDamage());
 
-        manager = new ConfigManager(this);
+        manager =  new ConfigManager(this);
 
         Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
 

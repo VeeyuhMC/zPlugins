@@ -5,10 +5,18 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
 
 public class PlayerLeave implements Listener {
-	
-	@EventHandler
-	public void onPlayerLeave(PlayerQuitEvent event) {
-		event.getPlayer().getInventory().clear();
-	}
+
+    @EventHandler
+    public void onPlayerLeave(PlayerQuitEvent event) {
+
+        event.getPlayer().getInventory().clear();
+
+        if (PlayerMove.inAir.contains(event.getPlayer())) {
+
+            PlayerMove.inAir.remove(event.getPlayer());
+
+        }
+
+    }
 
 }

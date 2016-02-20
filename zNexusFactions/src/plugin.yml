@@ -1,7 +1,7 @@
 name: zNexusFactions
 version: 0.5
 author: ZP4RKER
-main: cf.bluebracket.znexusfactions.zNexusFactions
+main: com.zp4rker.zNexusFactions
 database: true
 commands:
     zfactions:

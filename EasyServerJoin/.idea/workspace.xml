@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7ccfc76-4eb0-4434-961c-b716c5a372db" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/JP.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/JPData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/listeners/PlayerMove.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/events/PlayerChatListener.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/listeners/PlayerChatListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/events/PlayerJoinListener.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/listeners/PlayerJoinListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builds/TheRetronixHUB.jar" afterPath="$PROJECT_DIR$/../Builds/TheRetronixHUB.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/HUB.java" afterPath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/HUB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/BungeeMessenger.java" afterPath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/BungeeMessenger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/GUIItems.java" afterPath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/GUIItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/GUIPages.java" afterPath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/GUIPages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/Staff.java" afterPath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/api/Staff.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/listeners/InventoryClick.java" afterPath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/listeners/InventoryClick.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/listeners/PlayerInteract.java" afterPath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/listeners/PlayerInteract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/listeners/PlayerJoin.java" afterPath="$PROJECT_DIR$/../TheRetronixHUB/src/com/theretronix/hubp/listeners/PlayerJoin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/api/Methods.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/api/Methods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/api/Perm.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/api/Perm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/commands/SetRankCommand.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/commands/SetRankCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/zRanks.java" afterPath="$PROJECT_DIR$/../zRanks/src/zplugin/zranks/zRanks.java" />
-    </list>
+    <list default="true" id="e7ccfc76-4eb0-4434-961c-b716c5a372db" name="Default" comment="" />
     <ignored path="EasyServerJoin.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -105,9 +86,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,11 +198,12 @@
       <updated>1454839250563</updated>
       <workItem from="1454839253768" duration="148000" />
       <workItem from="1454921207740" duration="131000" />
+      <workItem from="1455172410536" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279000" />
+    <option name="totallyTimeSpent" value="367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />

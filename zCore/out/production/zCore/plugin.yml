@@ -1,0 +1,4 @@
+name: zCore
+version: 1.0
+author: ZP4RKER
+main: com.zp4rker.core.CoreMain

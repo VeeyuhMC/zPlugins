@@ -1,4 +1,10 @@
+## Sets maximum Faction name length to 16 characters
 maximum-faction-name-length: 16
+## Sets maximum Faction tag length to 30 characters
 maximum-faction-tag-length: 30
+## Enables the /near command
 enable-near-command: true
+## Sets the /near command's range
 near-range: 500
+## Sets the countdown to confirm breaking of nexus (in seconds)
+nexus-hit-confirm-countdown: 1
