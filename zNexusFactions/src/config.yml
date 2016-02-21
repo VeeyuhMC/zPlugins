@@ -8,3 +8,5 @@ enable-near-command: true
 near-range: 500
 ## Sets the countdown to confirm breaking of nexus (in seconds)
 nexus-hit-confirm-countdown: 1
+## Default Nexus health
+nexus-health: 10

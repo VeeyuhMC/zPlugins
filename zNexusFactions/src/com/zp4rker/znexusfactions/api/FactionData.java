@@ -45,7 +45,7 @@ public class FactionData {
     private int xTwo, yTwo, zTwo;
 
     @NotNull
-    private double nexusHealth = zNexusFactions.getConfigAPI().getConfig("config.yml").getDouble("defaults.nexus-health");
+    private double nexusHealth = zNexusFactions.getConfigAPI().getConfig("config.yml").getDouble("nexus-health");
 
     public int getId() {
         return id;

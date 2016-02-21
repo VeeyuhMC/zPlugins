@@ -22,6 +22,7 @@ public class zNexusFactions extends JavaPlugin {
     private static zNexusFactions plugin;
     private static HashMap<String, Object> apis = new HashMap<>();
 
+    // Code to be run when the plugin is enabled
     public void onEnable() {
 
         this.plugin = this;
