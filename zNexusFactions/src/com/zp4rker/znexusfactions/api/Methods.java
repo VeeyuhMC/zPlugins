@@ -15,11 +15,9 @@ import java.util.List;
 public class Methods {
 
     private zNexusFactions plugin;
-    private static zNexusFactions sPlugin;
 
     public Methods(zNexusFactions plugin) {
         this.plugin = plugin;
-        sPlugin = plugin;
     }
 
     public void giveNexus(Player player) {
@@ -124,10 +122,6 @@ public class Methods {
         } else {
             return false;
         }
-    }
-
-    public static zNexusFactions getPlugin() {
-        return sPlugin;
     }
 
     public boolean isNearFaction(Player player, double range) {
@@ -701,7 +695,6 @@ public class Methods {
 
         }
 
-        @SuppressWarnings("unused")
         String nearestDimension = "";
         double nearestAmount = -1;
 

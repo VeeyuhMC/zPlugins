@@ -1,13 +1,18 @@
 package com.zp4rker.znexusfactions.listeners;
 
 import com.zp4rker.znexusfactions.api.FactionData;
+import com.zp4rker.znexusfactions.api.Nexus;
 import com.zp4rker.znexusfactions.zNexusFactions;
 import org.bukkit.Bukkit;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class DamageByEntityListener implements Listener {
 
@@ -81,7 +86,38 @@ public class DamageByEntityListener implements Listener {
 
                     } else {
 
-                        // Start raid procedure
+                        // Get nexus
+                        Nexus nexus = dFaction.getFaction().getNexus();
+                        // Get nexus' health
+                        double health = nexus.getHealth();
+                        // Get attack damage
+                        double damage = event.getDamage();
+                        // Minus damage from health
+                        health -= damage;
+                        // Check if the nexus is dead
+                        if (health <= 0) {
+
+                            // Start grace period
+
+                        } else { // Show the health
+                            // Create a list of all players from both factions
+                            List<Player> players = new ArrayList<>();
+                            // Loop through all online players of factions
+                            for (OfflinePlayer oPlayer : aFaction.getBukkitPlayers()) { // Attacking faction players
+                                if (oPlayer.isOnline()) {
+                                    Player player = oPlayer.getPlayer();
+                                    players.add(player);
+                                }
+                            }
+                            for (OfflinePlayer oPlayer : dFaction.getBukkitPlayers()) { // Defending faction players
+                                if (oPlayer.isOnline()) {
+                                    Player player = oPlayer.getPlayer();
+                                    players.add(player);
+                                }
+                            }
+                            // Show the health to the online players
+                            nexus.showHealth(players);
+                        }
 
                     }
 

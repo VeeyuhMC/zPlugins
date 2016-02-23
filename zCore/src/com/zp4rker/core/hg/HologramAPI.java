@@ -14,13 +14,17 @@ public class HologramAPI {
 
     }
 
-    public void showToAll(Hologram hologram, Location location, long ticks) {
+    public void showToAll(Hologram hologram, long ticks) {
+
+        Location location = hologram.getLocation();
 
         hologram.show(location, ticks);
 
     }
 
-    public void showToPlayer(Hologram hologram, Location location, Player player, long ticks) {
+    public void showToPlayer(Hologram hologram, Player player, long ticks) {
+
+        Location location = hologram.getLocation();
 
         hologram.show(player, location, ticks);
 

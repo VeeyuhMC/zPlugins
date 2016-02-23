@@ -45,7 +45,7 @@ public class FactionData {
     private int xTwo, yTwo, zTwo;
 
     @NotNull
-    private double nexusHealth = zNexusFactions.getConfigAPI().getConfig("config.yml").getDouble("nexus-health");
+    private double nexusHealth = zNexusFactions.getPlugin().getConfig(null).getDouble("nexus-health");
 
     public int getId() {
         return id;
@@ -184,22 +184,22 @@ public class FactionData {
     }
 
     public void setFaction(Faction faction) {
-        this.name = faction.getName();
-        this.tag = faction.getTag();
-        this.open = faction.isOpen();
-        this.players = faction.getPlayers();
-        this.staff = faction.getPlayers();
-        this.world = faction.getNexus().getLocation().getWorld().getName();
-        this.nexusX = faction.getNexus().getLocation().getBlockX();
-        this.nexusY = faction.getNexus().getLocation().getBlockY();
-        this.nexusZ = faction.getNexus().getLocation().getBlockZ();
-        this.xOne = faction.getBase().getArea().get(0).getBlockX();
-        this.yOne = faction.getBase().getArea().get(0).getBlockY();
-        this.zOne = faction.getBase().getArea().get(0).getBlockZ();
-        this.xTwo = faction.getBase().getArea().get(faction.getBase().getArea().size() - 1).getBlockX();
-        this.yTwo = faction.getBase().getArea().get(faction.getBase().getArea().size() - 1).getBlockY();
-        this.zTwo = faction.getBase().getArea().get(faction.getBase().getArea().size() - 1).getBlockZ();
-        this.nexusHealth = faction.getNexus().getHealth();
+        name = faction.getName();
+        tag = faction.getTag();
+        open = faction.isOpen();
+        players = faction.getPlayers();
+        staff = faction.getPlayers();
+        world = faction.getNexus().getLocation().getWorld().getName();
+        nexusX = faction.getNexus().getLocation().getBlockX();
+        nexusY = faction.getNexus().getLocation().getBlockY();
+        nexusZ = faction.getNexus().getLocation().getBlockZ();
+        xOne = faction.getBase().getArea().get(0).getBlockX();
+        yOne = faction.getBase().getArea().get(0).getBlockY();
+        zOne = faction.getBase().getArea().get(0).getBlockZ();
+        xTwo = faction.getBase().getArea().get(faction.getBase().getArea().size() - 1).getBlockX();
+        yTwo = faction.getBase().getArea().get(faction.getBase().getArea().size() - 1).getBlockY();
+        zTwo = faction.getBase().getArea().get(faction.getBase().getArea().size() - 1).getBlockZ();
+        nexusHealth = faction.getNexus().getHealth();
     }
     
     
@@ -225,7 +225,7 @@ public class FactionData {
         Vault vault = new Vault(nexus);
         Base base = new Base(vault, players.size());
         Faction faction = new Faction(name, tag, getPlayers(), base, getStaff(), open);
-        faction.setOpen(this.open);
+        faction.setOpen(open);
         return faction;
     }
 
@@ -246,15 +246,15 @@ public class FactionData {
 	}
 	
 	public void resetInvited() {
-		this.invited = new ArrayList<>();
+		invited = new ArrayList<>();
 	}
 	
 	public void addInvited(OfflinePlayer player) {
-		this.invited.add(player.getUniqueId());
+		invited.add(player.getUniqueId());
 	}
 	
 	public void removeInvited(OfflinePlayer player) {
-		this.invited.remove(player.getUniqueId());
+		invited.remove(player.getUniqueId());
 	}
 
 }

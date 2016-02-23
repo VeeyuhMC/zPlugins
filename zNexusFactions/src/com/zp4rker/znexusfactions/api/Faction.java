@@ -7,6 +7,7 @@ import java.util.UUID;
 import com.zp4rker.znexusfactions.events.DisbandFactionEvent;
 import com.zp4rker.znexusfactions.events.JoinFactionEvent;
 import com.zp4rker.znexusfactions.events.LeaveFactionEvent;
+import com.zp4rker.znexusfactions.zNexusFactions;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
@@ -82,7 +83,7 @@ public class Faction {
             // Add New Outline
             for (int i = 0; i < this.base.getOutline(players.size()).size(); i++) {
                 final int I = i;
-                Bukkit.getScheduler().scheduleSyncDelayedTask(Methods.getPlugin(), new Runnable() {
+                Bukkit.getScheduler().scheduleSyncDelayedTask(zNexusFactions.getPlugin(), new Runnable() {
                     public void run() {
                         base.getOutline(players.size()).get(I).getBlock().setType(Material.STONE);
                     }
@@ -90,7 +91,7 @@ public class Faction {
             }
 
             // Save to database
-            FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
+            FactionData factionData = zNexusFactions.getPlugin().getDatabase().find(FactionData.class)
                     .where().ieq("name", this.name).findUnique();
             factionData.addPlayer(player);
 
@@ -125,7 +126,7 @@ public class Faction {
             // Add New Outline
             for (int i = 0; i < this.base.getOutline(this.players.size()).size(); i++) {
                 final int I = i;
-                Bukkit.getScheduler().scheduleSyncDelayedTask(Methods.getPlugin(), new Runnable() {
+                Bukkit.getScheduler().scheduleSyncDelayedTask(zNexusFactions.getPlugin(), new Runnable() {
                     public void run() {
                         base.getOutline(players.size()).get(I).getBlock().setType(Material.STONE);
                     }
@@ -133,7 +134,7 @@ public class Faction {
             }
 
             // Save to database
-            FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
+            FactionData factionData = zNexusFactions.getPlugin().getDatabase().find(FactionData.class)
                     .where().ieq("name", this.name).findUnique();
             factionData.removePlayer(offlinePlayer);
 
@@ -184,7 +185,7 @@ public class Faction {
         // Run Default Code
         if (!event.isCancelled()) {
             // Get Database Entry
-            FactionData factionData = Methods.getPlugin().getDatabase().find(FactionData.class)
+            FactionData factionData = zNexusFactions.getPlugin().getDatabase().find(FactionData.class)
                     .where().ieq("name", this.name).findUnique();
             // Send the player a message
             sender.sendMessage(event.getSenderMessage());

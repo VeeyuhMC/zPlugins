@@ -211,4 +211,8 @@ public class Hologram {
         lines.clear();
     }
 
+    public Location getLocation() {
+        return location;
+    }
+
 }

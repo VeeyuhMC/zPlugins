@@ -1,5 +1,6 @@
 package com.zp4rker.znexusfactions.api;
 
+import com.zp4rker.znexusfactions.zNexusFactions;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -14,7 +15,7 @@ public class Base {
 
     private Vault vault;
     private List<Location> area = new ArrayList<>();
-    private Plugin plugin = Bukkit.getPluginManager().getPlugin("zNexusFactions");
+    private Plugin plugin = zNexusFactions.getPlugin();
 
     public Base(Vault vault, Player player) {
         this.vault = vault;
@@ -123,7 +124,7 @@ public class Base {
         }
 
         // Set Base's area to local variable area
-        this.area = area;
+        area = area;
 
     }
 
@@ -138,7 +139,7 @@ public class Base {
         for (int x = pointOne.getBlockX(); x <= pointTwo.getBlockX(); x++) {
             for (int y = pointOne.getBlockY(); y <= pointTwo.getBlockY(); y++) {
                 for (int z = pointOne.getBlockZ(); z <= pointTwo.getBlockZ(); z++) {
-                    this.area.add(new Location(pointOne.getWorld(), x, y, z));
+                    area.add(new Location(pointOne.getWorld(), x, y, z));
                 }
             }
         }
@@ -149,10 +150,10 @@ public class Base {
 
         List<Location> list = new ArrayList<>();
         // Get Point One
-        Location pointOne = this.vault.getNexus().getLocation().clone()
+        Location pointOne = vault.getNexus().getLocation().clone()
                 .subtract((2 * players) + 4, 1, (2 * players) + 4);
         // Get Point Two
-        Location pointTwo = this.vault.getNexus().getLocation().clone()
+        Location pointTwo = vault.getNexus().getLocation().clone()
                 .add((2 * players) + 4, -1, (2 * players) + 4);
 
         // Loop through all blocks between the points, including the points

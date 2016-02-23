@@ -1,5 +1,6 @@
 package com.zp4rker.znexusfactions;
 
+import com.zp4rker.core.cfg.Config;
 import com.zp4rker.znexusfactions.api.FactionData;
 import com.zp4rker.znexusfactions.listeners.BlockPlaceListener;
 import com.zp4rker.znexusfactions.listeners.DamageByEntityListener;
@@ -21,11 +22,13 @@ public class zNexusFactions extends JavaPlugin {
     public Variables v = new Variables();
     private static zNexusFactions plugin;
     private static HashMap<String, Object> apis = new HashMap<>();
+    private Config config;
 
     // Code to be run when the plugin is enabled
     public void onEnable() {
 
         this.plugin = this;
+        this.config = getConfigAPI().getConfig("config.yml");
 
         // Check if zCore is installed
         if (!getServer().getPluginManager().isPluginEnabled("zCore")) {
@@ -80,13 +83,6 @@ public class zNexusFactions extends JavaPlugin {
         }
     }
 
-    @Override
-    public List<Class<?>> getDatabaseClasses() {
-        List<Class<?>> list = new ArrayList<>();
-        list.add(FactionData.class);
-        return list;
-    }
-
     public static zNexusFactions getPlugin() {
 
         return zNexusFactions.plugin;
@@ -99,6 +95,22 @@ public class zNexusFactions extends JavaPlugin {
 
     public static com.zp4rker.core.hg.HologramAPI getHologramAPI() {
         return (com.zp4rker.core.hg.HologramAPI) apis.get("HologramAPI");
+    }
+
+    @Override
+    public List<Class<?>> getDatabaseClasses() {
+        List<Class<?>> list = new ArrayList<>();
+        list.add(FactionData.class);
+        return list;
+    }
+
+    @Override
+    public void saveDefaultConfig() {
+        config.saveDefaults();
+    }
+
+    public Config getConfig(Object object) {
+        return config;
     }
 
 }

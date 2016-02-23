@@ -8,9 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fc5e1a3-32b7-4bdd-b624-6969b4228133" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builds/zCore.jar" afterPath="$PROJECT_DIR$/../Builds/zCore.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/core/CoreMain.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/core/CoreMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/core/cfg/Config.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/core/cfg/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/core/hg/Hologram.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/core/hg/Hologram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/core/hg/HologramAPI.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/core/hg/HologramAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Base.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Base.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Faction.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Faction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/FactionData.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/FactionData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Methods.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Methods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Nexus.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Nexus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Vault.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/api/Vault.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/listeners/DamageByEntityListener.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/listeners/DamageByEntityListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/zNexusFactions.java" afterPath="$PROJECT_DIR$/../zNexusFactions/src/com/zp4rker/znexusfactions/zNexusFactions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zNexusFactions/src/config.yml" afterPath="$PROJECT_DIR$/../zNexusFactions/src/config.yml" />
     </list>
     <ignored path="zCore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,13 +43,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UpdateAPI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/updater/UpdateAPI.java">
+      <file leaf-file-name="PacketListenerAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/PacketListenerAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12987013">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="131" column="9" selection-start-line="124" selection-start-column="8" selection-end-line="131" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/CoreMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9134199">
+              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,16 +85,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zp4rker/core/hg/HologramAPI.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/core/hg/Hologram.java" />
         <option value="$PROJECT_DIR$/src/com/zp4rker/core/cfg.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/core/cfg/ConfigManager.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/core/cfg/Config.java" />
         <option value="$PROJECT_DIR$/src/com/zp4rker/core/cfg/ConfigAPI.java" />
         <option value="$PROJECT_DIR$/src/com/zp4rker/core/pmsgr/PMessengerAPI.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/core/CoreMain.java" />
         <option value="$PROJECT_DIR$/src/com/zp4rker/core/updater/UpdateAPI.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/cfg/ConfigManager.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/cfg/Config.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/hg/HologramAPI.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/hg/Hologram.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/dsg/DisguiseAPI.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/Cancellable.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/IPacketEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/channel/Handler.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/channel/NMUHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/reflection/AccessUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/reflection/NMSUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/channel/INCHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/Injector.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/event/PacketSendEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/SentPacket.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/ReceivedPacket.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/PacketOptions.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/PacketHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/Packet.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/pckt/event/PacketReceiveEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/core/CoreMain.java" />
       </list>
     </option>
   </component>
@@ -102,22 +138,25 @@
             <id />
           </State>
           <State>
-            <id>Abstraction issuesJava</id>
-          </State>
-          <State>
             <id>Android Lint</id>
           </State>
           <State>
-            <id>Cloning issuesJava</id>
+            <id>Ant inspections</id>
           </State>
           <State>
-            <id>Code style issuesJava</id>
+            <id>Application Server Specific Inspections</id>
           </State>
           <State>
-            <id>DOM issuesJavaScript</id>
+            <id>Control flow issuesJava</id>
           </State>
           <State>
-            <id>Error handlingJava</id>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
           </State>
           <State>
             <id>General</id>
@@ -126,45 +165,87 @@
             <id>GeneralJavaScript</id>
           </State>
           <State>
-            <id>Google Web Toolkit issues</id>
+            <id>Groovy</id>
           </State>
           <State>
-            <id>Inheritance issuesJava</id>
+            <id>Hibernate Issues</id>
           </State>
           <State>
-            <id>Internationalization issues</id>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
           </State>
           <State>
             <id>Java</id>
           </State>
           <State>
-            <id>Java language level migration aidsJava</id>
+            <id>Java EE issues</id>
           </State>
           <State>
             <id>JavaScript</id>
           </State>
           <State>
-            <id>Javadoc issuesJava</id>
+            <id>JavaScript validity issuesJavaScript</id>
           </State>
           <State>
-            <id>Naming conventionsJava</id>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>SQL</id>
           </State>
           <State>
             <id>Spring</id>
           </State>
           <State>
-            <id>Spring AOPSpring</id>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
           </State>
           <State>
             <id>TestNGJava</id>
           </State>
           <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
             <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XSLT</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>General</id>
           </State>
         </selected-state>
       </profile-state>
@@ -196,6 +277,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,7 +337,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="updater" />
+              <option name="myItemId" value="pckt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,18 +359,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cfg" />
+              <option name="myItemId" value="pckt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pckt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="channel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dsg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -755,11 +888,19 @@
       <workItem from="1456034221047" duration="618000" />
       <workItem from="1456046021544" duration="1123000" />
       <workItem from="1456095090226" duration="60000" />
+      <workItem from="1456118163478" duration="2826000" />
+      <workItem from="1456121954800" duration="20000" />
+      <workItem from="1456123207371" duration="17000" />
+      <workItem from="1456123269331" duration="827000" />
+      <workItem from="1456134815688" duration="8000" />
+      <workItem from="1456135169658" duration="533000" />
+      <workItem from="1456191574943" duration="2161000" />
+      <workItem from="1456205712746" duration="3659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10277000" />
+    <option name="totallyTimeSpent" value="20328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -773,7 +914,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -814,6 +955,34 @@
     <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/hg/HologramAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/hg/Hologram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/hg/HologramAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/updater/UpdateAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/hg/HologramAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
@@ -825,24 +994,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/hg/Hologram.java">
+    <entry file="jar://$PROJECT_DIR$/../Spigot/spigot-1.8.8.jar!/org/bukkit/plugin/Plugin.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95671">
-          <caret line="200" column="70" selection-start-line="200" selection-start-column="70" selection-end-line="200" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.13513513">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/net/HttpURLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90909094">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/updater/UpdateAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54112554">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/cfg/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38961038">
+          <caret line="36" column="107" selection-start-line="36" selection-start-column="107" selection-end-line="36" selection-end-column="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/hg/HologramAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77922076">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/CoreMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34632036">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.17748918">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -857,32 +1040,183 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43290043">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/cfg/ConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.692641">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/cfg/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08658009">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.8268398">
+          <caret line="235" column="5" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/hg/Hologram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.8961039">
+          <caret line="204" column="32" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Spigot/spigot-1.8.8.jar!/net/minecraft/server/v1_8_R3/EntityLiving.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13513513">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/updater/UpdateAPI.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/Cancellable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043290045">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/IPacketEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.064935066">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/channel/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043290045">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/reflection/AccessUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043290045">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/reflection/NMSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043290045">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/dsg/DisguiseAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="115" selection-start-line="136" selection-start-column="115" selection-end-line="136" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/channel/NMUHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/Injector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043290045">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/ReceivedPacket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12987013">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/PacketOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043290045">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/Packet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17316018">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/event/PacketSendEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23809524">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/PacketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8008658">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/handler/SentPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3030303">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/event/PacketReceiveEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23376623">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/channel/INCHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15151516">
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/pckt/PacketListenerAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="9" selection-start-line="124" selection-start-column="8" selection-end-line="131" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/core/CoreMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9134199">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -918,6 +1252,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Spigot-API</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -953,6 +1288,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>spigot-1.8.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

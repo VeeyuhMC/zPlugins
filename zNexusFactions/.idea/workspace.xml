@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb237ab6-3e09-4d8b-90c0-5e55d25b4cc6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builds/zCore.jar" afterPath="$PROJECT_DIR$/../Builds/zCore.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zCore/src/com/zp4rker/core/cfg/Config.java" afterPath="$PROJECT_DIR$/../zCore/src/com/zp4rker/core/cfg/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zCore/src/com/zp4rker/core/hg/Hologram.java" afterPath="$PROJECT_DIR$/../zCore/src/com/zp4rker/core/hg/Hologram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zCore/src/com/zp4rker/core/hg/HologramAPI.java" afterPath="$PROJECT_DIR$/../zCore/src/com/zp4rker/core/hg/HologramAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Base.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Base.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Faction.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Faction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/FactionData.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/FactionData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Methods.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Methods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Nexus.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Nexus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Vault.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Vault.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/listeners/DamageByEntityListener.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/listeners/DamageByEntityListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/zNexusFactions.java" afterPath="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/zNexusFactions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.yml" afterPath="$PROJECT_DIR$/src/config.yml" />
     </list>
     <ignored path="zNexusFactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,36 +35,7 @@
     <favorites_list name="zNexusFactions" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FactionData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/FactionData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="113" selection-start-line="47" selection-start-column="113" selection-end-line="47" selection-end-column="113" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zNexusFactions.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/zNexusFactions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62770563">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-              <folding>
-                <element signature="method#onDisable#0;class#zNexusFactions#0" expanded="false" />
-                <element signature="method#loadFactions#0;class#zNexusFactions#0" expanded="false" />
-                <element signature="method#setupDatabase#0;class#zNexusFactions#0" expanded="false" />
-                <element signature="method#getDatabaseClasses#0;class#zNexusFactions#0" expanded="false" />
-                <element signature="method#getPlugin#0;class#zNexusFactions#0" expanded="false" />
-                <element signature="method#getConfigAPI#0;class#zNexusFactions#0" expanded="false" />
-                <element signature="method#getHologramAPI#0;class#zNexusFactions#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,13 +78,17 @@
         <option value="$PROJECT_DIR$/src/cf/bluebracket/znexusfactions/api/Nexus.java" />
         <option value="$PROJECT_DIR$/src/cf/bluebracket/znexusfactions/zNexusFactions.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Nexus.java" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Base.java" />
         <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/commands/SetTag.java" />
         <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/commands/zExecutor.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
-        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/FactionData.java" />
         <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/zNexusFactions.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/FactionData.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Base.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Methods.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Vault.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Faction.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Nexus.java" />
+        <option value="$PROJECT_DIR$/src/com/zp4rker/znexusfactions/listeners/DamageByEntityListener.java" />
       </list>
     </option>
   </component>
@@ -214,46 +198,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zNexusFactions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zNexusFactions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="znexusfactions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Builds/zCore.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spigot/spigot-1.8.8.jar!/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -716,15 +678,17 @@
       <workItem from="1455492972906" duration="1286000" />
       <workItem from="1455615125591" duration="287000" />
       <workItem from="1455941812820" duration="7285000" />
+      <workItem from="1456121823724" duration="3334000" />
+      <workItem from="1456134812122" duration="180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13011000" />
+    <option name="totallyTimeSpent" value="16525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -732,24 +696,24 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -768,11 +732,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/FactionData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="113" selection-start-line="47" selection-start-column="113" selection-end-line="47" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/zNexusFactions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#onDisable#0;class#zNexusFactions#0" expanded="false" />
+            <element signature="method#loadFactions#0;class#zNexusFactions#0" expanded="false" />
+            <element signature="method#setupDatabase#0;class#zNexusFactions#0" expanded="false" />
+            <element signature="method#getPlugin#0;class#zNexusFactions#0" expanded="false" />
+            <element signature="method#getConfigAPI#0;class#zNexusFactions#0" expanded="false" />
+            <element signature="method#getHologramAPI#0;class#zNexusFactions#0" expanded="false" />
+            <element signature="method#getDatabaseClasses#0;class#zNexusFactions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/listeners/PlayerChatListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,23 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.168831">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Vault.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13157895">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.4473684">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -932,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13157895">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04761905">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,15 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.043290045">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Variables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21645021">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,34 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.064935066">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Nexus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36652237">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="method#showHealth#0;class#Nexus#0" expanded="false" />
-            <element signature="method#hideHealth#0;class#Nexus#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/listeners/DamageByEntityListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17316018">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.8181818">
-          <caret line="161" column="73" selection-start-line="161" selection-start-column="73" selection-end-line="161" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,9 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5887446">
           <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1774893">
           <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,39 +955,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Faction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/FactionData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="113" selection-start-line="47" selection-start-column="113" selection-end-line="47" selection-end-column="113" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/zNexusFactions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62770563">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state vertical-scroll-proportion="1.3636364">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
           <folding>
             <element signature="method#onDisable#0;class#zNexusFactions#0" expanded="false" />
             <element signature="method#loadFactions#0;class#zNexusFactions#0" expanded="false" />
             <element signature="method#setupDatabase#0;class#zNexusFactions#0" expanded="false" />
-            <element signature="method#getDatabaseClasses#0;class#zNexusFactions#0" expanded="false" />
             <element signature="method#getPlugin#0;class#zNexusFactions#0" expanded="false" />
             <element signature="method#getConfigAPI#0;class#zNexusFactions#0" expanded="false" />
             <element signature="method#getHologramAPI#0;class#zNexusFactions#0" expanded="false" />
+            <element signature="method#getDatabaseClasses#0;class#zNexusFactions#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/FactionData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8051948">
+          <caret line="256" column="8" selection-start-line="256" selection-start-column="8" selection-end-line="256" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17316018">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Variables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21645021">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4675324">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Vault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22077923">
+          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Faction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3203464">
+          <caret line="85" column="79" selection-start-line="85" selection-start-column="79" selection-end-line="85" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/listeners/DamageByEntityListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7186147">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zp4rker/znexusfactions/api/Nexus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.060606062">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1097,6 +1059,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Spigot-API</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

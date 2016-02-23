@@ -1,5 +1,6 @@
 package com.zp4rker.znexusfactions.api;
 
+import com.zp4rker.znexusfactions.zNexusFactions;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -13,7 +14,7 @@ public class Vault {
 
     private Nexus nexus;
     private List<Location> vault = new ArrayList<>();
-    private Plugin plugin = Bukkit.getPluginManager().getPlugin("zNexusFactions");
+    private Plugin plugin = zNexusFactions.getPlugin();
 
     public Vault(Nexus nexus, Player player) {
         this.nexus = nexus;

@@ -9,6 +9,8 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 
+import java.util.Collection;
+
 public class Nexus {
 
     private Location location;
@@ -20,7 +22,7 @@ public class Nexus {
     public Nexus(Location location, boolean created, Object... args) {
         this.location = location;
         if (!created) {
-            Config config = zNexusFactions.getConfigAPI().getConfig("config.yml");
+            Config config = zNexusFactions.getPlugin().getConfig(null);
             nexus = (EnderCrystal) location.getWorld().spawnEntity(location.clone().add(.5, .75, .5), EntityType.ENDER_CRYSTAL);
             health = config.getDouble("defaults.nexus-health");
         } else {
@@ -61,9 +63,12 @@ public class Nexus {
         return nexus;
     }
 
-    public void showHealth() {
+    public void showHealth(Collection<Player> players) {
         // Create the hologram
         healthHolo = zNexusFactions.getHologramAPI().newHologram("§6Health: §2" + health);
+        for (Player player : players) {
+            zNexusFactions.getHologramAPI().showToPlayer(healthHolo, player, 0);
+        }
     }
 
     public void hideHealth() {
