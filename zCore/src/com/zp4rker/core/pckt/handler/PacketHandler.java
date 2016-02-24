@@ -144,14 +144,7 @@ public abstract class PacketHandler {
 		return clone;
 	}
 
-	// //////////////////////////////////////////////////
-
 	private Plugin	plugin;
-
-	@Deprecated
-	public PacketHandler() {
-
-	}
 
 	public PacketHandler(Plugin plugin) {
 		this.plugin = plugin;

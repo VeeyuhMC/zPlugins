@@ -1,5 +1,8 @@
 package com.zp4rker.core;
 
+import com.zp4rker.core.inv.listener.InvClickListener;
+import com.zp4rker.core.inv.listener.InvCloseListener;
+import com.zp4rker.core.inv.listener.InvOpenListener;
 import com.zp4rker.core.pckt.Injector;
 import com.zp4rker.core.pckt.handler.PacketHandler;
 import org.bukkit.Bukkit;
@@ -34,7 +37,10 @@ public class CoreMain extends JavaPlugin implements Listener {
 
         CoreMain.plugin = this;
 
-        Bukkit.getPluginManager().registerEvents(this, this);
+        registerEvent(this);
+        registerEvent(new InvClickListener());
+        registerEvent(new InvOpenListener());
+        registerEvent(new InvCloseListener());
 
         this.saveDefaultConfig();
         disableEvents = this.getConfig().getBoolean("disableEvents", disableEvents);
@@ -75,6 +81,12 @@ public class CoreMain extends JavaPlugin implements Listener {
     public static CoreMain getPlugin() {
 
         return CoreMain.plugin;
+
+    }
+
+    private void registerEvent(Listener listener) {
+
+        getServer().getPluginManager().registerEvents(listener, this);
 
     }
 

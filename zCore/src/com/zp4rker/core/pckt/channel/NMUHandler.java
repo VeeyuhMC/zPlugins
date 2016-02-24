@@ -33,7 +33,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import com.zp4rker.core.pckt.PacketAPI;
 import io.netty.channel.Channel;
+import io.netty.channel.ChannelDuplexHandler;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelPromise;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
 import org.bukkit.entity.Player;
@@ -196,7 +200,7 @@ public class NMUHandler implements Handler {
 			Cancellable cancellable = new Cancellable();
 			Object pckt = msg;
 			if (packet.isAssignableFrom(msg.getClass())) {
-				pckt = PacketListenerAPI.getInstance().onPacketSend(this.player, msg, cancellable);
+				pckt = PacketAPI.getInstance().onPacketSend(this.player, msg, cancellable);
 			}
 			if (cancellable.isCancelled()) return;
 			super.write(ctx, pckt, promise);
@@ -207,7 +211,7 @@ public class NMUHandler implements Handler {
 			Cancellable cancellable = new Cancellable();
 			Object pckt = msg;
 			if (packet.isAssignableFrom(msg.getClass())) {
-				pckt = PacketListenerAPI.getInstance().onPacketReceive(this.player, msg, cancellable);
+				pckt = PacketAPI.getInstance().onPacketReceive(this.player, msg, cancellable);
 			}
 			if (cancellable.isCancelled()) return;
 			super.channelRead(ctx, pckt);
