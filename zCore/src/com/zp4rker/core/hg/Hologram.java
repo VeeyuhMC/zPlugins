@@ -195,18 +195,20 @@ public class Hologram {
         return Arrays.asList(skull.getId(), horse.getId());
     }
 
-    // Remove the hologram
+    // Remove the hologram for all players in the world
     public void remove() {
-        // Loop through all entities in the world
-        for (Entity entity : this.location.getWorld().getEntities()) {
-            // Check if the entity is part of the hologram
-            if (ids.contains(entity.getEntityId())) {
-                // Remove the entity
-                entity.remove();
+        // Loop through all the ids
+        for (int id : ids) {
+            // Create the packet
+            PacketPlayOutEntityDestroy killPacket = new PacketPlayOutEntityDestroy(id);
+            // Loop through all the players in the world
+            for (Player player : location.getWorld().getPlayers()) {
+                // Send the packet to the player
+                ((CraftPlayer) player).getHandle().playerConnection.sendPacket(killPacket);
+                // Remove the id from the list
+                ids.remove(id);
             }
         }
-        // Clear ids
-        ids.clear();
         // Clear lines
         lines.clear();
     }

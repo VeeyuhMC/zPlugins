@@ -14,6 +14,12 @@ public class ConfigAPI {
 
     }
 
+    /**
+     *
+     * @param file The location of the file, relative to /plugins/plugin_name/ as a string
+     * @return Config
+     *
+     */
     public Config getConfig(String file) {
 
         return manager.getNewConfig(file);

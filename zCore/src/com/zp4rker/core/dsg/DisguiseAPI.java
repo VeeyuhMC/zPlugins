@@ -10,6 +10,13 @@ import java.lang.reflect.Field;
 
 public class DisguiseAPI {
 
+    /**
+     *
+     * @param toHide The player that will be disguised
+     * @param entityType The entity type that the player will be disguised as
+     * @param bypass Players that will still see the player as per normal
+     *
+     */
     public void disguise(Player toHide, EntityType entityType, Player... bypass) {
         EntityLiving toSpawn = null;
         switch (entityType) {

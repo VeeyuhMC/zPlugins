@@ -11,7 +11,13 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import java.io.IOException;
+/**
+ *
+ * Copyright 2016 © ZP4RKER
+ *
+ * @author ZP4RKER
+ *
+ */
 
 public class CoreMain extends JavaPlugin implements Listener {
 
@@ -26,11 +32,10 @@ public class CoreMain extends JavaPlugin implements Listener {
         boolean injected = injector.inject();
         if (injected) {
             injector.addServerConnectionChannel();
-            System.out.println("[PacketListenerAPI] Injected custom Channel handler.");
+            System.out.println("Injected custom Channel handler.");
         } else {
-            System.err.println("[PacketListenerAPI] Failed to inject custom Channel handler!");
+            System.err.println("Failed to inject custom Channel handler!");
         }
-
     }
 
     public void onEnable() {
@@ -55,11 +60,15 @@ public class CoreMain extends JavaPlugin implements Listener {
 
                 @Override
                 public void run() {
-                    // System.out.println("[PacketListenerAPI] Running cleanup task...");
+                    System.out.println("Running cleanup task...");
                     int handlers = PacketHandler.getHandlers().size();
                     int plugins = Bukkit.getPluginManager().getPlugins().length;
                     if (handlers > plugins) {
-                        System.out.println("[PacketListenerAPI] There are more registered PacketHandlers than enabled plugins! ( " + handlers + " > " + plugins + " ) This could mean that some of the installed plugins are not un-registering their listeners correclty.");
+                        System.out.println(
+                                "There are more registered PacketHandlers than enabled plugins! ( " +
+                                        handlers + " > " +
+                                        plugins + " ) This could mean that some of the installed plugins" +
+                                        " are not un-registering their listeners correclty.");
                     }
                 }
             }).runTaskTimer(this, 20 * 300, 20 * 300);
@@ -68,11 +77,11 @@ public class CoreMain extends JavaPlugin implements Listener {
     }
 
     public void onDisable() {
-        System.out.println("[PacketListenerAPI] Removing channels for all online players...");
+        System.out.println("Removing channels for all online players...");
         for (Player p : Bukkit.getOnlinePlayers()) {
             injector.removeChannel(p);
         }
-        System.out.println("[PacketListenerAPI] Removing all (" + PacketHandler.getHandlers().size() + ") packet handlers...");
+        System.out.println("Removing all (" + PacketHandler.getHandlers().size() + ") packet handlers...");
         while (!PacketHandler.getHandlers().isEmpty()) {
             PacketHandler.removeHandler(PacketHandler.getHandlers().get(0));
         }
